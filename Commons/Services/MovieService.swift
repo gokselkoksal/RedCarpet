@@ -10,15 +10,7 @@ import Foundation
 import Alamofire
 import Unbox
 
-public protocol MovieServiceProtocol {
-    func fetchMovies(_ completion: @escaping (Result<[Movie]>) -> Void)
-}
-
 public class MovieService: MovieServiceProtocol {
-    
-    public enum Error: Swift.Error {
-        case invalidResponse
-    }
     
     private let session: SessionManager
     
@@ -32,20 +24,8 @@ public class MovieService: MovieServiceProtocol {
         session.request(urlString).responseJSON { (response) in
             switch response.result {
             case .success(let rawJSON):
-                do {
-                    guard let json = rawJSON as? [String: Any] else {
-                        let result = Result<[Movie]>.failure(Error.invalidResponse)
-                        completion(result)
-                        return
-                    }
-                    let response: MovieResponse = try unbox(dictionary: json)
-                    let movies = response.results
-                    let result = Result<[Movie]>.success(movies)
-                    completion(result)
-                } catch {
-                    let result = Result<[Movie]>.failure(Error.invalidResponse)
-                    completion(result)
-                }
+                let result = MovieSerializer.shared.serialize(json: rawJSON)
+                completion(result)
             case .failure(let error):
                 let result = Result<[Movie]>.failure(error)
                 completion(result)
