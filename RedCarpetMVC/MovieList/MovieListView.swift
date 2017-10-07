@@ -9,6 +9,10 @@
 import UIKit
 import Commons
 
+protocol MovieListViewDelegate {
+    func movieListView(_ view: MovieListView, didSelectMovie movie: Movie)
+}
+
 class MovieListView: UIView {
     
     private enum Const {
@@ -24,6 +28,7 @@ class MovieListView: UIView {
     }
 
     @IBOutlet weak var tableView: UITableView!
+    weak var delegate: MovieListViewDelegate?
     
     var movies: [Movie] = [] {
         didSet {
@@ -33,7 +38,10 @@ class MovieListView: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        tableView.delegate = self
         tableView.dataSource = self
+        
         backgroundColor = .white
     }
 }
@@ -60,5 +68,15 @@ extension MovieListView: UITableViewDataSource {
         cell.detailTextLabel?.text = "\(year) | \(movie.artistName)"
         
         return cell
+    }
+}
+
+extension MovieListView: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+        
+        let movie = movies[indexPath.row]
+        delegate?.movieListView(self, didSelectMovie: movie)
     }
 }

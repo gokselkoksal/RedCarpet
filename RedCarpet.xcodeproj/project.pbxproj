@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		542B5C46FB6BEA262C48E2F1 /* Pods_CommonsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C866775C005186FD1CD629 /* Pods_CommonsTests.framework */; };
+		62651C3E1F895DFA00094DC3 /* AppLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62651C3D1F895DFA00094DC3 /* AppLauncher.swift */; };
 		62846B821F8932EA000BBAC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62846B811F8932EA000BBAC6 /* AppDelegate.swift */; };
 		62846B841F8932EA000BBAC6 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62846B831F8932EA000BBAC6 /* MovieListViewController.swift */; };
 		62846B891F8932EA000BBAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62846B881F8932EA000BBAC6 /* Assets.xcassets */; };
@@ -81,6 +82,7 @@
 		33F6E83A05BD6ED95FD77729 /* Pods_RedCarpet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		520406770DFD718402E4AC1F /* Pods_Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Commons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		572C057DF085EC0377F6E518 /* Pods-CommonsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonsTests/Pods-CommonsTests.release.xcconfig"; sourceTree = "<group>"; };
+		62651C3D1F895DFA00094DC3 /* AppLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLauncher.swift; sourceTree = "<group>"; };
 		62846B7E1F8932EA000BBAC6 /* RedCarpetMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedCarpetMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62846B811F8932EA000BBAC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62846B831F8932EA000BBAC6 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				62846B881F8932EA000BBAC6 /* Assets.xcassets */,
 				62846B8A1F8932EA000BBAC6 /* LaunchScreen.storyboard */,
 				62846B8D1F8932EA000BBAC6 /* Info.plist */,
+				62651C3D1F895DFA00094DC3 /* AppLauncher.swift */,
 				62F4C8F61F895ABC00977402 /* MovieList */,
 			);
 			path = RedCarpetMVC;
@@ -664,6 +667,7 @@
 				62846B841F8932EA000BBAC6 /* MovieListViewController.swift in Sources */,
 				62846B821F8932EA000BBAC6 /* AppDelegate.swift in Sources */,
 				62F4C8EF1F89520C00977402 /* MovieListView.swift in Sources */,
+				62651C3E1F895DFA00094DC3 /* AppLauncher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

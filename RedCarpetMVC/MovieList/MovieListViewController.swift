@@ -14,7 +14,9 @@ class MovieListViewController: UIViewController {
     var service: MovieServiceProtocol = MovieService()
     
     override func loadView() {
-        self.view = MovieListView.instantiate()
+        let myView = MovieListView.instantiate()
+        myView.delegate = self
+        self.view = myView
     }
     
     var myView: MovieListView {
@@ -23,7 +25,15 @@ class MovieListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Movies"
         fetchMovies()
+    }
+}
+
+extension MovieListViewController: MovieListViewDelegate {
+    
+    func movieListView(_ view: MovieListView, didSelectMovie movie: Movie) {
+        // Push movie details.
     }
 }
 
