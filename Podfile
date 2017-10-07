@@ -6,6 +6,7 @@ target 'Commons' do
   use_frameworks!
   
   pod 'Alamofire', '~> 4.5'
+  pod 'Unbox', '~> 2.5'
 
   target 'CommonsTests' do
     inherit! :search_paths
