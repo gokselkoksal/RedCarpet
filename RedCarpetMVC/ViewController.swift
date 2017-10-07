@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import Commons
 
 class ViewController: UIViewController {
+    
+    let service: MovieServiceProtocol = MovieService()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        service.fetchMovies { (result) in
+            print(result)
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -79,14 +79,14 @@
 		33F6E83A05BD6ED95FD77729 /* Pods_RedCarpet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		520406770DFD718402E4AC1F /* Pods_Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Commons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		572C057DF085EC0377F6E518 /* Pods-CommonsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonsTests/Pods-CommonsTests.release.xcconfig"; sourceTree = "<group>"; };
-		62846B7E1F8932EA000BBAC6 /* RedCarpet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedCarpet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62846B7E1F8932EA000BBAC6 /* RedCarpetMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedCarpetMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62846B811F8932EA000BBAC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62846B831F8932EA000BBAC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		62846B861F8932EA000BBAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62846B881F8932EA000BBAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62846B8B1F8932EA000BBAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62846B8D1F8932EA000BBAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62846B921F8932EA000BBAC6 /* RedCarpetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62846B921F8932EA000BBAC6 /* RedCarpetMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62846B961F8932EA000BBAC6 /* RedCarpetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetTests.swift; sourceTree = "<group>"; };
 		62846B981F8932EA000BBAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62846BA61F893370000BBAC6 /* Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Commons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,8 +166,8 @@
 		62846B751F8932EA000BBAC6 = {
 			isa = PBXGroup;
 			children = (
-				62846B801F8932EA000BBAC6 /* RedCarpet */,
-				62846B951F8932EA000BBAC6 /* RedCarpetTests */,
+				62846B801F8932EA000BBAC6 /* RedCarpetMVC */,
+				62846B951F8932EA000BBAC6 /* RedCarpetMVCTests */,
 				62846BA71F893370000BBAC6 /* Commons */,
 				62846BB41F893370000BBAC6 /* CommonsTests */,
 				62846B7F1F8932EA000BBAC6 /* Products */,
@@ -179,15 +179,15 @@
 		62846B7F1F8932EA000BBAC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62846B7E1F8932EA000BBAC6 /* RedCarpet.app */,
-				62846B921F8932EA000BBAC6 /* RedCarpetTests.xctest */,
+				62846B7E1F8932EA000BBAC6 /* RedCarpetMVC.app */,
+				62846B921F8932EA000BBAC6 /* RedCarpetMVCTests.xctest */,
 				62846BA61F893370000BBAC6 /* Commons.framework */,
 				62846BAE1F893370000BBAC6 /* CommonsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		62846B801F8932EA000BBAC6 /* RedCarpet */ = {
+		62846B801F8932EA000BBAC6 /* RedCarpetMVC */ = {
 			isa = PBXGroup;
 			children = (
 				62846B811F8932EA000BBAC6 /* AppDelegate.swift */,
@@ -197,16 +197,16 @@
 				62846B8A1F8932EA000BBAC6 /* LaunchScreen.storyboard */,
 				62846B8D1F8932EA000BBAC6 /* Info.plist */,
 			);
-			path = RedCarpet;
+			path = RedCarpetMVC;
 			sourceTree = "<group>";
 		};
-		62846B951F8932EA000BBAC6 /* RedCarpetTests */ = {
+		62846B951F8932EA000BBAC6 /* RedCarpetMVCTests */ = {
 			isa = PBXGroup;
 			children = (
 				62846B961F8932EA000BBAC6 /* RedCarpetTests.swift */,
 				62846B981F8932EA000BBAC6 /* Info.plist */,
 			);
-			path = RedCarpetTests;
+			path = RedCarpetMVCTests;
 			sourceTree = "<group>";
 		};
 		62846BA71F893370000BBAC6 /* Commons */ = {
@@ -281,9 +281,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		62846B7D1F8932EA000BBAC6 /* RedCarpet */ = {
+		62846B7D1F8932EA000BBAC6 /* RedCarpetMVC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62846B9B1F8932EA000BBAC6 /* Build configuration list for PBXNativeTarget "RedCarpet" */;
+			buildConfigurationList = 62846B9B1F8932EA000BBAC6 /* Build configuration list for PBXNativeTarget "RedCarpetMVC" */;
 			buildPhases = (
 				D86615CAECB18EAF4E8DA465 /* [CP] Check Pods Manifest.lock */,
 				62846B7A1F8932EA000BBAC6 /* Sources */,
@@ -298,14 +298,14 @@
 			dependencies = (
 				62846BBA1F893370000BBAC6 /* PBXTargetDependency */,
 			);
-			name = RedCarpet;
+			name = RedCarpetMVC;
 			productName = RedCarpet;
-			productReference = 62846B7E1F8932EA000BBAC6 /* RedCarpet.app */;
+			productReference = 62846B7E1F8932EA000BBAC6 /* RedCarpetMVC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62846B911F8932EA000BBAC6 /* RedCarpetTests */ = {
+		62846B911F8932EA000BBAC6 /* RedCarpetMVCTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62846B9E1F8932EA000BBAC6 /* Build configuration list for PBXNativeTarget "RedCarpetTests" */;
+			buildConfigurationList = 62846B9E1F8932EA000BBAC6 /* Build configuration list for PBXNativeTarget "RedCarpetMVCTests" */;
 			buildPhases = (
 				D2CA54948822677962D30377 /* [CP] Check Pods Manifest.lock */,
 				62846B8E1F8932EA000BBAC6 /* Sources */,
@@ -319,9 +319,9 @@
 			dependencies = (
 				62846B941F8932EA000BBAC6 /* PBXTargetDependency */,
 			);
-			name = RedCarpetTests;
+			name = RedCarpetMVCTests;
 			productName = RedCarpetTests;
-			productReference = 62846B921F8932EA000BBAC6 /* RedCarpetTests.xctest */;
+			productReference = 62846B921F8932EA000BBAC6 /* RedCarpetMVCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		62846BA51F893370000BBAC6 /* Commons */ = {
@@ -410,8 +410,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62846B7D1F8932EA000BBAC6 /* RedCarpet */,
-				62846B911F8932EA000BBAC6 /* RedCarpetTests */,
+				62846B7D1F8932EA000BBAC6 /* RedCarpetMVC */,
+				62846B911F8932EA000BBAC6 /* RedCarpetMVCTests */,
 				62846BA51F893370000BBAC6 /* Commons */,
 				62846BAD1F893370000BBAC6 /* CommonsTests */,
 			);
@@ -685,7 +685,7 @@
 /* Begin PBXTargetDependency section */
 		62846B941F8932EA000BBAC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62846B7D1F8932EA000BBAC6 /* RedCarpet */;
+			target = 62846B7D1F8932EA000BBAC6 /* RedCarpetMVC */;
 			targetProxy = 62846B931F8932EA000BBAC6 /* PBXContainerItemProxy */;
 		};
 		62846BB11F893370000BBAC6 /* PBXTargetDependency */ = {
@@ -695,7 +695,7 @@
 		};
 		62846BB31F893370000BBAC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62846B7D1F8932EA000BBAC6 /* RedCarpet */;
+			target = 62846B7D1F8932EA000BBAC6 /* RedCarpetMVC */;
 			targetProxy = 62846BB21F893370000BBAC6 /* PBXContainerItemProxy */;
 		};
 		62846BBA1F893370000BBAC6 /* PBXTargetDependency */ = {
@@ -839,7 +839,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpet/Info.plist;
+				INFOPLIST_FILE = RedCarpetMVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -855,7 +855,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpet/Info.plist;
+				INFOPLIST_FILE = RedCarpetMVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -993,7 +993,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62846B9B1F8932EA000BBAC6 /* Build configuration list for PBXNativeTarget "RedCarpet" */ = {
+		62846B9B1F8932EA000BBAC6 /* Build configuration list for PBXNativeTarget "RedCarpetMVC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62846B9C1F8932EA000BBAC6 /* Debug */,
@@ -1002,7 +1002,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62846B9E1F8932EA000BBAC6 /* Build configuration list for PBXNativeTarget "RedCarpetTests" */ = {
+		62846B9E1F8932EA000BBAC6 /* Build configuration list for PBXNativeTarget "RedCarpetMVCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62846B9F1F8932EA000BBAC6 /* Debug */,
