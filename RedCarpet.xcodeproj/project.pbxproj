@@ -27,6 +27,12 @@
 		62E663181F893D9700DEA274 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E663171F893D9700DEA274 /* Result.swift */; };
 		62E6631A1F893F9500DEA274 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E663191F893F9500DEA274 /* MovieResponse.swift */; };
 		62F3A3941F89778000843721 /* MoviePresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3A3931F89778000843721 /* MoviePresentation.swift */; };
+		62F3A39C1F897A8100843721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3A39B1F897A8100843721 /* AppDelegate.swift */; };
+		62F3A39E1F897A8100843721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3A39D1F897A8100843721 /* ViewController.swift */; };
+		62F3A3A11F897A8100843721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F3A39F1F897A8100843721 /* Main.storyboard */; };
+		62F3A3A31F897A8100843721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F3A3A21F897A8100843721 /* Assets.xcassets */; };
+		62F3A3A61F897A8100843721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F3A3A41F897A8100843721 /* LaunchScreen.storyboard */; };
+		62F3A3B11F897A8200843721 /* RedCarpetAppleMVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3A3B01F897A8200843721 /* RedCarpetAppleMVCTests.swift */; };
 		62F4C8ED1F894CA700977402 /* Array+Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4C8EC1F894CA700977402 /* Array+Movie.swift */; };
 		62F4C8EF1F89520C00977402 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4C8EE1F89520C00977402 /* MovieListView.swift */; };
 		62F4C8F11F89525700977402 /* MovieListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F4C8F01F89525700977402 /* MovieListView.xib */; };
@@ -59,6 +65,20 @@
 			remoteInfo = RedCarpet;
 		};
 		62846BB91F893370000BBAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62846BA51F893370000BBAC6;
+			remoteInfo = Commons;
+		};
+		62F3A3AD1F897A8100843721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F3A3981F897A8100843721;
+			remoteInfo = RedCarpetAppleMVC;
+		};
+		62F3A3B91F897A9500843721 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
 			proxyType = 1;
@@ -110,6 +130,16 @@
 		62E663171F893D9700DEA274 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		62E663191F893F9500DEA274 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 		62F3A3931F89778000843721 /* MoviePresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePresentation.swift; sourceTree = "<group>"; };
+		62F3A3991F897A8100843721 /* RedCarpetAppleMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedCarpetAppleMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F3A39B1F897A8100843721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62F3A39D1F897A8100843721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62F3A3A01F897A8100843721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62F3A3A21F897A8100843721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62F3A3A51F897A8100843721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62F3A3A71F897A8100843721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F3A3AC1F897A8100843721 /* RedCarpetAppleMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetAppleMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F3A3B01F897A8200843721 /* RedCarpetAppleMVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetAppleMVCTests.swift; sourceTree = "<group>"; };
+		62F3A3B21F897A8200843721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62F4C8EC1F894CA700977402 /* Array+Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Movie.swift"; sourceTree = "<group>"; };
 		62F4C8EE1F89520C00977402 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		62F4C8F01F89525700977402 /* MovieListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListView.xib; sourceTree = "<group>"; };
@@ -159,6 +189,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62F3A3961F897A8100843721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F3A3A91F897A8100843721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -192,6 +236,8 @@
 			children = (
 				62846B801F8932EA000BBAC6 /* RedCarpetMVC */,
 				62846B951F8932EA000BBAC6 /* RedCarpetMVCTests */,
+				62F3A39A1F897A8100843721 /* RedCarpetAppleMVC */,
+				62F3A3AF1F897A8200843721 /* RedCarpetAppleMVCTests */,
 				62846BA71F893370000BBAC6 /* Commons */,
 				62846BB41F893370000BBAC6 /* CommonsTests */,
 				62846B7F1F8932EA000BBAC6 /* Products */,
@@ -207,6 +253,8 @@
 				62846B921F8932EA000BBAC6 /* RedCarpetMVCTests.xctest */,
 				62846BA61F893370000BBAC6 /* Commons.framework */,
 				62846BAE1F893370000BBAC6 /* CommonsTests.xctest */,
+				62F3A3991F897A8100843721 /* RedCarpetAppleMVC.app */,
+				62F3A3AC1F897A8100843721 /* RedCarpetAppleMVCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -281,6 +329,28 @@
 				62F4C8F41F89547700977402 /* Date+Helpers.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		62F3A39A1F897A8100843721 /* RedCarpetAppleMVC */ = {
+			isa = PBXGroup;
+			children = (
+				62F3A39B1F897A8100843721 /* AppDelegate.swift */,
+				62F3A39D1F897A8100843721 /* ViewController.swift */,
+				62F3A39F1F897A8100843721 /* Main.storyboard */,
+				62F3A3A21F897A8100843721 /* Assets.xcassets */,
+				62F3A3A41F897A8100843721 /* LaunchScreen.storyboard */,
+				62F3A3A71F897A8100843721 /* Info.plist */,
+			);
+			path = RedCarpetAppleMVC;
+			sourceTree = "<group>";
+		};
+		62F3A3AF1F897A8200843721 /* RedCarpetAppleMVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				62F3A3B01F897A8200843721 /* RedCarpetAppleMVCTests.swift */,
+				62F3A3B21F897A8200843721 /* Info.plist */,
+			);
+			path = RedCarpetAppleMVCTests;
 			sourceTree = "<group>";
 		};
 		62F4C8F61F895ABC00977402 /* MovieList */ = {
@@ -403,6 +473,42 @@
 			productReference = 62846BAE1F893370000BBAC6 /* CommonsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		62F3A3981F897A8100843721 /* RedCarpetAppleMVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F3A3B31F897A8200843721 /* Build configuration list for PBXNativeTarget "RedCarpetAppleMVC" */;
+			buildPhases = (
+				62F3A3951F897A8100843721 /* Sources */,
+				62F3A3961F897A8100843721 /* Frameworks */,
+				62F3A3971F897A8100843721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F3A3BA1F897A9500843721 /* PBXTargetDependency */,
+			);
+			name = RedCarpetAppleMVC;
+			productName = RedCarpetAppleMVC;
+			productReference = 62F3A3991F897A8100843721 /* RedCarpetAppleMVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62F3A3AB1F897A8100843721 /* RedCarpetAppleMVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F3A3B61F897A8200843721 /* Build configuration list for PBXNativeTarget "RedCarpetAppleMVCTests" */;
+			buildPhases = (
+				62F3A3A81F897A8100843721 /* Sources */,
+				62F3A3A91F897A8100843721 /* Frameworks */,
+				62F3A3AA1F897A8100843721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F3A3AE1F897A8100843721 /* PBXTargetDependency */,
+			);
+			name = RedCarpetAppleMVCTests;
+			productName = RedCarpetAppleMVCTests;
+			productReference = 62F3A3AC1F897A8100843721 /* RedCarpetAppleMVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -432,6 +538,15 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 62846B7D1F8932EA000BBAC6;
 					};
+					62F3A3981F897A8100843721 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					62F3A3AB1F897A8100843721 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62F3A3981F897A8100843721;
+					};
 				};
 			};
 			buildConfigurationList = 62846B791F8932EA000BBAC6 /* Build configuration list for PBXProject "RedCarpet" */;
@@ -449,6 +564,8 @@
 			targets = (
 				62846B7D1F8932EA000BBAC6 /* RedCarpetMVC */,
 				62846B911F8932EA000BBAC6 /* RedCarpetMVCTests */,
+				62F3A3981F897A8100843721 /* RedCarpetAppleMVC */,
+				62F3A3AB1F897A8100843721 /* RedCarpetAppleMVCTests */,
 				62846BA51F893370000BBAC6 /* Commons */,
 				62846BAD1F893370000BBAC6 /* CommonsTests */,
 			);
@@ -482,6 +599,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		62846BAC1F893370000BBAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F3A3971F897A8100843721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F3A3A61F897A8100843721 /* LaunchScreen.storyboard in Resources */,
+				62F3A3A31F897A8100843721 /* Assets.xcassets in Resources */,
+				62F3A3A11F897A8100843721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F3A3AA1F897A8100843721 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -724,6 +858,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62F3A3951F897A8100843721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F3A39E1F897A8100843721 /* ViewController.swift in Sources */,
+				62F3A39C1F897A8100843721 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F3A3A81F897A8100843721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F3A3B11F897A8200843721 /* RedCarpetAppleMVCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -747,6 +898,16 @@
 			target = 62846BA51F893370000BBAC6 /* Commons */;
 			targetProxy = 62846BB91F893370000BBAC6 /* PBXContainerItemProxy */;
 		};
+		62F3A3AE1F897A8100843721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F3A3981F897A8100843721 /* RedCarpetAppleMVC */;
+			targetProxy = 62F3A3AD1F897A8100843721 /* PBXContainerItemProxy */;
+		};
+		62F3A3BA1F897A9500843721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62846BA51F893370000BBAC6 /* Commons */;
+			targetProxy = 62F3A3B91F897A9500843721 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -754,6 +915,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				62846B8B1F8932EA000BBAC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		62F3A39F1F897A8100843721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F3A3A01F897A8100843721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62F3A3A41F897A8100843721 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F3A3A51F897A8100843721 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1017,6 +1194,66 @@
 			};
 			name = Release;
 		};
+		62F3A3B41F897A8200843721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedCarpetAppleMVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetAppleMVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62F3A3B51F897A8200843721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedCarpetAppleMVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetAppleMVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62F3A3B71F897A8200843721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedCarpetAppleMVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetAppleMVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetAppleMVC.app/RedCarpetAppleMVC";
+			};
+			name = Debug;
+		};
+		62F3A3B81F897A8200843721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedCarpetAppleMVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetAppleMVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetAppleMVC.app/RedCarpetAppleMVC";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1061,6 +1298,24 @@
 			buildConfigurations = (
 				62846BC21F893370000BBAC6 /* Debug */,
 				62846BC31F893370000BBAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F3A3B31F897A8200843721 /* Build configuration list for PBXNativeTarget "RedCarpetAppleMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F3A3B41F897A8200843721 /* Debug */,
+				62F3A3B51F897A8200843721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F3A3B61F897A8200843721 /* Build configuration list for PBXNativeTarget "RedCarpetAppleMVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F3A3B71F897A8200843721 /* Debug */,
+				62F3A3B81F897A8200843721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
