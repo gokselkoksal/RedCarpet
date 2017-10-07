@@ -9,7 +9,7 @@
 import UIKit
 import Commons
 
-protocol MovieListViewDelegate {
+protocol MovieListViewDelegate: class {
     func movieListView(_ view: MovieListView, didSelectMovie movie: Movie)
 }
 

@@ -33,7 +33,9 @@ class MovieListViewController: UIViewController {
 extension MovieListViewController: MovieListViewDelegate {
     
     func movieListView(_ view: MovieListView, didSelectMovie movie: Movie) {
-        // Push movie details.
+        let vc = MovieDetailViewController()
+        vc.movie = movie
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
