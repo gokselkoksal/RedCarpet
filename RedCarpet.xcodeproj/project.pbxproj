@@ -13,6 +13,12 @@
 		62846B891F8932EA000BBAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62846B881F8932EA000BBAC6 /* Assets.xcassets */; };
 		62846B8C1F8932EA000BBAC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62846B8A1F8932EA000BBAC6 /* LaunchScreen.storyboard */; };
 		62846B971F8932EA000BBAC6 /* RedCarpetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62846B961F8932EA000BBAC6 /* RedCarpetTests.swift */; };
+		62846BAF1F893370000BBAC6 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; };
+		62846BB61F893370000BBAC6 /* CommonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62846BB51F893370000BBAC6 /* CommonsTests.swift */; };
+		62846BB81F893370000BBAC6 /* Commons.h in Headers */ = {isa = PBXBuildFile; fileRef = 62846BA81F893370000BBAC6 /* Commons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62846BBB1F893370000BBAC6 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; };
+		62846BBC1F893370000BBAC6 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		62846BC51F893384000BBAC6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62846BC41F893384000BBAC6 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,42 @@
 			remoteGlobalIDString = 62846B7D1F8932EA000BBAC6;
 			remoteInfo = RedCarpet;
 		};
+		62846BB01F893370000BBAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62846BA51F893370000BBAC6;
+			remoteInfo = Commons;
+		};
+		62846BB21F893370000BBAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62846B7D1F8932EA000BBAC6;
+			remoteInfo = RedCarpet;
+		};
+		62846BB91F893370000BBAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62846BA51F893370000BBAC6;
+			remoteInfo = Commons;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62846BC01F893370000BBAC6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				62846BBC1F893370000BBAC6 /* Commons.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		62846B7E1F8932EA000BBAC6 /* RedCarpet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedCarpet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +77,13 @@
 		62846B921F8932EA000BBAC6 /* RedCarpetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62846B961F8932EA000BBAC6 /* RedCarpetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetTests.swift; sourceTree = "<group>"; };
 		62846B981F8932EA000BBAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62846BA61F893370000BBAC6 /* Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Commons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62846BA81F893370000BBAC6 /* Commons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
+		62846BA91F893370000BBAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62846BAE1F893370000BBAC6 /* CommonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62846BB51F893370000BBAC6 /* CommonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonsTests.swift; sourceTree = "<group>"; };
+		62846BB71F893370000BBAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62846BC41F893384000BBAC6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62846BBB1F893370000BBAC6 /* Commons.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +99,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62846BA21F893370000BBAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62846BAB1F893370000BBAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62846BAF1F893370000BBAC6 /* Commons.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +125,8 @@
 			children = (
 				62846B801F8932EA000BBAC6 /* RedCarpet */,
 				62846B951F8932EA000BBAC6 /* RedCarpetTests */,
+				62846BA71F893370000BBAC6 /* Commons */,
+				62846BB41F893370000BBAC6 /* CommonsTests */,
 				62846B7F1F8932EA000BBAC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +136,8 @@
 			children = (
 				62846B7E1F8932EA000BBAC6 /* RedCarpet.app */,
 				62846B921F8932EA000BBAC6 /* RedCarpetTests.xctest */,
+				62846BA61F893370000BBAC6 /* Commons.framework */,
+				62846BAE1F893370000BBAC6 /* CommonsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +164,45 @@
 			path = RedCarpetTests;
 			sourceTree = "<group>";
 		};
+		62846BA71F893370000BBAC6 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				62846BA81F893370000BBAC6 /* Commons.h */,
+				62846BA91F893370000BBAC6 /* Info.plist */,
+				62846BC61F89371B000BBAC6 /* DataModels */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		62846BB41F893370000BBAC6 /* CommonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				62846BB51F893370000BBAC6 /* CommonsTests.swift */,
+				62846BB71F893370000BBAC6 /* Info.plist */,
+			);
+			path = CommonsTests;
+			sourceTree = "<group>";
+		};
+		62846BC61F89371B000BBAC6 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				62846BC41F893384000BBAC6 /* Movie.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		62846BA31F893370000BBAC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62846BB81F893370000BBAC6 /* Commons.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		62846B7D1F8932EA000BBAC6 /* RedCarpet */ = {
@@ -106,10 +212,12 @@
 				62846B7A1F8932EA000BBAC6 /* Sources */,
 				62846B7B1F8932EA000BBAC6 /* Frameworks */,
 				62846B7C1F8932EA000BBAC6 /* Resources */,
+				62846BC01F893370000BBAC6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				62846BBA1F893370000BBAC6 /* PBXTargetDependency */,
 			);
 			name = RedCarpet;
 			productName = RedCarpet;
@@ -134,6 +242,43 @@
 			productReference = 62846B921F8932EA000BBAC6 /* RedCarpetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		62846BA51F893370000BBAC6 /* Commons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62846BBD1F893370000BBAC6 /* Build configuration list for PBXNativeTarget "Commons" */;
+			buildPhases = (
+				62846BA11F893370000BBAC6 /* Sources */,
+				62846BA21F893370000BBAC6 /* Frameworks */,
+				62846BA31F893370000BBAC6 /* Headers */,
+				62846BA41F893370000BBAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Commons;
+			productName = Commons;
+			productReference = 62846BA61F893370000BBAC6 /* Commons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62846BAD1F893370000BBAC6 /* CommonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62846BC11F893370000BBAC6 /* Build configuration list for PBXNativeTarget "CommonsTests" */;
+			buildPhases = (
+				62846BAA1F893370000BBAC6 /* Sources */,
+				62846BAB1F893370000BBAC6 /* Frameworks */,
+				62846BAC1F893370000BBAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62846BB11F893370000BBAC6 /* PBXTargetDependency */,
+				62846BB31F893370000BBAC6 /* PBXTargetDependency */,
+			);
+			name = CommonsTests;
+			productName = CommonsTests;
+			productReference = 62846BAE1F893370000BBAC6 /* CommonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +294,16 @@
 						ProvisioningStyle = Automatic;
 					};
 					62846B911F8932EA000BBAC6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62846B7D1F8932EA000BBAC6;
+					};
+					62846BA51F893370000BBAC6 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					62846BAD1F893370000BBAC6 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 62846B7D1F8932EA000BBAC6;
@@ -170,6 +325,8 @@
 			targets = (
 				62846B7D1F8932EA000BBAC6 /* RedCarpet */,
 				62846B911F8932EA000BBAC6 /* RedCarpetTests */,
+				62846BA51F893370000BBAC6 /* Commons */,
+				62846BAD1F893370000BBAC6 /* CommonsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +343,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		62846B901F8932EA000BBAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62846BA41F893370000BBAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62846BAC1F893370000BBAC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,6 +383,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62846BA11F893370000BBAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62846BC51F893384000BBAC6 /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62846BAA1F893370000BBAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62846BB61F893370000BBAC6 /* CommonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -219,6 +406,21 @@
 			isa = PBXTargetDependency;
 			target = 62846B7D1F8932EA000BBAC6 /* RedCarpet */;
 			targetProxy = 62846B931F8932EA000BBAC6 /* PBXContainerItemProxy */;
+		};
+		62846BB11F893370000BBAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62846BA51F893370000BBAC6 /* Commons */;
+			targetProxy = 62846BB01F893370000BBAC6 /* PBXContainerItemProxy */;
+		};
+		62846BB31F893370000BBAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62846B7D1F8932EA000BBAC6 /* RedCarpet */;
+			targetProxy = 62846BB21F893370000BBAC6 /* PBXContainerItemProxy */;
+		};
+		62846BBA1F893370000BBAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62846BA51F893370000BBAC6 /* Commons */;
+			targetProxy = 62846BB91F893370000BBAC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -352,6 +554,7 @@
 		62846B9C1F8932EA000BBAC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpet/Info.plist;
@@ -366,6 +569,7 @@
 		62846B9D1F8932EA000BBAC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpet/Info.plist;
@@ -409,6 +613,85 @@
 			};
 			name = Release;
 		};
+		62846BBE1F893370000BBAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Commons/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.Commons;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62846BBF1F893370000BBAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Commons/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.Commons;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62846BC21F893370000BBAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CommonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.CommonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpet.app/RedCarpet";
+			};
+			name = Debug;
+		};
+		62846BC31F893370000BBAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CommonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.CommonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpet.app/RedCarpet";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -435,6 +718,24 @@
 			buildConfigurations = (
 				62846B9F1F8932EA000BBAC6 /* Debug */,
 				62846BA01F8932EA000BBAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62846BBD1F893370000BBAC6 /* Build configuration list for PBXNativeTarget "Commons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62846BBE1F893370000BBAC6 /* Debug */,
+				62846BBF1F893370000BBAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62846BC11F893370000BBAC6 /* Build configuration list for PBXNativeTarget "CommonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62846BC21F893370000BBAC6 /* Debug */,
+				62846BC31F893370000BBAC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
