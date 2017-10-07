@@ -212,10 +212,10 @@
 		62846B801F8932EA000BBAC6 /* RedCarpetMVC */ = {
 			isa = PBXGroup;
 			children = (
-				62846B811F8932EA000BBAC6 /* AppDelegate.swift */,
 				62846B881F8932EA000BBAC6 /* Assets.xcassets */,
 				62846B8A1F8932EA000BBAC6 /* LaunchScreen.storyboard */,
 				62846B8D1F8932EA000BBAC6 /* Info.plist */,
+				62846B811F8932EA000BBAC6 /* AppDelegate.swift */,
 				62651C3D1F895DFA00094DC3 /* AppLauncher.swift */,
 				62F4C8F61F895ABC00977402 /* MovieList */,
 				62651C3F1F895FA500094DC3 /* MovieDetail */,
