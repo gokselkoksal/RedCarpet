@@ -33,26 +33,14 @@ class MovieDetailView: UIView {
     var movie: Movie? = nil {
         didSet {
             if let movie = movie {
-                let nameRow = Row(title: "Name", value: movie.name)
-                let artistNameRow = Row(title: "Starring", value: movie.artistName)
-                
-                let year = "\(movie.releaseDate.extract(.year))"
-                let releaseDateRow = Row(title: "Year", value: year)
-                
-                var rows = [nameRow, artistNameRow, releaseDateRow]
-                
-                if let copyright = movie.copyright {
-                    rows.append(Row(title: "Copyright", value: copyright))
-                }
-                
-                self.rows = rows
+                presentation = MovieDetailPresentation(movie: movie)
             } else {
-                self.rows = []
+                presentation = nil
             }
         }
     }
     
-    private var rows: [Row] = [] {
+    private var presentation: MovieDetailPresentation? {
         didSet {
             tableView.reloadData()
         }
@@ -71,7 +59,7 @@ class MovieDetailView: UIView {
 extension MovieDetailView: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return rows.count
+        return presentation?.infoList.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -83,10 +71,12 @@ extension MovieDetailView: UITableViewDataSource {
             cell = UITableViewCell(style: .value2, reuseIdentifier: Const.cellId)
         }
         
-        let row = rows[indexPath.row]
+        // Presentation can't possibly be nil at this point.
+        // If it is nil, there's a programmer error.
+        let row = presentation!.infoList[indexPath.row]
         
         cell.textLabel?.text = row.title
-        cell.detailTextLabel?.text = row.value
+        cell.detailTextLabel?.text = row.detail
         
         return cell
     }

@@ -62,10 +62,10 @@ extension MovieListView: UITableViewDataSource {
         }
         
         let movie = movies[indexPath.row]
-        let year = movie.releaseDate.extract(.year)
+        let presentation = MovieListPresentation(movie: movie)
         
-        cell.textLabel?.text = movie.name
-        cell.detailTextLabel?.text = "\(year) | \(movie.artistName)"
+        cell.textLabel?.text = presentation.title
+        cell.detailTextLabel?.text = presentation.detail
         
         return cell
     }
