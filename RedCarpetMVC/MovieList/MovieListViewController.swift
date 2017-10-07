@@ -11,7 +11,7 @@ import Commons
 
 class MovieListViewController: UIViewController {
     
-    var service: MovieServiceProtocol = MovieService()
+    var service: MovieServiceProtocol!
     
     override func loadView() {
         let myView = MovieListView.instantiate()

@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import Commons
 
 class AppLauncher {
     
     static func initialViewController() -> UIViewController {
         let vc = MovieListViewController()
+        vc.service = MovieService()
         let nc = UINavigationController(rootViewController: vc)
         return nc
     }
