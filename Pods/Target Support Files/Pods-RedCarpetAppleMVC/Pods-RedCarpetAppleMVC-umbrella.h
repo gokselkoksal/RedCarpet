@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RedCarpetVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RedCarpetVersionString[];
+FOUNDATION_EXPORT double Pods_RedCarpetAppleMVCVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_RedCarpetAppleMVCVersionString[];
 

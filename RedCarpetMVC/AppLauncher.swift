@@ -13,9 +13,11 @@ class AppLauncher {
     
     static func initialViewController() -> UIViewController {
         let vc = MovieListViewController()
-        vc.service = MovieService()
-        // Enable for mocking:
-        // vc.service = MockMovieService()
+        #if MOCK
+            vc.service = MockMovieService()
+        #else
+            vc.service = MovieService()
+        #endif
         let nc = UINavigationController(rootViewController: vc)
         return nc
     }

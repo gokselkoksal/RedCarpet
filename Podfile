@@ -14,12 +14,22 @@ target 'Commons' do
 
 end
 
-target 'RedCarpet' do
+target 'RedCarpetMVC' do
+    
+    use_frameworks!
+    
+    target 'RedCarpetMVCTests' do
+        inherit! :search_paths
+    end
+    
+end
 
-  use_frameworks!
-
-  target 'RedCarpetTests' do
-    inherit! :search_paths
-  end
-
+target 'RedCarpetAppleMVC' do
+    
+    use_frameworks!
+    
+    target 'RedCarpetAppleMVCTests' do
+        inherit! :search_paths
+    end
+    
 end
