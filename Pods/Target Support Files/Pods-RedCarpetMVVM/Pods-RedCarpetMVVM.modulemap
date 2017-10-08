@@ -1,0 +1,6 @@
+framework module Pods_RedCarpetMVVM {
+  umbrella header "Pods-RedCarpetMVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}

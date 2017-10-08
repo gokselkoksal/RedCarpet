@@ -1,0 +1,6 @@
+framework module Pods_RedCarpetVIPERTests {
+  umbrella header "Pods-RedCarpetVIPERTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

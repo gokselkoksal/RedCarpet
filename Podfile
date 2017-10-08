@@ -33,3 +33,33 @@ target 'RedCarpetAppleMVC' do
     end
     
 end
+
+target 'RedCarpetMVVM' do
+    
+    use_frameworks!
+    
+    target 'RedCarpetMVVMTests' do
+        inherit! :search_paths
+    end
+    
+end
+
+target 'RedCarpetMVP' do
+    
+    use_frameworks!
+    
+    target 'RedCarpetMVPTests' do
+        inherit! :search_paths
+    end
+    
+end
+
+target 'RedCarpetVIPER' do
+    
+    use_frameworks!
+    
+    target 'RedCarpetVIPERTests' do
+        inherit! :search_paths
+    end
+    
+end

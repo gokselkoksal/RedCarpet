@@ -1,0 +1,6 @@
+framework module Pods_RedCarpetVIPER {
+  umbrella header "Pods-RedCarpetVIPER-umbrella.h"
+
+  export *
+  module * { export * }
+}
