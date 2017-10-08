@@ -27,6 +27,12 @@
 		62846BC51F893384000BBAC6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62846BC41F893384000BBAC6 /* Movie.swift */; };
 		62A9D9B41F8984C300E92C6F /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A9D9B31F8984C300E92C6F /* MovieService.swift */; };
 		62A9D9B51F89862B00E92C6F /* movies-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 62F3A3BF1F897F8800843721 /* movies-response.json */; };
+		62BA753D1F8A887C00C2CC63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA753C1F8A887C00C2CC63 /* AppDelegate.swift */; };
+		62BA753F1F8A887C00C2CC63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA753E1F8A887C00C2CC63 /* ViewController.swift */; };
+		62BA75421F8A887C00C2CC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BA75401F8A887C00C2CC63 /* Main.storyboard */; };
+		62BA75441F8A887C00C2CC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BA75431F8A887C00C2CC63 /* Assets.xcassets */; };
+		62BA75471F8A887C00C2CC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BA75451F8A887C00C2CC63 /* LaunchScreen.storyboard */; };
+		62BA75521F8A887C00C2CC63 /* RedCarpetMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA75511F8A887C00C2CC63 /* RedCarpetMVVMTests.swift */; };
 		62E663151F893D7300DEA274 /* MovieServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E663141F893D7300DEA274 /* MovieServiceProtocol.swift */; };
 		62E663181F893D9700DEA274 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E663171F893D9700DEA274 /* Result.swift */; };
 		62E6631A1F893F9500DEA274 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E663191F893F9500DEA274 /* MovieResponse.swift */; };
@@ -71,6 +77,20 @@
 			remoteInfo = RedCarpet;
 		};
 		62846BB91F893370000BBAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62846BA51F893370000BBAC6;
+			remoteInfo = Commons;
+		};
+		62BA754E1F8A887C00C2CC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BA75391F8A887C00C2CC63;
+			remoteInfo = RedCarpetMVVM;
+		};
+		62BA755C1F8A888F00C2CC63 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
 			proxyType = 1;
@@ -138,6 +158,16 @@
 		62846BB71F893370000BBAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62846BC41F893384000BBAC6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		62A9D9B31F8984C300E92C6F /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		62BA753A1F8A887C00C2CC63 /* RedCarpetMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedCarpetMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BA753C1F8A887C00C2CC63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62BA753E1F8A887C00C2CC63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62BA75411F8A887C00C2CC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62BA75431F8A887C00C2CC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62BA75461F8A887C00C2CC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62BA75481F8A887C00C2CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BA754D1F8A887C00C2CC63 /* RedCarpetMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BA75511F8A887C00C2CC63 /* RedCarpetMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetMVVMTests.swift; sourceTree = "<group>"; };
+		62BA75531F8A887C00C2CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62E663141F893D7300DEA274 /* MovieServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceProtocol.swift; sourceTree = "<group>"; };
 		62E663171F893D9700DEA274 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		62E663191F893F9500DEA274 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
@@ -213,6 +243,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62BA75371F8A887C00C2CC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BA754A1F8A887C00C2CC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62F3A3961F897A8100843721 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +318,8 @@
 				62846B951F8932EA000BBAC6 /* RedCarpetMVCTests */,
 				62F3A39A1F897A8100843721 /* RedCarpetAppleMVC */,
 				62F3A3AF1F897A8200843721 /* RedCarpetAppleMVCTests */,
+				62BA753B1F8A887C00C2CC63 /* RedCarpetMVVM */,
+				62BA75501F8A887C00C2CC63 /* RedCarpetMVVMTests */,
 				62846BA71F893370000BBAC6 /* Commons */,
 				62846BB41F893370000BBAC6 /* CommonsTests */,
 				62846B7F1F8932EA000BBAC6 /* Products */,
@@ -291,6 +337,8 @@
 				62846BAE1F893370000BBAC6 /* CommonsTests.xctest */,
 				62F3A3991F897A8100843721 /* RedCarpetAppleMVC.app */,
 				62F3A3AC1F897A8100843721 /* RedCarpetAppleMVCTests.xctest */,
+				62BA753A1F8A887C00C2CC63 /* RedCarpetMVVM.app */,
+				62BA754D1F8A887C00C2CC63 /* RedCarpetMVVMTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -347,6 +395,28 @@
 				62F3A3931F89778000843721 /* MoviePresentation.swift */,
 			);
 			path = DataModels;
+			sourceTree = "<group>";
+		};
+		62BA753B1F8A887C00C2CC63 /* RedCarpetMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				62BA753C1F8A887C00C2CC63 /* AppDelegate.swift */,
+				62BA753E1F8A887C00C2CC63 /* ViewController.swift */,
+				62BA75401F8A887C00C2CC63 /* Main.storyboard */,
+				62BA75431F8A887C00C2CC63 /* Assets.xcassets */,
+				62BA75451F8A887C00C2CC63 /* LaunchScreen.storyboard */,
+				62BA75481F8A887C00C2CC63 /* Info.plist */,
+			);
+			path = RedCarpetMVVM;
+			sourceTree = "<group>";
+		};
+		62BA75501F8A887C00C2CC63 /* RedCarpetMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				62BA75511F8A887C00C2CC63 /* RedCarpetMVVMTests.swift */,
+				62BA75531F8A887C00C2CC63 /* Info.plist */,
+			);
+			path = RedCarpetMVVMTests;
 			sourceTree = "<group>";
 		};
 		62E663131F893D5E00DEA274 /* Services */ = {
@@ -533,6 +603,42 @@
 			productReference = 62846BAE1F893370000BBAC6 /* CommonsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		62BA75391F8A887C00C2CC63 /* RedCarpetMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BA755A1F8A887C00C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetMVVM" */;
+			buildPhases = (
+				62BA75361F8A887C00C2CC63 /* Sources */,
+				62BA75371F8A887C00C2CC63 /* Frameworks */,
+				62BA75381F8A887C00C2CC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BA755D1F8A888F00C2CC63 /* PBXTargetDependency */,
+			);
+			name = RedCarpetMVVM;
+			productName = RedCarpetMVVM;
+			productReference = 62BA753A1F8A887C00C2CC63 /* RedCarpetMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62BA754C1F8A887C00C2CC63 /* RedCarpetMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BA755B1F8A887C00C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetMVVMTests" */;
+			buildPhases = (
+				62BA75491F8A887C00C2CC63 /* Sources */,
+				62BA754A1F8A887C00C2CC63 /* Frameworks */,
+				62BA754B1F8A887C00C2CC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BA754F1F8A887C00C2CC63 /* PBXTargetDependency */,
+			);
+			name = RedCarpetMVVMTests;
+			productName = RedCarpetMVVMTests;
+			productReference = 62BA754D1F8A887C00C2CC63 /* RedCarpetMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		62F3A3981F897A8100843721 /* RedCarpetAppleMVC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62F3A3B31F897A8200843721 /* Build configuration list for PBXNativeTarget "RedCarpetAppleMVC" */;
@@ -604,6 +710,15 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 62846B7D1F8932EA000BBAC6;
 					};
+					62BA75391F8A887C00C2CC63 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					62BA754C1F8A887C00C2CC63 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62BA75391F8A887C00C2CC63;
+					};
 					62F3A3981F897A8100843721 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -632,6 +747,8 @@
 				62846B911F8932EA000BBAC6 /* RedCarpetMVCTests */,
 				62F3A3981F897A8100843721 /* RedCarpetAppleMVC */,
 				62F3A3AB1F897A8100843721 /* RedCarpetAppleMVCTests */,
+				62BA75391F8A887C00C2CC63 /* RedCarpetMVVM */,
+				62BA754C1F8A887C00C2CC63 /* RedCarpetMVVMTests */,
 				62846BA51F893370000BBAC6 /* Commons */,
 				62846BAD1F893370000BBAC6 /* CommonsTests */,
 			);
@@ -666,6 +783,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		62846BAC1F893370000BBAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BA75381F8A887C00C2CC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BA75471F8A887C00C2CC63 /* LaunchScreen.storyboard in Resources */,
+				62BA75441F8A887C00C2CC63 /* Assets.xcassets in Resources */,
+				62BA75421F8A887C00C2CC63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BA754B1F8A887C00C2CC63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1028,6 +1162,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62BA75361F8A887C00C2CC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BA753F1F8A887C00C2CC63 /* ViewController.swift in Sources */,
+				62BA753D1F8A887C00C2CC63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BA75491F8A887C00C2CC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BA75521F8A887C00C2CC63 /* RedCarpetMVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62F3A3951F897A8100843721 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1069,6 +1220,16 @@
 			target = 62846BA51F893370000BBAC6 /* Commons */;
 			targetProxy = 62846BB91F893370000BBAC6 /* PBXContainerItemProxy */;
 		};
+		62BA754F1F8A887C00C2CC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62BA75391F8A887C00C2CC63 /* RedCarpetMVVM */;
+			targetProxy = 62BA754E1F8A887C00C2CC63 /* PBXContainerItemProxy */;
+		};
+		62BA755D1F8A888F00C2CC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62846BA51F893370000BBAC6 /* Commons */;
+			targetProxy = 62BA755C1F8A888F00C2CC63 /* PBXContainerItemProxy */;
+		};
 		62F3A3AE1F897A8100843721 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 62F3A3981F897A8100843721 /* RedCarpetAppleMVC */;
@@ -1086,6 +1247,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				62846B8B1F8932EA000BBAC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		62BA75401F8A887C00C2CC63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62BA75411F8A887C00C2CC63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62BA75451F8A887C00C2CC63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62BA75461F8A887C00C2CC63 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1522,6 +1699,96 @@
 			};
 			name = Mock;
 		};
+		62BA75541F8A887C00C2CC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedCarpetMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62BA75551F8A887C00C2CC63 /* Mock */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedCarpetMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Mock;
+		};
+		62BA75561F8A887C00C2CC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedCarpetMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62BA75571F8A887C00C2CC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedCarpetMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetMVVM.app/RedCarpetMVVM";
+			};
+			name = Debug;
+		};
+		62BA75581F8A887C00C2CC63 /* Mock */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedCarpetMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetMVVM.app/RedCarpetMVVM";
+			};
+			name = Mock;
+		};
+		62BA75591F8A887C00C2CC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedCarpetMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetMVVM.app/RedCarpetMVVM";
+			};
+			name = Release;
+		};
 		62F3A3B41F897A8200843721 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB379F1655B3CFCC30BF7D3A /* Pods-RedCarpetAppleMVC.debug.xcconfig */;
@@ -1635,6 +1902,26 @@
 				62846BC21F893370000BBAC6 /* Debug */,
 				62BA75311F8A84EB00C2CC63 /* Mock */,
 				62846BC31F893370000BBAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BA755A1F8A887C00C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BA75541F8A887C00C2CC63 /* Debug */,
+				62BA75551F8A887C00C2CC63 /* Mock */,
+				62BA75561F8A887C00C2CC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BA755B1F8A887C00C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BA75571F8A887C00C2CC63 /* Debug */,
+				62BA75581F8A887C00C2CC63 /* Mock */,
+				62BA75591F8A887C00C2CC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
