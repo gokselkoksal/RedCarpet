@@ -4,6 +4,7 @@
 target 'Commons' do
 
   use_frameworks!
+  platform :ios, '11.0'
   
   pod 'Alamofire', '~> 4.5'
   pod 'Unbox', '~> 2.5'
@@ -17,6 +18,7 @@ end
 target 'RedCarpetMVC' do
     
     use_frameworks!
+    platform :ios, '11.0'
     
     target 'RedCarpetMVCTests' do
         inherit! :search_paths
@@ -27,6 +29,7 @@ end
 target 'RedCarpetAppleMVC' do
     
     use_frameworks!
+    platform :ios, '11.0'
     
     target 'RedCarpetAppleMVCTests' do
         inherit! :search_paths
@@ -37,6 +40,7 @@ end
 target 'RedCarpetMVVM' do
     
     use_frameworks!
+    platform :ios, '11.0'
     
     target 'RedCarpetMVVMTests' do
         inherit! :search_paths
@@ -47,6 +51,7 @@ end
 target 'RedCarpetMVP' do
     
     use_frameworks!
+    platform :ios, '11.0'
     
     target 'RedCarpetMVPTests' do
         inherit! :search_paths
@@ -57,6 +62,7 @@ end
 target 'RedCarpetVIPER' do
     
     use_frameworks!
+    platform :ios, '11.0'
     
     target 'RedCarpetVIPERTests' do
         inherit! :search_paths

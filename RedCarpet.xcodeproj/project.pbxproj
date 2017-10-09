@@ -2124,7 +2124,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68D8DAA029E4FEF81F3FBE71 /* Pods-RedCarpetMVC.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetMVC/Info.plist;
@@ -2140,7 +2139,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38A6A4EBE1A6F20573D1A0F4 /* Pods-RedCarpetMVC.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetMVC/Info.plist;
@@ -2156,7 +2154,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E5F006FDFB2CC0EB041BD966 /* Pods-RedCarpetMVCTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetTests/Info.plist;
@@ -2173,7 +2170,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08024370ABCCD1C3747E22AA /* Pods-RedCarpetMVCTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetTests/Info.plist;
@@ -2241,7 +2237,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABE809092BD19141E9281802 /* Pods-CommonsTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CommonsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2257,7 +2252,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 572C057DF085EC0377F6E518 /* Pods-CommonsTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CommonsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2331,7 +2325,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8A07100486B8D5268C8C3D9 /* Pods-RedCarpetMVC.mock.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetMVC/Info.plist;
@@ -2347,7 +2340,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B55F57D5AA4016365DD5402F /* Pods-RedCarpetMVCTests.mock.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetTests/Info.plist;
@@ -2379,7 +2371,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EDF6ED92AE5D059E5AF8AE36 /* Pods-RedCarpetAppleMVCTests.mock.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetAppleMVCTests/Info.plist;
@@ -2422,7 +2413,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D4AE262994C2DDECDAD00B2 /* Pods-CommonsTests.mock.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CommonsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2483,7 +2473,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DC38A254C1A32F1B923F3B7 /* Pods-RedCarpetMVVMTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetMVVMTests/Info.plist;
@@ -2500,7 +2489,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CE0F0F880E552210F94F3E1 /* Pods-RedCarpetMVVMTests.mock.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetMVVMTests/Info.plist;
@@ -2517,7 +2505,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8C4B92A845FB157912FDC22C /* Pods-RedCarpetMVVMTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetMVVMTests/Info.plist;
@@ -2579,7 +2566,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DCB90BE6314C26DABC3A709 /* Pods-RedCarpetVIPERTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetVIPERTests/Info.plist;
@@ -2596,7 +2582,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53DE38BCB88A92CA718F4C44 /* Pods-RedCarpetVIPERTests.mock.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetVIPERTests/Info.plist;
@@ -2613,7 +2598,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B50C2187D8A4647FF53AAEB5 /* Pods-RedCarpetVIPERTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetVIPERTests/Info.plist;
@@ -2675,7 +2659,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A9585BDB7D9BA2900B171B5 /* Pods-RedCarpetMVPTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetMVPTests/Info.plist;
@@ -2692,7 +2675,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 550FC9BD49545A951C36BBD3 /* Pods-RedCarpetMVPTests.mock.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetMVPTests/Info.plist;
@@ -2709,7 +2691,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA42D646D9D9AAFAF363EE3B /* Pods-RedCarpetMVPTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetMVPTests/Info.plist;
@@ -2756,7 +2737,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 534481AF2657FE346A950954 /* Pods-RedCarpetAppleMVCTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetAppleMVCTests/Info.plist;
@@ -2773,7 +2753,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D378475DBC095D1A0D139132 /* Pods-RedCarpetAppleMVCTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RedCarpetAppleMVCTests/Info.plist;
