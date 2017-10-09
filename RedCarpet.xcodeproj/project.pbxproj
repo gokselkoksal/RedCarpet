@@ -28,6 +28,14 @@
 		62846BBB1F893370000BBAC6 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; };
 		62846BBC1F893370000BBAC6 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		62846BC51F893384000BBAC6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62846BC41F893384000BBAC6 /* Movie.swift */; };
+		62847ED51F8AF59B00B1DF61 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; };
+		62847ED61F8AF59B00B1DF61 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		62847ED81F8AF5A600B1DF61 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; };
+		62847ED91F8AF5A600B1DF61 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		62847EDB1F8AF5AD00B1DF61 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; };
+		62847EDC1F8AF5AD00B1DF61 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		62847EDE1F8AF5B500B1DF61 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; };
+		62847EDF1F8AF5B500B1DF61 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		62A9D9B41F8984C300E92C6F /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A9D9B31F8984C300E92C6F /* MovieService.swift */; };
 		62A9D9B51F89862B00E92C6F /* movies-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 62F3A3BF1F897F8800843721 /* movies-response.json */; };
 		62BA753D1F8A887C00C2CC63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA753C1F8A887C00C2CC63 /* AppDelegate.swift */; };
@@ -167,6 +175,50 @@
 			dstSubfolderSpec = 10;
 			files = (
 				62846BBC1F893370000BBAC6 /* Commons.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62847ED71F8AF59B00B1DF61 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				62847ED61F8AF59B00B1DF61 /* Commons.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62847EDA1F8AF5A700B1DF61 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				62847ED91F8AF5A600B1DF61 /* Commons.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62847EDD1F8AF5AD00B1DF61 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				62847EDC1F8AF5AD00B1DF61 /* Commons.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62847EE01F8AF5B500B1DF61 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				62847EDF1F8AF5B500B1DF61 /* Commons.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +389,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62847ED81F8AF5A600B1DF61 /* Commons.framework in Frameworks */,
 				5E74BA1AA29A1B53443486FE /* Pods_RedCarpetMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +406,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62847EDB1F8AF5AD00B1DF61 /* Commons.framework in Frameworks */,
 				973EF2086FCAB43D2D3A2DFD /* Pods_RedCarpetVIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +423,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62847EDE1F8AF5B500B1DF61 /* Commons.framework in Frameworks */,
 				89A3D46D6F7C5324974950E5 /* Pods_RedCarpetMVP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +440,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62847ED51F8AF59B00B1DF61 /* Commons.framework in Frameworks */,
 				BE37033F8C7D20C4AC900D0E /* Pods_RedCarpetAppleMVC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -811,6 +867,7 @@
 				62BA75361F8A887C00C2CC63 /* Sources */,
 				62BA75371F8A887C00C2CC63 /* Frameworks */,
 				62BA75381F8A887C00C2CC63 /* Resources */,
+				62847EDA1F8AF5A700B1DF61 /* Embed Frameworks */,
 				B1F3A4F9B5F4BD8E4FD77CFD /* [CP] Embed Pods Frameworks */,
 				C6E4272B97200F6E529B22FC /* [CP] Copy Pods Resources */,
 			);
@@ -853,6 +910,7 @@
 				62BA755E1F8A894500C2CC63 /* Sources */,
 				62BA755F1F8A894500C2CC63 /* Frameworks */,
 				62BA75601F8A894500C2CC63 /* Resources */,
+				62847EDD1F8AF5AD00B1DF61 /* Embed Frameworks */,
 				8EF73BDD9F54945BACF55E4E /* [CP] Embed Pods Frameworks */,
 				0BBB20ABD67C4F04D7029DC8 /* [CP] Copy Pods Resources */,
 			);
@@ -895,6 +953,7 @@
 				62BA75861F8A89D300C2CC63 /* Sources */,
 				62BA75871F8A89D300C2CC63 /* Frameworks */,
 				62BA75881F8A89D300C2CC63 /* Resources */,
+				62847EE01F8AF5B500B1DF61 /* Embed Frameworks */,
 				4942CD7674CF52589B4270A4 /* [CP] Embed Pods Frameworks */,
 				AD487DDCD35528CBE2779DF0 /* [CP] Copy Pods Resources */,
 			);
@@ -937,6 +996,7 @@
 				62F3A3951F897A8100843721 /* Sources */,
 				62F3A3961F897A8100843721 /* Frameworks */,
 				62F3A3971F897A8100843721 /* Resources */,
+				62847ED71F8AF59B00B1DF61 /* Embed Frameworks */,
 				57C9F21CA7642C2BCB1CE91F /* [CP] Embed Pods Frameworks */,
 				D1497A048A85F58423C6828B /* [CP] Copy Pods Resources */,
 			);
