@@ -7,19 +7,116 @@
 //
 
 import UIKit
+import Commons
 
 class MovieListViewController: UIViewController {
-
+    
+    private enum Const {
+        static let cellId = "MovieCell"
+    }
+    
+    private enum SegueId {
+        static let detail = "showDetail"
+    }
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    private var movies: [Movie] = []
+    private var service: MovieServiceProtocol!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        title = "Movie List"
+        configureTableView()
+        setupService()
+        fetchMovies()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == SegueId.detail,
+           let movie = sender as? Movie,
+           let destination = segue.destination as? MovieDetailViewController {
+            destination.movie = movie
+        }
     }
-
-
 }
 
+private extension MovieListViewController {
+    
+    func setupService() {
+        #if MOCK
+            service = MockMovieService()
+        #else
+            service = MovieService()
+        #endif
+    }
+    
+    func fetchMovies() {
+        service.fetchMovies { [weak self] (result) in
+            guard let strongSelf = self else { return }
+            
+            switch result {
+            case .success(let movies):
+                strongSelf.movies = movies
+            case .failure(let error):
+                strongSelf.handleError(error)
+            }
+        }
+    }
+    
+    func configureTableView() {
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+    
+    func setLoading(_ flag: Bool) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = flag
+    }
+    
+    func handleError(_ error: Error) {
+        let alert = UIAlertController(
+            title: "API Error",
+            message: "Could not fetch movies at this time.",
+            preferredStyle: .alert
+        )
+        
+        alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+        
+        present(alert, animated: true, completion: nil)
+    }
+}
+
+extension MovieListViewController: UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return movies.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: UITableViewCell
+        
+        if let someCell = tableView.dequeueReusableCell(withIdentifier: Const.cellId) {
+            cell = someCell
+        } else {
+            cell = UITableViewCell(style: .subtitle, reuseIdentifier: Const.cellId)
+        }
+        
+        let movie = movies[indexPath.row]
+        let presentation = MovieListPresentation(movie: movie)
+        
+        cell.textLabel?.text = presentation.title
+        cell.detailTextLabel?.text = presentation.detail
+        
+        return cell
+    }
+}
+
+extension MovieListViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+        
+        let movie = movies[indexPath.row]
+        performSegue(withIdentifier: SegueId.detail, sender: movie)
+    }
+}

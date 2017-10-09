@@ -1,50 +1,40 @@
 //
-//  MovieDetailView.swift
-//  RedCarpetMVC
+//  MovieDetailViewController.swift
+//  RedCarpetAppleMVC
 //
-//  Created by Göksel Köksal on 7.10.2017.
+//  Created by Göksel Köksal on 9.10.2017.
 //  Copyright © 2017 Packt. All rights reserved.
 //
 
 import UIKit
 import Commons
 
-class MovieDetailView: UIView {
+class MovieDetailViewController: UIViewController {
     
     private enum Const {
-        static let cellId = "MovieDetailCell"
+        static let cellId = "DetailCell"
     }
     
-    
-    static func instantiate() -> MovieDetailView {
-        let nibName = String(describing: self)
-        guard let view = Bundle.main.loadNibNamed(nibName, owner: nil, options: nil)?.first as? MovieDetailView else {
-            fatalError("There is no nib named \(nibName)")
-        }
-        return view
-    }
-    
-    @IBOutlet weak var tableView: UITableView!
-    
-    var movie: Movie? = nil {
-        didSet {
-            if let movie = movie {
-                presentation = MovieDetailPresentation(movie: movie)
-            } else {
-                presentation = nil
-            }
-        }
-    }
-    
-    private var presentation: MovieDetailPresentation? {
+    var movie: Movie!
+    var presentation: MovieDetailPresentation? {
         didSet {
             tableView.reloadData()
         }
     }
+
+    @IBOutlet weak var tableView: UITableView!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        backgroundColor = .white
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        title = "Movie Detail"
+        configureTableView()
+        presentation = MovieDetailPresentation(movie: movie)
+    }
+}
+
+private extension MovieDetailViewController {
+    
+    func configureTableView() {
         tableView.dataSource = self
         tableView.allowsSelection = false
         tableView.alwaysBounceVertical = false
@@ -52,7 +42,7 @@ class MovieDetailView: UIView {
     }
 }
 
-extension MovieDetailView: UITableViewDataSource {
+extension MovieDetailViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return presentation?.infoList.count ?? 0
