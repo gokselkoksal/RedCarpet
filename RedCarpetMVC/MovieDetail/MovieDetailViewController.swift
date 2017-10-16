@@ -9,7 +9,7 @@
 import UIKit
 import Commons
 
-class MovieDetailViewController: UIViewController {
+final class MovieDetailViewController: UIViewController {
     
     var movie: Movie!
 

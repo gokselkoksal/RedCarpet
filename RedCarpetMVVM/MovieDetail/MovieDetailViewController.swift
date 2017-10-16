@@ -9,7 +9,7 @@
 import UIKit
 import Commons
 
-class MovieDetailViewController: UITableViewController {
+final class MovieDetailViewController: UITableViewController {
     
     var viewModel: MovieDetailViewModelProtocol!
     private var presentation: MovieDetailPresentation?

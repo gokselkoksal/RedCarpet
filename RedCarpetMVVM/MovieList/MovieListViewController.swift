@@ -9,7 +9,7 @@
 import UIKit
 import Commons
 
-class MovieListViewController: UITableViewController {
+final class MovieListViewController: UITableViewController {
     
     private enum SegueId {
         static let detail = "showDetail"

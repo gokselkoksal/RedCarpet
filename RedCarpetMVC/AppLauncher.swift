@@ -9,7 +9,7 @@
 import UIKit
 import Commons
 
-class AppLauncher {
+final class AppLauncher {
     
     static func initialViewController() -> UIViewController {
         let vc = MovieListViewController()

@@ -9,7 +9,7 @@
 import UIKit
 import Commons
 
-class MovieListViewController: UIViewController {
+final class MovieListViewController: UIViewController {
     
     var service: MovieServiceProtocol!
     

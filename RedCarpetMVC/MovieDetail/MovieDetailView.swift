@@ -9,7 +9,7 @@
 import UIKit
 import Commons
 
-class MovieDetailView: UIView {
+final class MovieDetailView: UIView {
     
     private enum Const {
         static let cellId = "MovieDetailCell"

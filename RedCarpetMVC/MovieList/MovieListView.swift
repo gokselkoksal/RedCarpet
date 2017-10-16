@@ -13,7 +13,7 @@ protocol MovieListViewDelegate: class {
     func movieListView(_ view: MovieListView, didSelectMovie movie: Movie)
 }
 
-class MovieListView: UIView {
+final class MovieListView: UIView {
     
     private enum Const {
         static let cellId = "MovieCell"
