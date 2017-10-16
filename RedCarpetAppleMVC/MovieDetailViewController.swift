@@ -33,7 +33,6 @@ class MovieDetailViewController: UITableViewController {
 private extension MovieDetailViewController {
     
     func configureTableView() {
-        tableView.dataSource = self
         tableView.allowsSelection = false
         tableView.alwaysBounceVertical = false
         tableView.tableFooterView = UIView()

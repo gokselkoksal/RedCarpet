@@ -671,14 +671,6 @@
 			path = RedCarpetMVPTests;
 			sourceTree = "<group>";
 		};
-		62E189CF1F8AEBEF00B84780 /* MovieDetail */ = {
-			isa = PBXGroup;
-			children = (
-				62E189D01F8AEC4700B84780 /* MovieDetailViewController.swift */,
-			);
-			path = MovieDetail;
-			sourceTree = "<group>";
-		};
 		62E663131F893D5E00DEA274 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -708,8 +700,8 @@
 				62F3A3A71F897A8100843721 /* Info.plist */,
 				62F3A39B1F897A8100843721 /* AppDelegate.swift */,
 				622FE3AE1F8AAEE000FBE993 /* Main.storyboard */,
-				62F3A3BD1F897B2500843721 /* MovieList */,
-				62E189CF1F8AEBEF00B84780 /* MovieDetail */,
+				62F3A39D1F897A8100843721 /* MovieListViewController.swift */,
+				62E189D01F8AEC4700B84780 /* MovieDetailViewController.swift */,
 			);
 			path = RedCarpetAppleMVC;
 			sourceTree = "<group>";
@@ -721,14 +713,6 @@
 				62F3A3B21F897A8200843721 /* Info.plist */,
 			);
 			path = RedCarpetAppleMVCTests;
-			sourceTree = "<group>";
-		};
-		62F3A3BD1F897B2500843721 /* MovieList */ = {
-			isa = PBXGroup;
-			children = (
-				62F3A39D1F897A8100843721 /* MovieListViewController.swift */,
-			);
-			path = MovieList;
 			sourceTree = "<group>";
 		};
 		62F3A3BE1F897F7600843721 /* Mocking */ = {

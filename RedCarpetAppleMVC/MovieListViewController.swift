@@ -30,7 +30,6 @@ class MovieListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Movie List"
-        configureTableView()
         setupService()
         fetchMovies()
     }
@@ -55,8 +54,11 @@ private extension MovieListViewController {
     }
     
     func fetchMovies() {
+        setLoading(true)
         service.fetchMovies { [weak self] (result) in
             guard let strongSelf = self else { return }
+            
+            strongSelf.setLoading(false)
             
             switch result {
             case .success(let movies):
@@ -65,11 +67,6 @@ private extension MovieListViewController {
                 strongSelf.handleError(error)
             }
         }
-    }
-    
-    func configureTableView() {
-        tableView.delegate = self
-        tableView.dataSource = self
     }
     
     func setLoading(_ flag: Bool) {
