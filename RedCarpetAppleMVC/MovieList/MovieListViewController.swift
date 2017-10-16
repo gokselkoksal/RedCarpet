@@ -9,7 +9,7 @@
 import UIKit
 import Commons
 
-class MovieListViewController: UIViewController {
+class MovieListViewController: UITableViewController {
     
     private enum Const {
         static let cellId = "MovieCell"
@@ -19,9 +19,12 @@ class MovieListViewController: UIViewController {
         static let detail = "showDetail"
     }
     
-    @IBOutlet weak var tableView: UITableView!
+    private var movies: [Movie] = [] {
+        didSet {
+            tableView.reloadData()
+        }
+    }
     
-    private var movies: [Movie] = []
     private var service: MovieServiceProtocol!
     
     override func viewDidLoad() {
@@ -86,13 +89,15 @@ private extension MovieListViewController {
     }
 }
 
-extension MovieListViewController: UITableViewDataSource {
+// MARK: - UITableViewDataSource
+
+extension MovieListViewController {
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return movies.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell
         
         if let someCell = tableView.dequeueReusableCell(withIdentifier: Const.cellId) {
@@ -111,9 +116,11 @@ extension MovieListViewController: UITableViewDataSource {
     }
 }
 
-extension MovieListViewController: UITableViewDelegate {
+// MARK: - UITableViewDelegate
+
+extension MovieListViewController {
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
         
         let movie = movies[indexPath.row]
