@@ -11,10 +11,6 @@ import Commons
 
 class MovieListViewController: UITableViewController {
     
-    private enum Const {
-        static let cellId = "MovieCell"
-    }
-    
     private enum SegueId {
         static let detail = "showDetail"
     }
@@ -96,11 +92,12 @@ extension MovieListViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell
+        let cellId = "defaultCell"
         
-        if let someCell = tableView.dequeueReusableCell(withIdentifier: Const.cellId) {
+        if let someCell = tableView.dequeueReusableCell(withIdentifier: cellId) {
             cell = someCell
         } else {
-            cell = UITableViewCell(style: .subtitle, reuseIdentifier: Const.cellId)
+            cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellId)
         }
         
         let movie = movies[indexPath.row]

@@ -11,22 +11,15 @@ import Commons
 
 class MovieDetailViewController: UITableViewController {
     
-    private enum Const {
-        static let cellId = "DetailCell"
-    }
-    
     var movie: Movie!
-    var presentation: MovieDetailPresentation? {
-        didSet {
-            tableView.reloadData()
-        }
-    }
+    private var presentation: MovieDetailPresentation?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Movie Detail"
         configureTableView()
         presentation = MovieDetailPresentation(movie: movie)
+        tableView.reloadData()
     }
 }
 
@@ -49,11 +42,12 @@ extension MovieDetailViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell
+        let cellId = "defaultCell"
         
-        if let someCell = tableView.dequeueReusableCell(withIdentifier: Const.cellId) {
+        if let someCell = tableView.dequeueReusableCell(withIdentifier: cellId) {
             cell = someCell
         } else {
-            cell = UITableViewCell(style: .value2, reuseIdentifier: Const.cellId)
+            cell = UITableViewCell(style: .value2, reuseIdentifier: cellId)
         }
         
         // Presentation can't possibly be nil at this point.
