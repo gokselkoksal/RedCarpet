@@ -12,10 +12,10 @@ import Commons
 final class MovieListViewModel: MovieListViewModelProtocol {
     
     private(set) var movies: [Movie] = []
-    private var service: MovieServiceProtocol
+    private let service: MovieServiceProtocol
     var changeHandler: ((MovieListViewModelChange) -> Void)?
     
-    required init(service: MovieServiceProtocol) {
+    init(service: MovieServiceProtocol) {
         self.service = service
     }
     

@@ -40,14 +40,6 @@ final class MovieListViewController: UITableViewController {
 private extension MovieListViewController {
     
     func bindViewModel() {
-        #if MOCK
-            let service = MockMovieService()
-        #else
-            let service = MovieService()
-        #endif
-        
-        viewModel = MovieListViewModel(service: service)
-        
         viewModel.changeHandler = { [weak self] change in
             guard let strongSelf = self else { return }
             

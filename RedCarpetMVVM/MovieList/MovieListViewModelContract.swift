@@ -20,6 +20,5 @@ protocol MovieListViewModelProtocol {
     var movies: [Movie] { get }
     var changeHandler: ((MovieListViewModelChange) -> Void)? { get set }
     
-    init(service: MovieServiceProtocol)
     func fetchMovies()
 }
