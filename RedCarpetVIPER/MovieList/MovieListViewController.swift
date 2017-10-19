@@ -15,7 +15,7 @@ final class MovieListViewController: UITableViewController {
         static let detail = "showDetail"
     }
     
-    var eventHandler: MovieListEventHandlerProtocol!
+    var presenter: MovieListPresenterProtocol!
     
     private var moviePresentations: [MovieListPresentation] = [] {
         didSet {
@@ -26,7 +26,7 @@ final class MovieListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Movie List"
-        eventHandler.didLoad()
+        presenter.didLoad()
     }
 }
 
@@ -86,6 +86,6 @@ extension MovieListViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
-        eventHandler.didTapOnMovie(at: indexPath.row)
+        presenter.didTapOnMovie(at: indexPath.row)
     }
 }

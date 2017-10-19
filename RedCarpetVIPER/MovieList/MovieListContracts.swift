@@ -9,18 +9,18 @@
 import Foundation
 import Commons
 
-protocol MovieListProviderProtocol: class {
-    weak var output: MovieListProviderOutputProtocol? { get set }
+protocol MovieListInteractorProtocol: class {
+    weak var output: MovieListInteractorOutputProtocol? { get set }
     func fetchMovies()
 }
 
-protocol MovieListProviderOutputProtocol: class {
+protocol MovieListInteractorOutputProtocol: class {
     func receiveMovies(_ movies: [Movie])
     func receiveNetworkActivityStatus(isActive: Bool)
     func receiveError(_ error: Error)
 }
 
-protocol MovieListEventHandlerProtocol: class {
+protocol MovieListPresenterProtocol: class {
     func didLoad()
     func didTapOnMovie(at index: Int)
 }

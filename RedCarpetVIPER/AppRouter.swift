@@ -44,6 +44,6 @@ final class AppRouter {
             view: vc
         )
         
-        vc.eventHandler = presenter
+        vc.presenter = presenter
     }
 }

@@ -9,10 +9,10 @@
 import Foundation
 import Commons
 
-final class MovieListInteractor: MovieListProviderProtocol {
+final class MovieListInteractor: MovieListInteractorProtocol {
     
     let service: MovieServiceProtocol
-    weak var output: MovieListProviderOutputProtocol?
+    weak var output: MovieListInteractorOutputProtocol?
     
     init(service: MovieServiceProtocol) {
         self.service = service
