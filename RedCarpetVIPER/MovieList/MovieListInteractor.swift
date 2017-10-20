@@ -12,7 +12,7 @@ import Commons
 final class MovieListInteractor: MovieListInteractorProtocol {
     
     let service: MovieServiceProtocol
-    weak var output: MovieListInteractorOutputProtocol?
+    weak var output: MovieListInteractorOutput?
     
     init(service: MovieServiceProtocol) {
         self.service = service

@@ -10,11 +10,11 @@ import Foundation
 import Commons
 
 protocol MovieListInteractorProtocol: class {
-    weak var output: MovieListInteractorOutputProtocol? { get set }
+    weak var output: MovieListInteractorOutput? { get set }
     func fetchMovies()
 }
 
-protocol MovieListInteractorOutputProtocol: class {
+protocol MovieListInteractorOutput: class {
     func receiveMovies(_ movies: [Movie])
     func receiveNetworkActivityStatus(isActive: Bool)
     func receiveError(_ error: Error)

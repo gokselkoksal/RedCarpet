@@ -11,7 +11,7 @@ import Commons
 
 final class MovieListPresenter {
     
-    private let provider: MovieListInteractorProtocol
+    private let interactor: MovieListInteractorProtocol
     private let router: MovieListRouterProtocol
     
     weak var view: MovieListViewProtocol?
@@ -22,18 +22,18 @@ final class MovieListPresenter {
          router: MovieListRouter,
          view: MovieListViewProtocol) {
         
-        self.provider = provider
+        self.interactor = provider
         self.router = router
         self.view = view
         
-        self.provider.output = self
+        self.interactor.output = self
     }
 }
 
 extension MovieListPresenter: MovieListPresenterProtocol {
     
     func didLoad() {
-        provider.fetchMovies()
+        interactor.fetchMovies()
     }
     
     func didTapOnMovie(at index: Int) {
@@ -43,7 +43,7 @@ extension MovieListPresenter: MovieListPresenterProtocol {
     }
 }
 
-extension MovieListPresenter: MovieListInteractorOutputProtocol {
+extension MovieListPresenter: MovieListInteractorOutput {
     
     func receiveError(_ error: Error) {
         view?.handleError(error)
