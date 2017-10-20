@@ -36,10 +36,10 @@ final class AppRouter {
             let service = MovieService()
         #endif
         
-        let provider = MovieListInteractor(service: service)
+        let interactor = MovieListInteractor(service: service)
         let router = MovieListRouter(view: vc)
         let presenter = MovieListPresenter(
-            provider: provider,
+            interactor: interactor,
             router: router,
             view: vc
         )

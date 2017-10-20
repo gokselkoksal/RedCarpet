@@ -17,11 +17,7 @@ final class MovieListViewController: UITableViewController {
     
     var presenter: MovieListPresenterProtocol!
     
-    private var moviePresentations: [MovieListPresentation] = [] {
-        didSet {
-            tableView.reloadData()
-        }
-    }
+    private var moviePresentations: [MovieListPresentation] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +30,7 @@ extension MovieListViewController: MovieListViewProtocol {
     
     func updateMoviePresentations(_ presentations: [MovieListPresentation]) {
         self.moviePresentations = presentations
+        tableView.reloadData()
     }
     
     func handleError(_ error: Error) {

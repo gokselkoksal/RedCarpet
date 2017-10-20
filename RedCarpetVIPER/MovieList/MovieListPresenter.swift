@@ -18,11 +18,11 @@ final class MovieListPresenter {
     
     private var movies: [Movie] = []
     
-    init(provider: MovieListInteractorProtocol,
+    init(interactor: MovieListInteractorProtocol,
          router: MovieListRouter,
          view: MovieListViewProtocol) {
         
-        self.interactor = provider
+        self.interactor = interactor
         self.router = router
         self.view = view
         
