@@ -9,10 +9,6 @@
 import Foundation
 import Commons
 
-protocol MovieDetailPresenterProtocol {
-    var moviePresentation: MovieDetailPresentation { get }
-}
-
 class MovieDetailPresenter: MovieDetailPresenterProtocol {
     
     let moviePresentation: MovieDetailPresentation
