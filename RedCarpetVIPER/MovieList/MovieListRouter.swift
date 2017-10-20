@@ -25,7 +25,8 @@ final class MovieListRouter: MovieListRouterProtocol {
             return
         }
         
-        vc.presentation = presentation
+        let presenter = MovieDetailPresenter(moviePresentation: presentation)
+        vc.presenter = presenter
         
         view?.navigationController?.pushViewController(vc, animated: true)
     }

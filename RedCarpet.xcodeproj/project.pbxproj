@@ -13,6 +13,7 @@
 		542B5C46FB6BEA262C48E2F1 /* Pods_CommonsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C866775C005186FD1CD629 /* Pods_CommonsTests.framework */; };
 		57F2D55DF233DC033562E25A /* Pods_RedCarpetVIPERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93B24F5A7A9F103BD77414 /* Pods_RedCarpetVIPERTests.framework */; };
 		5E74BA1AA29A1B53443486FE /* Pods_RedCarpetMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989DD4F11CD934E9EE4DE483 /* Pods_RedCarpetMVVM.framework */; };
+		6205733B1F9A75A700A4A45D /* MovieDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6205733A1F9A75A700A4A45D /* MovieDetailPresenter.swift */; };
 		622FE3AF1F8AAEE000FBE993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622FE3AE1F8AAEE000FBE993 /* Main.storyboard */; };
 		62651C3E1F895DFA00094DC3 /* AppLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62651C3D1F895DFA00094DC3 /* AppLauncher.swift */; };
 		62651C411F895FBD00094DC3 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62651C401F895FBD00094DC3 /* MovieDetailView.swift */; };
@@ -257,6 +258,7 @@
 		550FC9BD49545A951C36BBD3 /* Pods-RedCarpetMVPTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVPTests.mock.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVPTests/Pods-RedCarpetMVPTests.mock.xcconfig"; sourceTree = "<group>"; };
 		572C057DF085EC0377F6E518 /* Pods-CommonsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonsTests/Pods-CommonsTests.release.xcconfig"; sourceTree = "<group>"; };
 		60B42B0BA2E21CBEFCCC5F9A /* Pods-RedCarpetAppleMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetAppleMVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetAppleMVC/Pods-RedCarpetAppleMVC.release.xcconfig"; sourceTree = "<group>"; };
+		6205733A1F9A75A700A4A45D /* MovieDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailPresenter.swift; sourceTree = "<group>"; };
 		622FE3AE1F8AAEE000FBE993 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		62651C3D1F895DFA00094DC3 /* AppLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLauncher.swift; sourceTree = "<group>"; };
 		62651C401F895FBD00094DC3 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
@@ -664,6 +666,7 @@
 		6290F72B1F95261800CB6B51 /* MovieDetail */ = {
 			isa = PBXGroup;
 			children = (
+				6205733A1F9A75A700A4A45D /* MovieDetailPresenter.swift */,
 				6290F7281F9525E700CB6B51 /* MovieDetailViewController.swift */,
 			);
 			path = MovieDetail;
@@ -1968,6 +1971,7 @@
 				6290F72F1F9529B700CB6B51 /* MovieListInteractor.swift in Sources */,
 				6290F7351F95318900CB6B51 /* AppRouter.swift in Sources */,
 				6290F7331F952C6100CB6B51 /* MovieListRouter.swift in Sources */,
+				6205733B1F9A75A700A4A45D /* MovieDetailPresenter.swift in Sources */,
 				62BA75651F8A894500C2CC63 /* AppDelegate.swift in Sources */,
 				6290F7291F9525E700CB6B51 /* MovieDetailViewController.swift in Sources */,
 			);

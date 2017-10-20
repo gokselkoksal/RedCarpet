@@ -11,7 +11,11 @@ import Commons
 
 final class MovieDetailViewController: UITableViewController {
     
-    var presentation: MovieDetailPresentation!
+    var presenter: MovieDetailPresenterProtocol!
+    
+    var presentation: MovieDetailPresentation {
+        return presenter.moviePresentation
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +39,7 @@ private extension MovieDetailViewController {
 extension MovieDetailViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return presentation?.infoList.count ?? 0
+        return presentation.infoList.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -50,7 +54,7 @@ extension MovieDetailViewController {
         
         // Presentation can't possibly be nil at this point.
         // If it is nil, there's a programmer error.
-        let row = presentation!.infoList[indexPath.row]
+        let row = presentation.infoList[indexPath.row]
         
         cell.textLabel?.text = row.title
         cell.detailTextLabel?.text = row.detail
