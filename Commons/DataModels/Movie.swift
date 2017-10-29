@@ -25,6 +25,13 @@ public struct Movie {
     }()
 }
 
+extension Movie: CustomStringConvertible {
+    
+    public var description: String {
+        return name
+    }
+}
+
 extension Movie: Unboxable {
     
     public init(unboxer: Unboxer) throws {

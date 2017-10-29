@@ -26,6 +26,7 @@
 		625C51CF1FA64435005C537E /* MovieDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625C51CE1FA64435005C537E /* MovieDetailPresenter.swift */; };
 		625C51D11FA648D4005C537E /* MovieDetailLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625C51D01FA648D4005C537E /* MovieDetailLogic.swift */; };
 		625C51D31FA64BEE005C537E /* AppLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625C51D21FA64BEE005C537E /* AppLauncher.swift */; };
+		625C51D51FA65318005C537E /* LoggerMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625C51D41FA65318005C537E /* LoggerMiddleware.swift */; };
 		62651C3E1F895DFA00094DC3 /* AppLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62651C3D1F895DFA00094DC3 /* AppLauncher.swift */; };
 		62651C411F895FBD00094DC3 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62651C401F895FBD00094DC3 /* MovieDetailView.swift */; };
 		62651C431F895FC800094DC3 /* MovieDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62651C421F895FC800094DC3 /* MovieDetailView.xib */; };
@@ -270,6 +271,7 @@
 		625C51CE1FA64435005C537E /* MovieDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailPresenter.swift; sourceTree = "<group>"; };
 		625C51D01FA648D4005C537E /* MovieDetailLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieDetailLogic.swift; path = ../../../../../../.Trash/MovieDetailLogic.swift; sourceTree = "<group>"; };
 		625C51D21FA64BEE005C537E /* AppLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLauncher.swift; sourceTree = "<group>"; };
+		625C51D41FA65318005C537E /* LoggerMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerMiddleware.swift; sourceTree = "<group>"; };
 		62651C3D1F895DFA00094DC3 /* AppLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLauncher.swift; sourceTree = "<group>"; };
 		62651C401F895FBD00094DC3 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 		62651C421F895FC800094DC3 /* MovieDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailView.xib; sourceTree = "<group>"; };
@@ -587,6 +589,7 @@
 				625C51BD1FA630A3005C537E /* MovieListLogic.swift */,
 				625C51D01FA648D4005C537E /* MovieDetailLogic.swift */,
 				625C51C71FA63F4D005C537E /* NavigationLogic.swift */,
+				625C51D41FA65318005C537E /* LoggerMiddleware.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -2002,6 +2005,7 @@
 				62A092871FA61B060095DCF8 /* MovieListViewController.swift in Sources */,
 				625C51D31FA64BEE005C537E /* AppLauncher.swift in Sources */,
 				625C51C61FA6368E005C537E /* MovieListPresenter.swift in Sources */,
+				625C51D51FA65318005C537E /* LoggerMiddleware.swift in Sources */,
 				628464601FA62EBB00FAFD90 /* Reactor.swift in Sources */,
 				625C51CF1FA64435005C537E /* MovieDetailPresenter.swift in Sources */,
 				625C51C01FA630C8005C537E /* AppLogic.swift in Sources */,

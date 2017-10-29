@@ -8,7 +8,16 @@
 
 import Foundation
 
-let core = Core(state: AppState())
+#if DEBUG
+    private let middlewares: [AnyMiddleware] = [LoggerMiddleware()]
+#else
+    private let middlewares: [AnyMiddleware] = []
+#endif
+
+let core = Core(
+    state: AppState(),
+    middlewares: middlewares
+)
 
 struct AppState: State {
     var navigationState: NavigationState = NavigationState(event: NavigationEvent.showMovieList)
