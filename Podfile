@@ -58,3 +58,14 @@ target 'RedCarpetVIPER' do
     end
     
 end
+
+target 'RedCarpetRedux' do
+    
+    use_frameworks!
+    platform :ios, '11.0'
+    
+    target 'RedCarpetReduxTests' do
+        inherit! :search_paths
+    end
+    
+end
