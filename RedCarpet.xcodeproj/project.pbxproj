@@ -37,8 +37,6 @@
 		62847ED91F8AF5A600B1DF61 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		62847EDB1F8AF5AD00B1DF61 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; };
 		62847EDC1F8AF5AD00B1DF61 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		62847EDE1F8AF5B500B1DF61 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; };
-		62847EDF1F8AF5B500B1DF61 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6290F71B1F9512BD00CB6B51 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6290F71A1F9512BD00CB6B51 /* MovieListViewController.swift */; };
 		6290F71D1F9512C900CB6B51 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6290F71C1F9512C900CB6B51 /* MovieDetailViewController.swift */; };
 		6290F7211F95135D00CB6B51 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6290F7201F95135D00CB6B51 /* MovieListViewModel.swift */; };
@@ -64,12 +62,6 @@
 		62BA756C1F8A894500C2CC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BA756B1F8A894500C2CC63 /* Assets.xcassets */; };
 		62BA756F1F8A894500C2CC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BA756D1F8A894500C2CC63 /* LaunchScreen.storyboard */; };
 		62BA757A1F8A894500C2CC63 /* RedCarpetVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA75791F8A894500C2CC63 /* RedCarpetVIPERTests.swift */; };
-		62BA758D1F8A89D300C2CC63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA758C1F8A89D300C2CC63 /* AppDelegate.swift */; };
-		62BA758F1F8A89D300C2CC63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA758E1F8A89D300C2CC63 /* ViewController.swift */; };
-		62BA75921F8A89D300C2CC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BA75901F8A89D300C2CC63 /* Main.storyboard */; };
-		62BA75941F8A89D300C2CC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BA75931F8A89D300C2CC63 /* Assets.xcassets */; };
-		62BA75971F8A89D300C2CC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BA75951F8A89D300C2CC63 /* LaunchScreen.storyboard */; };
-		62BA75A21F8A89D300C2CC63 /* RedCarpetMVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA75A11F8A89D300C2CC63 /* RedCarpetMVPTests.swift */; };
 		62D632531F97F3D6007950A3 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D632521F97F3D6007950A3 /* AppRouter.swift */; };
 		62E189D11F8AEC4700B84780 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E189D01F8AEC4700B84780 /* MovieDetailViewController.swift */; };
 		62E663151F893D7300DEA274 /* MovieServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E663141F893D7300DEA274 /* MovieServiceProtocol.swift */; };
@@ -88,9 +80,7 @@
 		62F4C8F11F89525700977402 /* MovieListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F4C8F01F89525700977402 /* MovieListView.xib */; };
 		62F4C8F51F89547700977402 /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4C8F41F89547700977402 /* Date+Helpers.swift */; };
 		79B5C883FBA62C732AC2B048 /* Pods_Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520406770DFD718402E4AC1F /* Pods_Commons.framework */; };
-		89A3D46D6F7C5324974950E5 /* Pods_RedCarpetMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E69B7B9D5796B89E49E52889 /* Pods_RedCarpetMVP.framework */; };
 		973EF2086FCAB43D2D3A2DFD /* Pods_RedCarpetVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF941AA7690C12594655337D /* Pods_RedCarpetVIPER.framework */; };
-		AA40D2B255A1D35B940E3D99 /* Pods_RedCarpetMVPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243E30F0426CFEA3EA93426C /* Pods_RedCarpetMVPTests.framework */; };
 		BE37033F8C7D20C4AC900D0E /* Pods_RedCarpetAppleMVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52E43324381FC3D523BCC31 /* Pods_RedCarpetAppleMVC.framework */; };
 		F5405F599B6275B88B2AB5D4 /* Pods_RedCarpetAppleMVCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5F91AE2A32BC8CDAD726C9 /* Pods_RedCarpetAppleMVCTests.framework */; };
 /* End PBXBuildFile section */
@@ -146,20 +136,6 @@
 			remoteInfo = RedCarpetVIPER;
 		};
 		62BA75841F8A895900C2CC63 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62846BA51F893370000BBAC6;
-			remoteInfo = Commons;
-		};
-		62BA759E1F8A89D300C2CC63 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62BA75891F8A89D300C2CC63;
-			remoteInfo = RedCarpetMVP;
-		};
-		62BA75AC1F8A89E500C2CC63 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
 			proxyType = 1;
@@ -223,17 +199,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				62847EDC1F8AF5AD00B1DF61 /* Commons.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62847EE01F8AF5B500B1DF61 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				62847EDF1F8AF5B500B1DF61 /* Commons.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,16 +279,6 @@
 		62BA75751F8A894500C2CC63 /* RedCarpetVIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetVIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BA75791F8A894500C2CC63 /* RedCarpetVIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetVIPERTests.swift; sourceTree = "<group>"; };
 		62BA757B1F8A894500C2CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62BA758A1F8A89D300C2CC63 /* RedCarpetMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedCarpetMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		62BA758C1F8A89D300C2CC63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62BA758E1F8A89D300C2CC63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		62BA75911F8A89D300C2CC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		62BA75931F8A89D300C2CC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		62BA75961F8A89D300C2CC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		62BA75981F8A89D300C2CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62BA759D1F8A89D300C2CC63 /* RedCarpetMVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetMVPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62BA75A11F8A89D300C2CC63 /* RedCarpetMVPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetMVPTests.swift; sourceTree = "<group>"; };
-		62BA75A31F8A89D300C2CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D632521F97F3D6007950A3 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		62E189D01F8AEC4700B84780 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		62E663141F893D7300DEA274 /* MovieServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceProtocol.swift; sourceTree = "<group>"; };
@@ -449,23 +404,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62BA75871F8A89D300C2CC63 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62847EDE1F8AF5B500B1DF61 /* Commons.framework in Frameworks */,
-				89A3D46D6F7C5324974950E5 /* Pods_RedCarpetMVP.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62BA759A1F8A89D300C2CC63 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA40D2B255A1D35B940E3D99 /* Pods_RedCarpetMVPTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62F3A3961F897A8100843721 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,8 +486,6 @@
 				62F3A3AF1F897A8200843721 /* RedCarpetAppleMVCTests */,
 				62BA753B1F8A887C00C2CC63 /* RedCarpetMVVM */,
 				62BA75501F8A887C00C2CC63 /* RedCarpetMVVMTests */,
-				62BA758B1F8A89D300C2CC63 /* RedCarpetMVP */,
-				62BA75A01F8A89D300C2CC63 /* RedCarpetMVPTests */,
 				62BA75631F8A894500C2CC63 /* RedCarpetVIPER */,
 				62BA75781F8A894500C2CC63 /* RedCarpetVIPERTests */,
 				62846BA71F893370000BBAC6 /* Commons */,
@@ -573,8 +509,6 @@
 				62BA754D1F8A887C00C2CC63 /* RedCarpetMVVMTests.xctest */,
 				62BA75621F8A894500C2CC63 /* RedCarpetVIPER.app */,
 				62BA75751F8A894500C2CC63 /* RedCarpetVIPERTests.xctest */,
-				62BA758A1F8A89D300C2CC63 /* RedCarpetMVP.app */,
-				62BA759D1F8A89D300C2CC63 /* RedCarpetMVPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -721,28 +655,6 @@
 				62BA757B1F8A894500C2CC63 /* Info.plist */,
 			);
 			path = RedCarpetVIPERTests;
-			sourceTree = "<group>";
-		};
-		62BA758B1F8A89D300C2CC63 /* RedCarpetMVP */ = {
-			isa = PBXGroup;
-			children = (
-				62BA758C1F8A89D300C2CC63 /* AppDelegate.swift */,
-				62BA758E1F8A89D300C2CC63 /* ViewController.swift */,
-				62BA75901F8A89D300C2CC63 /* Main.storyboard */,
-				62BA75931F8A89D300C2CC63 /* Assets.xcassets */,
-				62BA75951F8A89D300C2CC63 /* LaunchScreen.storyboard */,
-				62BA75981F8A89D300C2CC63 /* Info.plist */,
-			);
-			path = RedCarpetMVP;
-			sourceTree = "<group>";
-		};
-		62BA75A01F8A89D300C2CC63 /* RedCarpetMVPTests */ = {
-			isa = PBXGroup;
-			children = (
-				62BA75A11F8A89D300C2CC63 /* RedCarpetMVPTests.swift */,
-				62BA75A31F8A89D300C2CC63 /* Info.plist */,
-			);
-			path = RedCarpetMVPTests;
 			sourceTree = "<group>";
 		};
 		62E663131F893D5E00DEA274 /* Services */ = {
@@ -1014,49 +926,6 @@
 			productReference = 62BA75751F8A894500C2CC63 /* RedCarpetVIPERTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		62BA75891F8A89D300C2CC63 /* RedCarpetMVP */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62BA75A41F8A89D300C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetMVP" */;
-			buildPhases = (
-				F1ADEAFBE9516565926B9ABA /* [CP] Check Pods Manifest.lock */,
-				62BA75861F8A89D300C2CC63 /* Sources */,
-				62BA75871F8A89D300C2CC63 /* Frameworks */,
-				62BA75881F8A89D300C2CC63 /* Resources */,
-				62847EE01F8AF5B500B1DF61 /* Embed Frameworks */,
-				4942CD7674CF52589B4270A4 /* [CP] Embed Pods Frameworks */,
-				AD487DDCD35528CBE2779DF0 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62BA75AD1F8A89E500C2CC63 /* PBXTargetDependency */,
-			);
-			name = RedCarpetMVP;
-			productName = RedCarpetMVP;
-			productReference = 62BA758A1F8A89D300C2CC63 /* RedCarpetMVP.app */;
-			productType = "com.apple.product-type.application";
-		};
-		62BA759C1F8A89D300C2CC63 /* RedCarpetMVPTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62BA75A81F8A89D300C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetMVPTests" */;
-			buildPhases = (
-				AAA067D12203A6E676DDE0D5 /* [CP] Check Pods Manifest.lock */,
-				62BA75991F8A89D300C2CC63 /* Sources */,
-				62BA759A1F8A89D300C2CC63 /* Frameworks */,
-				62BA759B1F8A89D300C2CC63 /* Resources */,
-				046840F967268CCD89D6D249 /* [CP] Embed Pods Frameworks */,
-				E4F51611319EA3104417F9AF /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62BA759F1F8A89D300C2CC63 /* PBXTargetDependency */,
-			);
-			name = RedCarpetMVPTests;
-			productName = RedCarpetMVPTests;
-			productReference = 62BA759D1F8A89D300C2CC63 /* RedCarpetMVPTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		62F3A3981F897A8100843721 /* RedCarpetAppleMVC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62F3A3B31F897A8200843721 /* Build configuration list for PBXNativeTarget "RedCarpetAppleMVC" */;
@@ -1147,15 +1016,6 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 62BA75611F8A894500C2CC63;
 					};
-					62BA75891F8A89D300C2CC63 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-					};
-					62BA759C1F8A89D300C2CC63 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 62BA75891F8A89D300C2CC63;
-					};
 					62F3A3981F897A8100843721 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -1188,8 +1048,6 @@
 				62BA754C1F8A887C00C2CC63 /* RedCarpetMVVMTests */,
 				62BA75611F8A894500C2CC63 /* RedCarpetVIPER */,
 				62BA75741F8A894500C2CC63 /* RedCarpetVIPERTests */,
-				62BA75891F8A89D300C2CC63 /* RedCarpetMVP */,
-				62BA759C1F8A89D300C2CC63 /* RedCarpetMVPTests */,
 				62846BA51F893370000BBAC6 /* Commons */,
 				62846BAD1F893370000BBAC6 /* CommonsTests */,
 			);
@@ -1264,23 +1122,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62BA75881F8A89D300C2CC63 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62BA75971F8A89D300C2CC63 /* LaunchScreen.storyboard in Resources */,
-				62BA75941F8A89D300C2CC63 /* Assets.xcassets in Resources */,
-				62BA75921F8A89D300C2CC63 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62BA759B1F8A89D300C2CC63 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62F3A3971F897A8100843721 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1317,21 +1158,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		046840F967268CCD89D6D249 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedCarpetMVPTests/Pods-RedCarpetMVPTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		083BD7D7343C48452A8E359C /* [CP] Embed Pods Frameworks */ = {
@@ -1377,26 +1203,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonsTests/Pods-CommonsTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4942CD7674CF52589B4270A4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RedCarpetMVP/Pods-RedCarpetMVP-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Unbox/Unbox.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Unbox.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedCarpetMVP/Pods-RedCarpetMVP-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		54BD483B7A9B706F8733B537 /* [CP] Embed Pods Frameworks */ = {
@@ -1669,39 +1475,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedCarpetVIPERTests/Pods-RedCarpetVIPERTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AAA067D12203A6E676DDE0D5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RedCarpetMVPTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AD487DDCD35528CBE2779DF0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedCarpetMVP/Pods-RedCarpetMVP-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B1F3A4F9B5F4BD8E4FD77CFD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1841,39 +1614,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedCarpetMVC/Pods-RedCarpetMVC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E4F51611319EA3104417F9AF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedCarpetMVPTests/Pods-RedCarpetMVPTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F1ADEAFBE9516565926B9ABA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RedCarpetMVP-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FC61C2B2FD70A54EC9D58D87 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1989,23 +1729,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62BA75861F8A89D300C2CC63 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62BA758F1F8A89D300C2CC63 /* ViewController.swift in Sources */,
-				62BA758D1F8A89D300C2CC63 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62BA75991F8A89D300C2CC63 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62BA75A21F8A89D300C2CC63 /* RedCarpetMVPTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62F3A3951F897A8100843721 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2067,16 +1790,6 @@
 			target = 62846BA51F893370000BBAC6 /* Commons */;
 			targetProxy = 62BA75841F8A895900C2CC63 /* PBXContainerItemProxy */;
 		};
-		62BA759F1F8A89D300C2CC63 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62BA75891F8A89D300C2CC63 /* RedCarpetMVP */;
-			targetProxy = 62BA759E1F8A89D300C2CC63 /* PBXContainerItemProxy */;
-		};
-		62BA75AD1F8A89E500C2CC63 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62846BA51F893370000BBAC6 /* Commons */;
-			targetProxy = 62BA75AC1F8A89E500C2CC63 /* PBXContainerItemProxy */;
-		};
 		62F3A3AE1F897A8100843721 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 62F3A3981F897A8100843721 /* RedCarpetAppleMVC */;
@@ -2126,22 +1839,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				62BA756E1F8A894500C2CC63 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		62BA75901F8A89D300C2CC63 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62BA75911F8A89D300C2CC63 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		62BA75951F8A89D300C2CC63 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62BA75961F8A89D300C2CC63 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2754,99 +2451,6 @@
 			};
 			name = Release;
 		};
-		62BA75A51F8A89D300C2CC63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38321DFE0C9523A4BDE89C21 /* Pods-RedCarpetMVP.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetMVP/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVP;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		62BA75A61F8A89D300C2CC63 /* Mock */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2C05CA836E083FF3361866E /* Pods-RedCarpetMVP.mock.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetMVP/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVP;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Mock;
-		};
-		62BA75A71F8A89D300C2CC63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F43AE5648A9D40D2B9D92936 /* Pods-RedCarpetMVP.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetMVP/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVP;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		62BA75A91F8A89D300C2CC63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A9585BDB7D9BA2900B171B5 /* Pods-RedCarpetMVPTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetMVPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVPTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetMVP.app/RedCarpetMVP";
-			};
-			name = Debug;
-		};
-		62BA75AA1F8A89D300C2CC63 /* Mock */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 550FC9BD49545A951C36BBD3 /* Pods-RedCarpetMVPTests.mock.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetMVPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVPTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetMVP.app/RedCarpetMVP";
-			};
-			name = Mock;
-		};
-		62BA75AB1F8A89D300C2CC63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA42D646D9D9AAFAF363EE3B /* Pods-RedCarpetMVPTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetMVPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVPTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetMVP.app/RedCarpetMVP";
-			};
-			name = Release;
-		};
 		62F3A3B41F897A8200843721 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB379F1655B3CFCC30BF7D3A /* Pods-RedCarpetAppleMVC.debug.xcconfig */;
@@ -2998,26 +2602,6 @@
 				62BA75811F8A894500C2CC63 /* Debug */,
 				62BA75821F8A894500C2CC63 /* Mock */,
 				62BA75831F8A894500C2CC63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62BA75A41F8A89D300C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetMVP" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62BA75A51F8A89D300C2CC63 /* Debug */,
-				62BA75A61F8A89D300C2CC63 /* Mock */,
-				62BA75A71F8A89D300C2CC63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62BA75A81F8A89D300C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetMVPTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62BA75A91F8A89D300C2CC63 /* Debug */,
-				62BA75AA1F8A89D300C2CC63 /* Mock */,
-				62BA75AB1F8A89D300C2CC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

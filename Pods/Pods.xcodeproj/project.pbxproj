@@ -8,39 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		0839FBB35586A94A184D5D4437A0F039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
-		091FE00DD577B31797CA3AA3CBB04AE1 /* Pods-RedCarpetAppleMVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8272E4D6C89F27126FE42AFA7B4CD38 /* Pods-RedCarpetAppleMVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091FE00DD577B31797CA3AA3CBB04AE1 /* Pods-RedCarpetAppleMVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1C916EE43C6AF4D01E3C73B74B9FD3 /* Pods-RedCarpetAppleMVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A43F620B46AAA2E412429E125F6846C /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F3C32109C6BFC7A6408A4ABE7EA15 /* ResponseSerialization.swift */; };
 		0BD336B277CD90A74794559B72B68993 /* UnboxError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25239ADD8A501E39AE776CF15237FAE /* UnboxError.swift */; };
-		0C030080B5E98C1F8115778A785B2D57 /* Pods-CommonsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB9981C26E99A34A877580DF93ECA18 /* Pods-CommonsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C030080B5E98C1F8115778A785B2D57 /* Pods-CommonsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4C777725DF26475F4FD11E9522E6A9 /* Pods-CommonsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C49131E9C336CDB73E16CB9C59F0F0B /* UnboxFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC81D687514B914C47ABD93624561351 /* UnboxFormatter.swift */; };
-		142D70C522E16C339B06D1D8A2A9CB9C /* Pods-RedCarpetMVPTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA707E7BB2CC41C8E8EB0D8CE2D023A /* Pods-RedCarpetMVPTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		153C753EDDE4D9AB697F904D108D5867 /* NSDictionary+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B545E93EAA0B2ED15F9AC854FE036B14 /* NSDictionary+Unbox.swift */; };
 		169637D725D0DFF754A1454F3B1643F6 /* UnboxContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2D5AC3C3B04CD48FEB609811A9A23 /* UnboxContainer.swift */; };
 		1A320E07C18DF3FA1A6F386153785BAB /* UnboxableEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756BD66AA47C8C7F2AB23DC799BD6880 /* UnboxableEnum.swift */; };
-		225AB8515F02329BF6BD93C894B9FEF6 /* Pods-Commons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46124B23B69A67DDA0530D485D0668D3 /* Pods-Commons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22AF072C3A3A958D04299A8C652DA72D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		225AB8515F02329BF6BD93C894B9FEF6 /* Pods-Commons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BB06C4F27EA9AB1F15B25414B15BCF /* Pods-Commons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23807F87C4D1CEECE04EDA1E010C2EB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
 		241519FE974DCDCD3886801345BD78B7 /* UnboxableRawType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91C2673B9A7E0875F598333C296B39D /* UnboxableRawType.swift */; };
 		286C483A441329F7FBB73CC24802BE34 /* UnboxableByTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A135BECC7AA313E56C06583B91D6AA /* UnboxableByTransform.swift */; };
 		29E85186F8718A0C958D6A2B52A438B4 /* JSONSerialization+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C52A94332FD8F971EF59BAE82B4F9 /* JSONSerialization+Unbox.swift */; };
 		2AA7CF24985769D1BC0133ABB8259A59 /* Unboxer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534A13416A833DF23CFF42A463B31EC7 /* Unboxer.swift */; };
-		2D0ED495A392490B554E5F270A70AC25 /* Pods-RedCarpetMVVMTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37585E0C766898D8CDD5EFA321EBF890 /* Pods-RedCarpetMVVMTests-dummy.m */; };
-		365E18BF3D9A571CDB92BC6494670811 /* Pods-RedCarpetVIPERTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0697F180C9857C12D74902441C676B79 /* Pods-RedCarpetVIPERTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D0ED495A392490B554E5F270A70AC25 /* Pods-RedCarpetMVVMTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CC3B5DA62823A98B99B812ED81D46 /* Pods-RedCarpetMVVMTests-dummy.m */; };
+		365E18BF3D9A571CDB92BC6494670811 /* Pods-RedCarpetVIPERTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0F4500300FBE9E7AD6E9C1AE926F59 /* Pods-RedCarpetVIPERTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3746C021DDB96B8E8077AAE1F47B2139 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA0865B6BFF66793070D6C7D71ABEC8 /* Typealiases.swift */; };
 		380B6326BB050391BE9BFD8427A5986E /* UnboxArrayContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F346573346D43FEBF344C55EFF7F03 /* UnboxArrayContainer.swift */; };
-		393FE5CA6E0938CF2077B7F3689A93A5 /* Pods-RedCarpetVIPER-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF74D9FC50004169D0D63918C7BACD0C /* Pods-RedCarpetVIPER-dummy.m */; };
+		393FE5CA6E0938CF2077B7F3689A93A5 /* Pods-RedCarpetVIPER-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD47102C77A3CA9D983C12B733E2D5F /* Pods-RedCarpetVIPER-dummy.m */; };
 		3CFADF9976EFE53AB32963108459E844 /* Double+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822A556018DC5D1150E05446920E262 /* Double+Unbox.swift */; };
-		40C435504732755962FACE3AC2D27D44 /* Pods-RedCarpetMVP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D585637FE4E3067BF96C5C5AFF1A3253 /* Pods-RedCarpetMVP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41FF55C561EDCF2AE2ECA9D4DEA1079E /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7198CD297DCF62E81C12B7086668B2 /* ParameterEncoding.swift */; };
 		4260B3A62CC08F3F3914C139D1C39645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
 		4B3DEB1414F905C8A8E6C06E685ECEDE /* UInt64+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34FB8FD21F245E31B2EAB66A9ADE21 /* UInt64+Unbox.swift */; };
 		4D3E94F63DF0BFFD8BEA5EC64E16AA84 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996715113C26018EAFB16FE7CEF35986 /* Response.swift */; };
 		4D66A1641B56D43A2FD46000FD27BEF0 /* Int32+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E693BF5C3286E7715C217DDA4DC1794 /* Int32+Unbox.swift */; };
 		4D8129C0288EE157A1DBA9677394D106 /* UnboxCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31FD8205673B00AF24E3231DADAA8CA /* UnboxCompatible.swift */; };
-		4E82E8C91F8C9C57360B22A8C93E94D3 /* Pods-RedCarpetMVVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2193A9E9039931F8B0B9F089368D9E8F /* Pods-RedCarpetMVVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E82E8C91F8C9C57360B22A8C93E94D3 /* Pods-RedCarpetMVVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7332E7C675F70207D5384381AE7358B6 /* Pods-RedCarpetMVVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		537EF61A843609FD336B69136061B0DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
 		56093A92BD6B7F1C5E49CA3CC0E0D791 /* Set+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405FFF8F06EF394BC71905B1DBB0C61 /* Set+Unbox.swift */; };
-		59BA4AB590F4A15C76EAFF3D3F13233D /* Pods-RedCarpetVIPERTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 260365DEF37C8EBEBD88AAE20425D1A5 /* Pods-RedCarpetVIPERTests-dummy.m */; };
+		59BA4AB590F4A15C76EAFF3D3F13233D /* Pods-RedCarpetVIPERTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8BC2AD4F389C410937EAC7C049D39C /* Pods-RedCarpetVIPERTests-dummy.m */; };
 		5C797C0F685715A13D226BEEEFA5C0C7 /* UnboxPathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432ADB0421A09E2E5DD90FABBAC6DE3F /* UnboxPathError.swift */; };
 		5D7F11E084A6B626F6C284CAEDF7537B /* UInt32+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65AB9ABB6848392FD2E94948ED8882A /* UInt32+Unbox.swift */; };
 		5EE72A1D132EFAFEAF7163C6E0B7CFB7 /* Sequence+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45166BDD7817A2557DD3D46592ACD /* Sequence+Unbox.swift */; };
@@ -48,43 +45,40 @@
 		6369F4FF015886D100B3E738B45FD8E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
 		66181556F53CAC472A6B2DC5D08D1338 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9958986F14261B43D2ABA5C4B048F245 /* ServerTrustPolicy.swift */; };
 		67CAC6E318FE93D35EC94E458A924815 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9594A7A3DF0B0DFBA2E2207CDFEEB4E4 /* TaskDelegate.swift */; };
-		69CE933A487B9F17413A0DBB67365350 /* Pods-RedCarpetMVPTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CCEFC4B92B35B7D49058D8EF8BFFB7 /* Pods-RedCarpetMVPTests-dummy.m */; };
 		6A0DDB9A3A8936A2C0253733A3C5883E /* Dictionary+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08DB1C92AA772C412B47EEF0026AED3 /* Dictionary+Unbox.swift */; };
 		6BB298620A0C90E82C6C375FD187071E /* DateFormatter+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A409D095B1876FF6F35233CB092EFD6 /* DateFormatter+Unbox.swift */; };
-		6F40D717343DE4AAE9EC6565D1A8A1A6 /* Pods-RedCarpetMVVMTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1B38FB965291E09C96C2573DD43526 /* Pods-RedCarpetMVVMTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F40D717343DE4AAE9EC6565D1A8A1A6 /* Pods-RedCarpetMVVMTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 012619E7F9E154E80741146514216E71 /* Pods-RedCarpetMVVMTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		704D1BE2EBB28589DC235A5AA89A4138 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E136E462859D4114D60B3EF620ABC /* Result.swift */; };
 		7142C1741A4B43ABB599DA4B9CF1A478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
-		728BA1996649F99917A30684DF5733AB /* Pods-RedCarpetAppleMVCTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B2FB822CE9D37FB0DB11B642F9A46C7 /* Pods-RedCarpetAppleMVCTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73E18EE2130216359BB8DCE5BE1575F1 /* Pods-RedCarpetMVVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA02D499FDF759DDC9E7FF252973FA7 /* Pods-RedCarpetMVVM-dummy.m */; };
+		728BA1996649F99917A30684DF5733AB /* Pods-RedCarpetAppleMVCTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72DFF8ACD4E8194BF17083276351B663 /* Pods-RedCarpetAppleMVCTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73E18EE2130216359BB8DCE5BE1575F1 /* Pods-RedCarpetMVVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F418037D394762B55E1BB0634DC1CE09 /* Pods-RedCarpetMVVM-dummy.m */; };
 		77FDD40AD14285680EAB4504DFB9C32D /* Optional+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4634943C8E79E4B66C313584B05B06C5 /* Optional+Unbox.swift */; };
-		7992CA465A33BFF465A99D99E0C07884 /* Pods-CommonsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D7EED7E334E792E83068A52450E4D5 /* Pods-CommonsTests-dummy.m */; };
+		7992CA465A33BFF465A99D99E0C07884 /* Pods-CommonsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C02C079AA17F8F9883DAD0F59A0D91C /* Pods-CommonsTests-dummy.m */; };
 		7DAFFEA67BAD918BEE1659207D13B2B2 /* UnboxableWithContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7264C0EC2C293CD24F2FBA49B60622 /* UnboxableWithContext.swift */; };
 		7E681C4AC299D0384CB13F6C4A76229D /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9616B1CD6863432CE32ED16DF06EE07C /* NetworkReachabilityManager.swift */; };
 		80780192D7C0B494FFC2535D1FA0D125 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E224CF1C61757548EC8155F3F4E17CD /* Alamofire.swift */; };
 		8236D286F2B227ACF429BA13760D632D /* Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AEC3BB0DFD99860174504DD25B4731 /* Unbox.swift */; };
 		878D119CE42CAEF5D075C86FA7AFE811 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09467C467EAC94CE34E6004973C2240 /* AFError.swift */; };
 		89E00F6167782E355AD8979578B9C2A9 /* Unbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E95C905E81A00EA9A16235AC0878CA /* Unbox-dummy.m */; };
-		8B5F016259DDB7809BEB370888FA21CF /* Pods-RedCarpetMVCTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE580649CA0774ECC1EAD98A27866C /* Pods-RedCarpetMVCTests-dummy.m */; };
+		8B5F016259DDB7809BEB370888FA21CF /* Pods-RedCarpetMVCTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A19C586052A113B4A8E864EA98C3ACE0 /* Pods-RedCarpetMVCTests-dummy.m */; };
 		8BCE1E5C92981DD835252B98ECA7E20A /* UnboxPathNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FFEC62EBD6BEDEE13036E4EEC9EFAB /* UnboxPathNode.swift */; };
 		8C031701C123AEC71F37214BF01EBBD9 /* URL+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FCCFDDDBB34A57485F2E1A07935ACE /* URL+Unbox.swift */; };
 		93F90291502D41D7D54149F8582BE434 /* Bool+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F39A7B7F3162DB33AEE32395A774CC8 /* Bool+Unbox.swift */; };
 		9952E5F4CA0403A2986FB14356982AE7 /* String+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C2D610FFCC9BF3AB6C7D9C83716D5C /* String+Unbox.swift */; };
 		9A98E8577610DD57FAE9DEA173FFADED /* Decimal+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719525DBCA7CFB19BB1960F5C26F62D /* Decimal+Unbox.swift */; };
-		9BD919C1C31D2ABB5AD38F064DBF97FC /* Pods-RedCarpetAppleMVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C6446D060BDCBD495924A59811DA19 /* Pods-RedCarpetAppleMVC-dummy.m */; };
-		A03103D8BA3FB1EE92ED1D808758AB3C /* Pods-RedCarpetMVP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0603FF069FBAF70CCC114ED5E1D194F3 /* Pods-RedCarpetMVP-dummy.m */; };
-		A1DD1405F6EE2C9E35AFBB2B9F146D34 /* Pods-RedCarpetMVCTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00340A6F114D132CA5037C2C93C3555E /* Pods-RedCarpetMVCTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD919C1C31D2ABB5AD38F064DBF97FC /* Pods-RedCarpetAppleMVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C746702C90258282319470925EA5CCC /* Pods-RedCarpetAppleMVC-dummy.m */; };
+		A1DD1405F6EE2C9E35AFBB2B9F146D34 /* Pods-RedCarpetMVCTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D69FA4FDBF4FAEB59939D59B7E9CE4D7 /* Pods-RedCarpetMVCTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6A6E537E13D77DF47ABA81AC6A779ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
 		A8801F49C2BB167438E42103F262DC2A /* NSArray+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3319A202062051B2E078DDF519D438B /* NSArray+Unbox.swift */; };
-		AA4B15678B53E171BA79F56CC8190E30 /* Pods-RedCarpetAppleMVCTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E229651D014B15719299C6E4CFCBA274 /* Pods-RedCarpetAppleMVCTests-dummy.m */; };
+		AA4B15678B53E171BA79F56CC8190E30 /* Pods-RedCarpetAppleMVCTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A40FA3671B535421E4BE00F7BF11F8 /* Pods-RedCarpetAppleMVCTests-dummy.m */; };
 		ADE62007FAB00C310DC2B12D34F4CF5D /* Unbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FD6BB9BD6ABAECB4C7A36A006CF0F3 /* Unbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE5B74BAD7ECE6050EB6D92F3D511C06 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FA73EB1A107699D2DFCCC6B5F83AEF /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1D57FD7678F29BEB518B6230D34BF90 /* UnboxCollectionElementTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC8B6B576D3027D8A2266804CF9C1E /* UnboxCollectionElementTransformer.swift */; };
-		B21BACEBEF9CBA62E365B925AFABAA23 /* Pods-RedCarpetMVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A88A610AA7C922C9FBB36736CE1DBE7 /* Pods-RedCarpetMVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B21BACEBEF9CBA62E365B925AFABAA23 /* Pods-RedCarpetMVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F5C9511B31C91E3CFBB2ACF581443C /* Pods-RedCarpetMVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B326CE9BEDCAD2CED31C3F8F4995CD02 /* Data+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDAA1DC51BB8B8FB03F0A3FBE57F6E /* Data+Unbox.swift */; };
 		B6C764468C663A970D471C7E7C3019CD /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BA24EC875148EF61EEF34F19EEAF4 /* MultipartFormData.swift */; };
 		B8C9DAB5B86A71C31B264B7CE16138FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
-		B8E97C5B2E98A7BB1FE30AB587D9A573 /* Pods-RedCarpetMVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E5CC2813428ABDA71241B2C194566 /* Pods-RedCarpetMVC-dummy.m */; };
-		B941F004016B41E226500E2A67AFEC0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		B8E97C5B2E98A7BB1FE30AB587D9A573 /* Pods-RedCarpetMVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46ECEBB3FFD1F5C67D989E0513ADB66 /* Pods-RedCarpetMVC-dummy.m */; };
 		C1C8B490D779253323FF72319DC9927B /* UnboxPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37C256685DCC6D1D54E1C99C7F26BB /* UnboxPath.swift */; };
 		C5FF55B03C27DFD4AF0FC39CA3690810 /* Array+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79751688EC8483264FE7059696B3A6A5 /* Array+Unbox.swift */; };
 		C85EE499616DA9550EA239A23B1E22AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
@@ -94,7 +88,7 @@
 		D23E55B08E70ABBF30E2F66D18CBDA79 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BAAAD0C1CDF4574CE1BCD91EE0C0D /* Timeline.swift */; };
 		D6AEC93D4D18C44A9121C1A068E47530 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBCC8156DA94209D8D1F2E0FAFE0B75 /* Validation.swift */; };
 		D764DB34643A89D6F78E0596F36B6729 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC19620BE50447715A55BC4858EC705 /* Notifications.swift */; };
-		DB18AC7DDA93CEC29799FC97E952AEB8 /* Pods-Commons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBCEDBA8DB1ACF25E95276736EBBA6E /* Pods-Commons-dummy.m */; };
+		DB18AC7DDA93CEC29799FC97E952AEB8 /* Pods-Commons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF524C046D7A48E5A440F12D0F453A96 /* Pods-Commons-dummy.m */; };
 		DC44A3398D515E173E59A2FE0BFC116A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A7524BE869D85CC5486966A98937C /* Request.swift */; };
 		E0416D286298C07EC3CA3D4885E1CBB6 /* UnboxableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2F96F8FD03C02177453ED20AF859A /* UnboxableKey.swift */; };
 		E19A6D878D2F58C8FDA25E0080E6E12A /* CGFloat+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93764F73DD261EA72861B561AE48E535 /* CGFloat+Unbox.swift */; };
@@ -108,7 +102,7 @@
 		F5CC827A3061B3ED006D22132BE32B58 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E45A7DAE9CC5E5AE45FD684975677 /* SessionManager.swift */; };
 		F71EE85BC5C5A06137C6D922DCFE9C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
 		FCE658681103A22FA2DD4415D1334E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
-		FE043C767854F338D72CE634E0389764 /* Pods-RedCarpetVIPER-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3115D881915F77695F798E321A7B1B /* Pods-RedCarpetVIPER-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE043C767854F338D72CE634E0389764 /* Pods-RedCarpetVIPER-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7370387F7ACC59F2F66E918B4E543353 /* Pods-RedCarpetVIPER-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,13 +114,6 @@
 			remoteInfo = Unbox;
 		};
 		1ADD90B19435A126616F3AE3E7A43812 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 66B239826EF1D39D2D6C594AC2DBFF77;
-			remoteInfo = Alamofire;
-		};
-		223B153F7A196EA0DADBA31EDCA11B88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -175,13 +162,6 @@
 			remoteGlobalIDString = 66B239826EF1D39D2D6C594AC2DBFF77;
 			remoteInfo = Alamofire;
 		};
-		AEFCC0D0E2A43360C4261284C75B503E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3D45DA70CD2E23DF957E8F700546423;
-			remoteInfo = Unbox;
-		};
 		C33C7F95214425A9DF951721DCEE3FF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -213,224 +193,200 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00340A6F114D132CA5037C2C93C3555E /* Pods-RedCarpetMVCTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetMVCTests-umbrella.h"; sourceTree = "<group>"; };
-		004CAB0D62890804398D06B5D61CB3BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D1BD816A55C93052397032B4F3CB27 /* Pods-RedCarpetMVVMTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVMTests.mock.xcconfig"; sourceTree = "<group>"; };
+		012619E7F9E154E80741146514216E71 /* Pods-RedCarpetMVVMTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetMVVMTests-umbrella.h"; sourceTree = "<group>"; };
 		0205F813A992C3D62E2C3A5D070D2929 /* Int+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Unbox.swift"; path = "Sources/Int+Unbox.swift"; sourceTree = "<group>"; };
-		0215313155825B61E7E0AB363E7538C3 /* Pods-RedCarpetMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVP.release.xcconfig"; sourceTree = "<group>"; };
-		03708FC1D786301C395402A3D27E7B1E /* Pods-RedCarpetMVC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVC-frameworks.sh"; sourceTree = "<group>"; };
-		038D1FE6DD13189A48B432B9F56B69F1 /* Pods-Commons-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Commons-acknowledgements.plist"; sourceTree = "<group>"; };
 		03B053555B97B1FD33E1709AD00743CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A45166BDD7817A2557DD3D46592ACD /* Sequence+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Sequence+Unbox.swift"; path = "Sources/Sequence+Unbox.swift"; sourceTree = "<group>"; };
-		056BBEF124E83EEAEAD031E3D05A730C /* Pods-RedCarpetMVVMTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVVMTests-resources.sh"; sourceTree = "<group>"; };
-		0603FF069FBAF70CCC114ED5E1D194F3 /* Pods-RedCarpetMVP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetMVP-dummy.m"; sourceTree = "<group>"; };
-		0697F180C9857C12D74902441C676B79 /* Pods-RedCarpetVIPERTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetVIPERTests-umbrella.h"; sourceTree = "<group>"; };
 		07FD6BB9BD6ABAECB4C7A36A006CF0F3 /* Unbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Unbox-umbrella.h"; sourceTree = "<group>"; };
-		0AE8C7594B450ECC9E72C12DC515746C /* Pods-RedCarpetMVCTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetMVCTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0B204EE2822F2B16E147055B3475FC3B /* Pods-CommonsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		086324316595DFDE9EBCF2EFE1185BD3 /* Pods-RedCarpetVIPERTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetVIPERTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		08CB5AA9AF42994E21B6AD082C4002A0 /* Pods_RedCarpetMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetMVVM.framework; path = "Pods-RedCarpetMVVM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B01F74C6FAEF64AC7FFE9CB7ABBC80F /* Pods-RedCarpetMVVM-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVVM-resources.sh"; sourceTree = "<group>"; };
 		0B4E73616ACFF49F264C5AF232B3F426 /* Unbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Unbox.modulemap; sourceTree = "<group>"; };
+		0E4E784CFFE81FE5F70FBBA9C197A35C /* Pods-RedCarpetAppleMVCTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetAppleMVCTests.modulemap"; sourceTree = "<group>"; };
 		0E693BF5C3286E7715C217DDA4DC1794 /* Int32+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int32+Unbox.swift"; path = "Sources/Int32+Unbox.swift"; sourceTree = "<group>"; };
-		0FB9981C26E99A34A877580DF93ECA18 /* Pods-CommonsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonsTests-umbrella.h"; sourceTree = "<group>"; };
-		11D40DA0C5730243B4E367698D7AD635 /* Pods-RedCarpetAppleMVCTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetAppleMVCTests-frameworks.sh"; sourceTree = "<group>"; };
-		14FB151E34B50E19BE8B26D124F7ECC8 /* Pods-CommonsTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsTests.mock.xcconfig"; sourceTree = "<group>"; };
-		158E75BF4E298471E667B8A8F7BA9401 /* Pods-RedCarpetMVCTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetMVCTests.modulemap"; sourceTree = "<group>"; };
+		116B406F7D402A463ED00761FC91B9D4 /* Pods-RedCarpetAppleMVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		15B2F96F8FD03C02177453ED20AF859A /* UnboxableKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxableKey.swift; path = Sources/UnboxableKey.swift; sourceTree = "<group>"; };
-		16E72532DED34C8F71B0D4F07F8DC48C /* Pods-RedCarpetMVPTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetMVPTests.modulemap"; sourceTree = "<group>"; };
+		18CE1E15B5F76F028C9CE6375F993DD3 /* Pods-RedCarpetVIPERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPERTests.release.xcconfig"; sourceTree = "<group>"; };
+		199B942DB4940AF4A8C046D68486A64A /* Pods-RedCarpetMVVM.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVM.mock.xcconfig"; sourceTree = "<group>"; };
+		1A8FDF5770002B39E73835D3936D4A3A /* Pods-RedCarpetVIPER.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetVIPER.modulemap"; sourceTree = "<group>"; };
 		1BA0865B6BFF66793070D6C7D71ABEC8 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
-		1DA0558ECAB4C65AC5AED06F17302334 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E5E5CC2813428ABDA71241B2C194566 /* Pods-RedCarpetMVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetMVC-dummy.m"; sourceTree = "<group>"; };
-		1F30C3EF98CC8CFE86CE424E80EE4C0B /* Pods-CommonsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1FD09A48B65A1DDBDB35188533DD5A11 /* Pods-RedCarpetAppleMVCTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetAppleMVCTests.modulemap"; sourceTree = "<group>"; };
-		1FEB96ADA0A453B393909BBE4D222A91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2126AFF6FAC21D6DE57F8AB72B300B8F /* Pods-CommonsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonsTests-resources.sh"; sourceTree = "<group>"; };
-		2193A9E9039931F8B0B9F089368D9E8F /* Pods-RedCarpetMVVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetMVVM-umbrella.h"; sourceTree = "<group>"; };
-		24B7BB38198ABC9AEBF77B149126086B /* Pods-RedCarpetAppleMVC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetAppleMVC-acknowledgements.markdown"; sourceTree = "<group>"; };
-		260365DEF37C8EBEBD88AAE20425D1A5 /* Pods-RedCarpetVIPERTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetVIPERTests-dummy.m"; sourceTree = "<group>"; };
+		1C746702C90258282319470925EA5CCC /* Pods-RedCarpetAppleMVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetAppleMVC-dummy.m"; sourceTree = "<group>"; };
+		1DA6A52E9187A6BA4AA90CA5093AE256 /* Pods-RedCarpetMVVMTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVVMTests-frameworks.sh"; sourceTree = "<group>"; };
+		1E8BC2AD4F389C410937EAC7C049D39C /* Pods-RedCarpetVIPERTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetVIPERTests-dummy.m"; sourceTree = "<group>"; };
+		1F14416E2C35EE32F3CEA5653ABDB6C8 /* Pods-RedCarpetMVCTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetMVCTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21784B216D3AEB9A45EA9482B94EBCD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2224C394DFD74C0BA50942E2625DD759 /* Pods-RedCarpetVIPER-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetVIPER-resources.sh"; sourceTree = "<group>"; };
+		22E48E30BE5FABA9450D529DCA49021A /* Pods-RedCarpetMVVMTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetMVVMTests.modulemap"; sourceTree = "<group>"; };
+		24F76295BD3DDD1BD72A9AB07D65D1C5 /* Pods-RedCarpetMVVM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetMVVM-acknowledgements.markdown"; sourceTree = "<group>"; };
+		257986F6FDB1CA6DF17DC918DC1041E1 /* Pods-CommonsTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsTests.mock.xcconfig"; sourceTree = "<group>"; };
 		276F15DAB59D6F4B7B735BDAA068016E /* Float+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Float+Unbox.swift"; path = "Sources/Float+Unbox.swift"; sourceTree = "<group>"; };
-		27D7EED7E334E792E83068A52450E4D5 /* Pods-CommonsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonsTests-dummy.m"; sourceTree = "<group>"; };
+		27C8C8E7C994DD91EDB7D11819840528 /* Pods-RedCarpetVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		27FA9D1177C47EA66C5D3B87ED2C310C /* Pods-RedCarpetAppleMVC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetAppleMVC-frameworks.sh"; sourceTree = "<group>"; };
+		2AA12154542D48EEEBEC94084BC1596A /* Pods-CommonsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonsTests-resources.sh"; sourceTree = "<group>"; };
+		2ACDD4E6906B0FE4608E080CEA2351B8 /* Pods-RedCarpetVIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B40473525BB3446B84E19FF7483DD85 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		2B4F846E0BA39FED2E3F62844971B0FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BB07B864DF442B38B5AA13A9DE5DDFB /* Pods-RedCarpetVIPER-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetVIPER-resources.sh"; sourceTree = "<group>"; };
+		2B7507E53270EAA39D00B5699182A978 /* Pods-RedCarpetMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVC.debug.xcconfig"; sourceTree = "<group>"; };
 		2C37C256685DCC6D1D54E1C99C7F26BB /* UnboxPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxPath.swift; path = Sources/UnboxPath.swift; sourceTree = "<group>"; };
-		2C85B5D0E9BB7FF673D1E9CABE99F3CD /* Pods-RedCarpetMVVM-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVVM-resources.sh"; sourceTree = "<group>"; };
-		2E3115D881915F77695F798E321A7B1B /* Pods-RedCarpetVIPER-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetVIPER-umbrella.h"; sourceTree = "<group>"; };
-		2EC2323E1A2EDA644C2E1736CB7FF8E2 /* Pods-RedCarpetVIPERTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPERTests.mock.xcconfig"; sourceTree = "<group>"; };
+		2C59CF07697B010DAE54496267435CC8 /* Pods-RedCarpetVIPER-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetVIPER-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2F34FB8FD21F245E31B2EAB66A9ADE21 /* UInt64+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt64+Unbox.swift"; path = "Sources/UInt64+Unbox.swift"; sourceTree = "<group>"; };
-		30169FB3D36D31B0E348D27F20DFE185 /* Pods-RedCarpetMVPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVPTests.release.xcconfig"; sourceTree = "<group>"; };
-		315BAEF3C78E50B3EEB57F400E95EDBF /* Pods-RedCarpetMVP-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetMVP-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33134CE6E041B6B1750105EC290D404A /* Pods-Commons.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Commons.mock.xcconfig"; sourceTree = "<group>"; };
+		2F9ADF8FEB079CDE5BA760A887B3622D /* Pods-RedCarpetMVVMTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetMVVMTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31F5C9511B31C91E3CFBB2ACF581443C /* Pods-RedCarpetMVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetMVC-umbrella.h"; sourceTree = "<group>"; };
 		34DEA40ACC62A36F66EF4B14C5C4ABFB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		360D93E70D519BCB7B210D590B88011C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37585E0C766898D8CDD5EFA321EBF890 /* Pods-RedCarpetMVVMTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetMVVMTests-dummy.m"; sourceTree = "<group>"; };
 		391F97A48B28888074E511480EB9A14F /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		39A135BECC7AA313E56C06583B91D6AA /* UnboxableByTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxableByTransform.swift; path = Sources/UnboxableByTransform.swift; sourceTree = "<group>"; };
-		3A3298D5A4196A2F58DDC8A73E605302 /* Pods-RedCarpetAppleMVC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetAppleMVC-frameworks.sh"; sourceTree = "<group>"; };
 		3A409D095B1876FF6F35233CB092EFD6 /* DateFormatter+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+Unbox.swift"; path = "Sources/DateFormatter+Unbox.swift"; sourceTree = "<group>"; };
-		3B2FB822CE9D37FB0DB11B642F9A46C7 /* Pods-RedCarpetAppleMVCTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetAppleMVCTests-umbrella.h"; sourceTree = "<group>"; };
-		3F32EB12E863DB46E0E18E933EC96CEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF3F12FF516BBDB923F4303C8F51DD1 /* Pods-CommonsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F0E12FA390E8F34655C3CE8E8260C41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F5465BAE1CA05231471841B61323D0A /* Pods-Commons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Commons.modulemap"; sourceTree = "<group>"; };
 		3F6BAAAD0C1CDF4574CE1BCD91EE0C0D /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		40FB73322872E6C67710DBC7A1E8BDF5 /* Pods_RedCarpetMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetMVVMTests.framework; path = "Pods-RedCarpetMVVMTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41CCEFC4B92B35B7D49058D8EF8BFFB7 /* Pods-RedCarpetMVPTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetMVPTests-dummy.m"; sourceTree = "<group>"; };
+		41452585BC4725C4B66D52B538533231 /* Pods-RedCarpetAppleMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVC.debug.xcconfig"; sourceTree = "<group>"; };
+		42B6AA4D9B1FD6A0199E445FC912872B /* Pods-RedCarpetMVVM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVVM-frameworks.sh"; sourceTree = "<group>"; };
 		432ADB0421A09E2E5DD90FABBAC6DE3F /* UnboxPathError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxPathError.swift; path = Sources/UnboxPathError.swift; sourceTree = "<group>"; };
-		46124B23B69A67DDA0530D485D0668D3 /* Pods-Commons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Commons-umbrella.h"; sourceTree = "<group>"; };
+		44FF3553D1D0D8AE18D78955AAEBD44B /* Pods-RedCarpetVIPER-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetVIPER-frameworks.sh"; sourceTree = "<group>"; };
 		4634943C8E79E4B66C313584B05B06C5 /* Optional+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+Unbox.swift"; path = "Sources/Optional+Unbox.swift"; sourceTree = "<group>"; };
 		46C2D610FFCC9BF3AB6C7D9C83716D5C /* String+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Unbox.swift"; path = "Sources/String+Unbox.swift"; sourceTree = "<group>"; };
 		46FA73EB1A107699D2DFCCC6B5F83AEF /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		491973CC2F813166F52E3FB9AE181855 /* Pods-RedCarpetAppleMVCTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetAppleMVCTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		49321B677AA287C84E837D4E4CDFBCEB /* Pods_RedCarpetMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetMVC.framework; path = "Pods-RedCarpetMVC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47910285130D71ACBADD6E2D73618794 /* Pods-RedCarpetMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A1E136E462859D4114D60B3EF620ABC /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		4A3566F144615798EBF934D547563ECD /* Pods_Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Commons.framework; path = "Pods-Commons.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B4CF5F5770C66EB96905529BAA9A1D8 /* Pods-RedCarpetVIPERTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetVIPERTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4BF3CEDEC47D1F7FB03C0C77E59DD3CB /* Pods_RedCarpetMVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetMVCTests.framework; path = "Pods-RedCarpetMVCTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C000509C0CD9CAC94980057A1A46625 /* Pods-Commons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Commons.debug.xcconfig"; sourceTree = "<group>"; };
-		4D1F2C3A2BD4F6F22009C429CFCE907D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F0DE573DCB95C392A88E5D36541957E /* Pods-RedCarpetMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVM.release.xcconfig"; sourceTree = "<group>"; };
-		4FFE9A178DD96AEC2389984C0862EDD7 /* Pods-RedCarpetMVVM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVVM-frameworks.sh"; sourceTree = "<group>"; };
+		4AF5CB1110B820AA3C25257E781DF667 /* Pods-RedCarpetMVC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVC-frameworks.sh"; sourceTree = "<group>"; };
+		4C1875AB5745178A2593781EE4063BD5 /* Pods-RedCarpetMVCTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetMVCTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		50D90BCE1019723C616CB4E654E0D66D /* UInt+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt+Unbox.swift"; path = "Sources/UInt+Unbox.swift"; sourceTree = "<group>"; };
-		511D8E625AB6EBF84C4A24F0BEE13F49 /* Pods-RedCarpetMVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVCTests.debug.xcconfig"; sourceTree = "<group>"; };
-		51A45AA14A608F859318326EB5578AC3 /* Pods-RedCarpetVIPER.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetVIPER.modulemap"; sourceTree = "<group>"; };
-		51C061E7A527B01E9E657AFC672D91ED /* Pods-RedCarpetMVVM.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVM.mock.xcconfig"; sourceTree = "<group>"; };
 		534A13416A833DF23CFF42A463B31EC7 /* Unboxer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unboxer.swift; path = Sources/Unboxer.swift; sourceTree = "<group>"; };
-		53AB1AA44B63AEFCA9BFE241FE0ABB6A /* Pods-RedCarpetMVP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetMVP.modulemap"; sourceTree = "<group>"; };
+		5410644FE6D27C3ECEA9FCA9E5883DD6 /* Pods-Commons.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Commons.mock.xcconfig"; sourceTree = "<group>"; };
+		5427B870E3D9B6F343F598996FD7DA1B /* Pods-RedCarpetMVCTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetMVCTests.modulemap"; sourceTree = "<group>"; };
+		54A40FA3671B535421E4BE00F7BF11F8 /* Pods-RedCarpetAppleMVCTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetAppleMVCTests-dummy.m"; sourceTree = "<group>"; };
+		54A47D64A4DF699FB7F60AC5FFB34D72 /* Pods_RedCarpetAppleMVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetAppleMVCTests.framework; path = "Pods-RedCarpetAppleMVCTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55157AC9A0A0E85F15A0B18F03ACA00C /* Pods-CommonsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		55A8489667BCD4738167C10850DA270D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		56F85058B0A4F6E1D517EEC0BB6E340A /* Pods-RedCarpetVIPERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPERTests.release.xcconfig"; sourceTree = "<group>"; };
+		55FB8905E8EDBDE2128EA1E6560CAB61 /* Pods-RedCarpetAppleMVC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetAppleMVC-acknowledgements.plist"; sourceTree = "<group>"; };
+		57EE1A756EC1438500A815F41DD4F7A9 /* Pods_RedCarpetMVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetMVCTests.framework; path = "Pods-RedCarpetMVCTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B43E254E1435E0E2C2C9CADB6A9F95 /* UnboxableCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxableCollection.swift; path = Sources/UnboxableCollection.swift; sourceTree = "<group>"; };
-		5B177BA669B864D875DA691B75E76CDF /* Pods-RedCarpetMVPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVPTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5CCE39AD2F25FF3E382F6CCB17264A52 /* Pods-RedCarpetMVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetMVVM.modulemap"; sourceTree = "<group>"; };
-		5D9EB6C8A5F9C4A34421CF01436D97C5 /* Pods-RedCarpetMVPTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetMVPTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5E8AA3FE3AC7AA48671662D3C9A986D7 /* Pods-RedCarpetMVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVCTests.release.xcconfig"; sourceTree = "<group>"; };
-		5ECBA1B2BBB0A5F78422A16CFAE6D64D /* Pods-RedCarpetMVVMTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVVMTests-frameworks.sh"; sourceTree = "<group>"; };
-		5ED5E754936DDF36828B4FF8B4501A91 /* Pods-RedCarpetMVP-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVP-resources.sh"; sourceTree = "<group>"; };
-		5FA62A259F88ED13A53AB07BD24C1839 /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Unbox.framework; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6254342C62A7600F45974FFDA99E9493 /* Pods-RedCarpetMVC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetMVC-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6267FFA12A65BCA3BAE5CACBBD4EDF85 /* Pods-RedCarpetMVCTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetMVCTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		633D32C5707B26F1D2E2F400BD5052D2 /* Pods-CommonsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonsTests-frameworks.sh"; sourceTree = "<group>"; };
+		5B98E617AC56730B958764AA3F00E19D /* Pods-RedCarpetVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPER.release.xcconfig"; sourceTree = "<group>"; };
+		5C4C777725DF26475F4FD11E9522E6A9 /* Pods-CommonsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonsTests-umbrella.h"; sourceTree = "<group>"; };
+		5CC321C1E9DDF71508593CC626DDE4DD /* Pods-RedCarpetAppleMVCTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetAppleMVCTests-frameworks.sh"; sourceTree = "<group>"; };
+		5E1C916EE43C6AF4D01E3C73B74B9FD3 /* Pods-RedCarpetAppleMVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetAppleMVC-umbrella.h"; sourceTree = "<group>"; };
+		62CC01314BBC0FD4AC366570DC7D6441 /* Pods-RedCarpetMVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetMVC.modulemap"; sourceTree = "<group>"; };
 		63A2D5AC3C3B04CD48FEB609811A9A23 /* UnboxContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxContainer.swift; path = Sources/UnboxContainer.swift; sourceTree = "<group>"; };
-		648585905F90193287108BA747646D86 /* Pods-RedCarpetMVVMTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetMVVMTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6C6BF956A24C9FACF5EC6C03192EE9A2 /* Pods-RedCarpetMVVMTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetMVVMTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CACF416F9AA24F075FDF56EF9CD2A91 /* Pods-RedCarpetVIPER-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetVIPER-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A8BC92CDC61A37A25697E86A4F79831 /* Pods-RedCarpetMVCTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVCTests-resources.sh"; sourceTree = "<group>"; };
 		6E224CF1C61757548EC8155F3F4E17CD /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		6EB7021C7E3133C78E3F109FC52E9540 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA0FE25CB5FA827638EB5679E36A93C /* Pods-RedCarpetAppleMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVC.release.xcconfig"; sourceTree = "<group>"; };
 		6FCC8B6B576D3027D8A2266804CF9C1E /* UnboxCollectionElementTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxCollectionElementTransformer.swift; path = Sources/UnboxCollectionElementTransformer.swift; sourceTree = "<group>"; };
-		7012295D58B53BA70CF4C69C1AE05CE7 /* Pods-RedCarpetAppleMVCTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetAppleMVCTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		74F997A5DF9ACB5B6C3F3C9C035E283C /* Pods-CommonsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CommonsTests.modulemap"; sourceTree = "<group>"; };
+		71F71443434DDF482B4C9B1BEE189653 /* Pods_CommonsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommonsTests.framework; path = "Pods-CommonsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DFF8ACD4E8194BF17083276351B663 /* Pods-RedCarpetAppleMVCTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetAppleMVCTests-umbrella.h"; sourceTree = "<group>"; };
+		7332E7C675F70207D5384381AE7358B6 /* Pods-RedCarpetMVVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetMVVM-umbrella.h"; sourceTree = "<group>"; };
+		734C9684B0B2AFEED89D4FD592DAE2AC /* Pods-RedCarpetVIPERTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetVIPERTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7370387F7ACC59F2F66E918B4E543353 /* Pods-RedCarpetVIPER-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetVIPER-umbrella.h"; sourceTree = "<group>"; };
 		756BD66AA47C8C7F2AB23DC799BD6880 /* UnboxableEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxableEnum.swift; path = Sources/UnboxableEnum.swift; sourceTree = "<group>"; };
-		756C5BBC5F4BD206AFAA3F366C5DD4A4 /* Pods_RedCarpetMVPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetMVPTests.framework; path = "Pods-RedCarpetMVPTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		758E45A7DAE9CC5E5AE45FD684975677 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		75A337CC04AEF02AED8A3034D039A6F2 /* Pods-RedCarpetAppleMVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVCTests.debug.xcconfig"; sourceTree = "<group>"; };
-		75FE580649CA0774ECC1EAD98A27866C /* Pods-RedCarpetMVCTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetMVCTests-dummy.m"; sourceTree = "<group>"; };
-		77025A7610FA3897ACCA1F0561998601 /* Pods_RedCarpetVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetVIPER.framework; path = "Pods-RedCarpetVIPER.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		77813633F7ED4BFDFE859D7FEB968440 /* Pods-Commons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Commons.release.xcconfig"; sourceTree = "<group>"; };
+		7660A4639E098184A3A1DFBCACA55865 /* Pods_RedCarpetMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetMVC.framework; path = "Pods-RedCarpetMVC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77CFB95E1E2CD33B343E5213A3A7E44D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77ED313A7F5490E067EBC2DF05F7E1A4 /* Unboxable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unboxable.swift; path = Sources/Unboxable.swift; sourceTree = "<group>"; };
-		789D4354B4DDAE869C7B890384BCAF69 /* Pods-RedCarpetVIPER.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPER.mock.xcconfig"; sourceTree = "<group>"; };
-		795042003000341F7D1BABDC08FAC715 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7930E33EA58217B2B7BB8414D6831CF1 /* Pods-RedCarpetVIPERTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetVIPERTests.modulemap"; sourceTree = "<group>"; };
 		79751688EC8483264FE7059696B3A6A5 /* Array+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Unbox.swift"; path = "Sources/Array+Unbox.swift"; sourceTree = "<group>"; };
-		7B7F9FAD350A6CF0B288E6874ECB4FAC /* Pods_RedCarpetMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetMVP.framework; path = "Pods-RedCarpetMVP.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C13AA8EDE276AB9FC7C8EAD8E3413D8 /* Pods-Commons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Commons.modulemap"; sourceTree = "<group>"; };
-		7D969B78CBA2633C2478D3C422CC5DD1 /* Pods-RedCarpetMVCTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVCTests-frameworks.sh"; sourceTree = "<group>"; };
-		802F92BD546693DF50A0F07E37EBCF22 /* Pods-RedCarpetVIPER-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetVIPER-acknowledgements.plist"; sourceTree = "<group>"; };
-		803B39FE81ED9EC106033699F772AEF5 /* Pods-Commons-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Commons-acknowledgements.markdown"; sourceTree = "<group>"; };
-		808F8A490D1E27FFDC0B74705A6953BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFB8067E020FCB1976574A4C7036F98 /* Pods-RedCarpetAppleMVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVCTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C02C079AA17F8F9883DAD0F59A0D91C /* Pods-CommonsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonsTests-dummy.m"; sourceTree = "<group>"; };
+		7C89F32DBE2E34774F4A6223B15F294F /* Pods-RedCarpetVIPERTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetVIPERTests-resources.sh"; sourceTree = "<group>"; };
+		7F62DEB46D3C43B9D0687F2231CBCF0C /* Pods-RedCarpetMVVM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetMVVM-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F90BAB6D11CF9B650DBED4E4AA2DD76 /* Pods-RedCarpetAppleMVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetAppleMVC.modulemap"; sourceTree = "<group>"; };
+		805E09222EE03521C1473EEC45F41224 /* Pods-RedCarpetAppleMVC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetAppleMVC-resources.sh"; sourceTree = "<group>"; };
+		81A08371CEE127A2DE89E51220498956 /* Pods-RedCarpetMVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetMVVM.modulemap"; sourceTree = "<group>"; };
 		81FFEC62EBD6BEDEE13036E4EEC9EFAB /* UnboxPathNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxPathNode.swift; path = Sources/UnboxPathNode.swift; sourceTree = "<group>"; };
-		8385AC16F8DCA30F49B6A6758B213D77 /* Pods-RedCarpetMVPTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVPTests.mock.xcconfig"; sourceTree = "<group>"; };
+		82D2B244FB4FFF49B15757B58FE487CF /* Pods-RedCarpetAppleMVCTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetAppleMVCTests-resources.sh"; sourceTree = "<group>"; };
+		8304EF9173F9CFFC71FBF9F42671EAFE /* Pods-RedCarpetMVCTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVCTests.mock.xcconfig"; sourceTree = "<group>"; };
 		8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		8719525DBCA7CFB19BB1960F5C26F62D /* Decimal+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Decimal+Unbox.swift"; path = "Sources/Decimal+Unbox.swift"; sourceTree = "<group>"; };
-		87774B12877987E00D4E982B867CDE29 /* Pods_CommonsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommonsTests.framework; path = "Pods-CommonsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		881ABF8036E98F3BE4BFA6A902D1B20C /* Pods-RedCarpetMVPTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVPTests-resources.sh"; sourceTree = "<group>"; };
-		8892EA8C58FFFF848DF62D5CF06A1B51 /* Pods-RedCarpetMVPTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVPTests-frameworks.sh"; sourceTree = "<group>"; };
-		88B8CE27A2B49F779F0CF26163E45F8F /* Pods-RedCarpetMVC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetMVC-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B34A945CC95B9E338A462922EC0CF04 /* Pods-RedCarpetAppleMVC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetAppleMVC-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CA707E7BB2CC41C8E8EB0D8CE2D023A /* Pods-RedCarpetMVPTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetMVPTests-umbrella.h"; sourceTree = "<group>"; };
-		8DDD530DA392C78CF997F0D05E5C61D7 /* Pods-RedCarpetMVP-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVP-frameworks.sh"; sourceTree = "<group>"; };
+		8879E312039B9CA40D8912241EBABC12 /* Pods-RedCarpetVIPERTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetVIPERTests-frameworks.sh"; sourceTree = "<group>"; };
+		8AD8C931BCADE8DE5D6119023B430E47 /* Pods_RedCarpetVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetVIPER.framework; path = "Pods-RedCarpetVIPER.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBCC8156DA94209D8D1F2E0FAFE0B75 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		918E654FBA0F5C2F0C6FF6867CBC8BCB /* Pods-RedCarpetMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVC.debug.xcconfig"; sourceTree = "<group>"; };
-		91E4BE750050B8DDDD76C762F4A7CA67 /* Pods-RedCarpetAppleMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVC.release.xcconfig"; sourceTree = "<group>"; };
-		92A71811B2ED40B68112D4B5F86CCA89 /* Pods-RedCarpetMVVM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetMVVM-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F59BBA846DC301634A78BD0C9FADF9E /* Pods-RedCarpetMVVMTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetMVVMTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91ACFEB29F88275C87C83C6DC22EDBFA /* Pods-RedCarpetMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		93764F73DD261EA72861B561AE48E535 /* CGFloat+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+Unbox.swift"; path = "Sources/CGFloat+Unbox.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9441EFDE9171DE6CC4B0144D41CB5460 /* Pods-RedCarpetAppleMVC.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVC.mock.xcconfig"; sourceTree = "<group>"; };
+		9464F2CA9E3B3C8F49FD4C7EBC860DBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95724E7E4E9FD1F28B36916493EE1F9E /* Pods_RedCarpetMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetMVVMTests.framework; path = "Pods-RedCarpetMVVMTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95924F16BA6EC0466DF16354D35A0A04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9594A7A3DF0B0DFBA2E2207CDFEEB4E4 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		95E8DD05C20F04AE189C7E8429F68225 /* Pods-RedCarpetAppleMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVC.debug.xcconfig"; sourceTree = "<group>"; };
 		9611ED6BDD09DF54EACCBCDF15029396 /* Int64+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int64+Unbox.swift"; path = "Sources/Int64+Unbox.swift"; sourceTree = "<group>"; };
 		9616B1CD6863432CE32ED16DF06EE07C /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		9958986F14261B43D2ABA5C4B048F245 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		996715113C26018EAFB16FE7CEF35986 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		9A176954335A9C1AFFA4148CE8924504 /* Pods-RedCarpetAppleMVC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetAppleMVC-resources.sh"; sourceTree = "<group>"; };
-		9A88A610AA7C922C9FBB36736CE1DBE7 /* Pods-RedCarpetMVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetMVC-umbrella.h"; sourceTree = "<group>"; };
-		9DA56352B0B48B59E53E37AC9BAF2E7F /* Pods-RedCarpetMVC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVC-resources.sh"; sourceTree = "<group>"; };
+		9A6C9E340E5879EB516E8DCAB715F71F /* Pods-RedCarpetMVCTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVCTests-frameworks.sh"; sourceTree = "<group>"; };
+		9A7C9407B76734958CC3CFBAEA141565 /* Pods-RedCarpetMVC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetMVC-acknowledgements.plist"; sourceTree = "<group>"; };
+		9BF2CBA53A542C6B615357BA2DF9883C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C0CC3B5DA62823A98B99B812ED81D46 /* Pods-RedCarpetMVVMTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetMVVMTests-dummy.m"; sourceTree = "<group>"; };
+		9CB7E9106786A2050BF03A562A669A59 /* Pods-RedCarpetAppleMVCTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetAppleMVCTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9F39A7B7F3162DB33AEE32395A774CC8 /* Bool+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bool+Unbox.swift"; path = "Sources/Bool+Unbox.swift"; sourceTree = "<group>"; };
 		9F6A7524BE869D85CC5486966A98937C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		9FA02D499FDF759DDC9E7FF252973FA7 /* Pods-RedCarpetMVVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetMVVM-dummy.m"; sourceTree = "<group>"; };
-		A0C375983E546CB00776CCE13FECD3C6 /* Pods-RedCarpetVIPERTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetVIPERTests-resources.sh"; sourceTree = "<group>"; };
-		A10383B085CEFCAF981A4F0C75488480 /* Pods-RedCarpetVIPERTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetVIPERTests-frameworks.sh"; sourceTree = "<group>"; };
+		A19C586052A113B4A8E864EA98C3ACE0 /* Pods-RedCarpetMVCTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetMVCTests-dummy.m"; sourceTree = "<group>"; };
 		A36BA24EC875148EF61EEF34F19EEAF4 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		A44A3E5450E30A2C03038DCE76D8F2F8 /* Pods-RedCarpetMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVP.debug.xcconfig"; sourceTree = "<group>"; };
-		A6E2ADF342BAB7AF042CA44011BD6491 /* Pods-RedCarpetMVVM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetMVVM-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A78E9F6A595484AD976E2D1B53CA7D9B /* Pods_RedCarpetVIPERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetVIPERTests.framework; path = "Pods-RedCarpetVIPERTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A87FBD83117A4B7F205D4F699E01BC4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EB9F5AA6BA5E571809AFCAAD1FBFAA /* Pods-Commons-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Commons-resources.sh"; sourceTree = "<group>"; };
+		A83E10FF65A36947EE21C845762BCE56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AC7F947C2E029B273CB682214CD31FDC /* Pods-RedCarpetVIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ADE8C1C1F1613D41AE7122C47D3CA92D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE2894230DCCC8B3F99DEC99519DB45 /* Pods-RedCarpetVIPER-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetVIPER-acknowledgements.plist"; sourceTree = "<group>"; };
 		B08DB1C92AA772C412B47EEF0026AED3 /* Dictionary+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+Unbox.swift"; path = "Sources/Dictionary+Unbox.swift"; sourceTree = "<group>"; };
 		B09467C467EAC94CE34E6004973C2240 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		B0C6446D060BDCBD495924A59811DA19 /* Pods-RedCarpetAppleMVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetAppleMVC-dummy.m"; sourceTree = "<group>"; };
-		B0F81BC2E85C6FF27C26080CB2D0D2A6 /* Pods-CommonsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B15AB9F552D230B7D3EE78CBB707B1FF /* Pods_RedCarpetVIPERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetVIPERTests.framework; path = "Pods-RedCarpetVIPERTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25239ADD8A501E39AE776CF15237FAE /* UnboxError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxError.swift; path = Sources/UnboxError.swift; sourceTree = "<group>"; };
 		B3319A202062051B2E078DDF519D438B /* NSArray+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSArray+Unbox.swift"; path = "Sources/NSArray+Unbox.swift"; sourceTree = "<group>"; };
+		B3644054358E27B27A819E0BADB4AEDE /* Pods-Commons-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Commons-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B46578396084F4906B258297809A0B28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4AEC3BB0DFD99860174504DD25B4731 /* Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unbox.swift; path = Sources/Unbox.swift; sourceTree = "<group>"; };
 		B545E93EAA0B2ED15F9AC854FE036B14 /* NSDictionary+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDictionary+Unbox.swift"; path = "Sources/NSDictionary+Unbox.swift"; sourceTree = "<group>"; };
-		B8272E4D6C89F27126FE42AFA7B4CD38 /* Pods-RedCarpetAppleMVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetAppleMVC-umbrella.h"; sourceTree = "<group>"; };
-		B8378F6B9BB0686FA04D2F67DE2F68DE /* Pods-RedCarpetMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5CDA3590A2BC029625168DCBF99356E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62FABF15386A80B5917C43FA54397D7 /* Pods-CommonsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9059F1CDC1B055E5635EA8115340E68 /* Pods-RedCarpetMVVMTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVVMTests-resources.sh"; sourceTree = "<group>"; };
+		B986DE18A61989384C559B12A9C49086 /* Pods-RedCarpetMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVC.release.xcconfig"; sourceTree = "<group>"; };
+		B9BB06C4F27EA9AB1F15B25414B15BCF /* Pods-Commons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Commons-umbrella.h"; sourceTree = "<group>"; };
+		B9ED9DE858C156FD235101089E5323B2 /* Pods-RedCarpetAppleMVCTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVCTests.mock.xcconfig"; sourceTree = "<group>"; };
+		BA581A7CD5DD828C7633E15839D0C8CC /* Pods-Commons-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Commons-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA5D2F07CF21FA72C556870132BD0771 /* Unbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Unbox.xcconfig; sourceTree = "<group>"; };
 		BA7198CD297DCF62E81C12B7086668B2 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		BCA31D467A6686F977F363FB3F52E55C /* Pods-RedCarpetMVVMTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetMVVMTests.modulemap"; sourceTree = "<group>"; };
-		BE1E640DC9FE4A64E2AC623876E2CBC7 /* Pods-CommonsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD16F5FD6C99212197A65094D6413F23 /* Pods-RedCarpetMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
 		C13897C241954A73FE187F7A8DF93CF8 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		C356C7A68D12CB718BA4A09D7D616BC1 /* Pods-RedCarpetAppleMVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetAppleMVC.modulemap"; sourceTree = "<group>"; };
 		C3CDAA1DC51BB8B8FB03F0A3FBE57F6E /* Data+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Unbox.swift"; path = "Sources/Data+Unbox.swift"; sourceTree = "<group>"; };
-		C5797571FFC1C8D55842B72366DB8BD1 /* Pods-RedCarpetAppleMVCTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVCTests.mock.xcconfig"; sourceTree = "<group>"; };
+		C7589CE00F7C8496CE6549686C1250D6 /* Pods-CommonsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CommonsTests.modulemap"; sourceTree = "<group>"; };
 		C822A556018DC5D1150E05446920E262 /* Double+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+Unbox.swift"; path = "Sources/Double+Unbox.swift"; sourceTree = "<group>"; };
-		CADA097C976D997E28E166B244189176 /* Pods_RedCarpetMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetMVVM.framework; path = "Pods-RedCarpetMVVM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB5765AD6FD1C1622AAD761CE332255 /* Pods-Commons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Commons.release.xcconfig"; sourceTree = "<group>"; };
 		CDC19620BE50447715A55BC4858EC705 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		CFB730702BB2C65C6D462650B103BF18 /* Pods-RedCarpetMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE0F4500300FBE9E7AD6E9C1AE926F59 /* Pods-RedCarpetVIPERTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetVIPERTests-umbrella.h"; sourceTree = "<group>"; };
+		CE695EF62FA0FBA2A812A66BE2F85048 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FCCFDDDBB34A57485F2E1A07935ACE /* URL+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Unbox.swift"; path = "Sources/URL+Unbox.swift"; sourceTree = "<group>"; };
+		D351CE7DA58468CCBED8AE7871886FC8 /* Pods_Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Commons.framework; path = "Pods-Commons.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BA1793B1FF6D0F374E44AE43034296 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		D44DC486CA1BE31DB75B85CBD8C48342 /* Pods-RedCarpetMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVC.release.xcconfig"; sourceTree = "<group>"; };
-		D4A14979EEA2F8B7E131B668EC5FAF73 /* Pods-RedCarpetMVP.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVP.mock.xcconfig"; sourceTree = "<group>"; };
-		D585637FE4E3067BF96C5C5AFF1A3253 /* Pods-RedCarpetMVP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetMVP-umbrella.h"; sourceTree = "<group>"; };
-		D85A31F2EDAC0526921CED706E19F514 /* Pods-RedCarpetMVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetMVC.modulemap"; sourceTree = "<group>"; };
-		D98A0E60220BA7ECC03556A63D92FFF5 /* Pods-RedCarpetMVC.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVC.mock.xcconfig"; sourceTree = "<group>"; };
-		DA331DD6243ADF8CB2E00DC4E25CB56A /* Pods-Commons-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Commons-resources.sh"; sourceTree = "<group>"; };
-		DA9DCCE117EB6A760A54D934780BC881 /* Pods-RedCarpetAppleMVC.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVC.mock.xcconfig"; sourceTree = "<group>"; };
-		DAF685B4D153B8C3B5CB807C02CA22C8 /* Pods-RedCarpetVIPERTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetVIPERTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3CA2F2AFB7B94DFA50AB5CEC88F4E5F /* Pods-RedCarpetVIPERTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPERTests.mock.xcconfig"; sourceTree = "<group>"; };
+		D46ECEBB3FFD1F5C67D989E0513ADB66 /* Pods-RedCarpetMVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetMVC-dummy.m"; sourceTree = "<group>"; };
+		D69FA4FDBF4FAEB59939D59B7E9CE4D7 /* Pods-RedCarpetMVCTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetMVCTests-umbrella.h"; sourceTree = "<group>"; };
+		D837FA3D0A5A13C73A20382449B87F75 /* Pods-CommonsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonsTests-frameworks.sh"; sourceTree = "<group>"; };
+		DBF9A368A92201E0EA2AD6A6CF31B652 /* Pods-RedCarpetVIPER.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPER.mock.xcconfig"; sourceTree = "<group>"; };
 		DC81D687514B914C47ABD93624561351 /* UnboxFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxFormatter.swift; path = Sources/UnboxFormatter.swift; sourceTree = "<group>"; };
-		DE8B35CA8CBB31AEC47661F7D0765652 /* Pods_RedCarpetAppleMVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetAppleMVCTests.framework; path = "Pods-RedCarpetAppleMVCTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF8290D318ECAFE494D8B3663D489A66 /* Pods-RedCarpetMVVMTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVMTests.mock.xcconfig"; sourceTree = "<group>"; };
-		DFBCEDBA8DB1ACF25E95276736EBBA6E /* Pods-Commons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Commons-dummy.m"; sourceTree = "<group>"; };
-		E226B740AA9E40345F95FD4F2840F17B /* Pods-RedCarpetMVCTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVCTests.mock.xcconfig"; sourceTree = "<group>"; };
-		E229651D014B15719299C6E4CFCBA274 /* Pods-RedCarpetAppleMVCTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetAppleMVCTests-dummy.m"; sourceTree = "<group>"; };
+		DEDC75D79E7A57B00CB5C8775379D787 /* Pods-RedCarpetMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		DF524C046D7A48E5A440F12D0F453A96 /* Pods-Commons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Commons-dummy.m"; sourceTree = "<group>"; };
+		DFC89B63B347011595E8F6CF10DF3B2C /* Pods-RedCarpetMVC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVC-resources.sh"; sourceTree = "<group>"; };
+		E17A3FA00F2EB0454EA5545911093276 /* Pods-RedCarpetMVC.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVC.mock.xcconfig"; sourceTree = "<group>"; };
 		E24C52A94332FD8F971EF59BAE82B4F9 /* JSONSerialization+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSONSerialization+Unbox.swift"; path = "Sources/JSONSerialization+Unbox.swift"; sourceTree = "<group>"; };
 		E31FD8205673B00AF24E3231DADAA8CA /* UnboxCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxCompatible.swift; path = Sources/UnboxCompatible.swift; sourceTree = "<group>"; };
-		E3FA94E528F711CB76A64BACD2D06D69 /* Pods-RedCarpetMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		E3CB6B7065CB45EAC77947BA68F16B19 /* Pods-RedCarpetMVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVCTests.release.xcconfig"; sourceTree = "<group>"; };
 		E405FFF8F06EF394BC71905B1DBB0C61 /* Set+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Set+Unbox.swift"; path = "Sources/Set+Unbox.swift"; sourceTree = "<group>"; };
-		E53A9A5F96AC2087E19E7B0CAAA9FEE7 /* Pods-RedCarpetAppleMVCTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetAppleMVCTests-resources.sh"; sourceTree = "<group>"; };
+		E44B27E84D8A3B9CAF273C429B5C441E /* Pods-Commons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Commons.debug.xcconfig"; sourceTree = "<group>"; };
 		E617F5D638B64F1EE6BE9CAA506F8ABF /* Unbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Unbox-prefix.pch"; sourceTree = "<group>"; };
-		E759A9CAF2691963257DA042C036C74C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D5ED0CBAA019640186807130D6A9F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7E95C905E81A00EA9A16235AC0878CA /* Unbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Unbox-dummy.m"; sourceTree = "<group>"; };
 		E91C2673B9A7E0875F598333C296B39D /* UnboxableRawType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxableRawType.swift; path = Sources/UnboxableRawType.swift; sourceTree = "<group>"; };
-		E9F9453B50679B05BF5A528498F3D6B5 /* Pods-RedCarpetVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPER.debug.xcconfig"; sourceTree = "<group>"; };
-		ECF4C3F95BD85006E870A9B22B828007 /* Pods-RedCarpetVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetVIPER.release.xcconfig"; sourceTree = "<group>"; };
-		ED4C4C3C97CED2D252388A1DC03DE7FE /* Pods-RedCarpetMVP-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedCarpetMVP-acknowledgements.plist"; sourceTree = "<group>"; };
-		EF74D9FC50004169D0D63918C7BACD0C /* Pods-RedCarpetVIPER-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetVIPER-dummy.m"; sourceTree = "<group>"; };
-		F1A40A5371086E415A647027F2B4A612 /* Pods-RedCarpetMVPTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetMVPTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F31E70817EBD3523D46B1BD225463294 /* Pods-RedCarpetVIPERTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedCarpetVIPERTests.modulemap"; sourceTree = "<group>"; };
+		E94A44CC33697D38CC4C2FDE6E6D4F50 /* Pods_RedCarpetAppleMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetAppleMVC.framework; path = "Pods-RedCarpetAppleMVC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C947722495AEC86BA1DE207CF890EA /* Pods-RedCarpetAppleMVCTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetAppleMVCTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EDD47102C77A3CA9D983C12B733E2D5F /* Pods-RedCarpetVIPER-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetVIPER-dummy.m"; sourceTree = "<group>"; };
+		EFE38CB947A5C0706B7B12A79ABCD10D /* Pods-RedCarpetMVC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetMVC-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F33F3C32109C6BFC7A6408A4ABE7EA15 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		F3C524AE8DC6873E9C4F87C5FFBE90C5 /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Unbox.framework; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F346573346D43FEBF344C55EFF7F03 /* UnboxArrayContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxArrayContainer.swift; path = Sources/UnboxArrayContainer.swift; sourceTree = "<group>"; };
-		F59716D3DAF4778EEA0582CD30922A71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5D1CFC53BE3A69913DCCF499EF28909 /* Pods-RedCarpetVIPER-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetVIPER-frameworks.sh"; sourceTree = "<group>"; };
-		F653399126DBD95BA81BC21BFB64D5D6 /* Pods-RedCarpetMVCTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedCarpetMVCTests-resources.sh"; sourceTree = "<group>"; };
+		F418037D394762B55E1BB0634DC1CE09 /* Pods-RedCarpetMVVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedCarpetMVVM-dummy.m"; sourceTree = "<group>"; };
+		F5CBF7CA071B91646A97D45F555EDF0D /* Pods-CommonsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F65AB9ABB6848392FD2E94948ED8882A /* UInt32+Unbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt32+Unbox.swift"; path = "Sources/UInt32+Unbox.swift"; sourceTree = "<group>"; };
-		F71AE65DA00F396B335B046B2319449A /* Pods_RedCarpetAppleMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedCarpetAppleMVC.framework; path = "Pods-RedCarpetAppleMVC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE1B38FB965291E09C96C2573DD43526 /* Pods-RedCarpetMVVMTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedCarpetMVVMTests-umbrella.h"; sourceTree = "<group>"; };
-		FE5DCF1664037EDB6D8424380819357C /* Pods-RedCarpetAppleMVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetAppleMVCTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA172D2AF89652E3BFD34B3B757BC0FE /* Pods-RedCarpetAppleMVC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedCarpetAppleMVC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE3AAED8630AADEC8C6E0901EED9BFF7 /* Pods-RedCarpetMVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedCarpetMVCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE7264C0EC2C293CD24F2FBA49B60622 /* UnboxableWithContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnboxableWithContext.swift; path = Sources/UnboxableWithContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -484,14 +440,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B78322799E9BEF884D5F1444A576FD0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22AF072C3A3A958D04299A8C652DA72D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9102C5872D86A8164CC90FC57A43A1BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -532,14 +480,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8F501CDBA307C90E1153993762298AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B941F004016B41E226500E2A67AFEC0E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F301E668CDA0C048B3234F9D4B4864DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -551,119 +491,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03BA72C8A776E87B7B7251E90089B571 /* Products */ = {
+		01AA875941B9BB481AF3242DD0C5A9F3 /* Pods-RedCarpetMVC */ = {
 			isa = PBXGroup;
 			children = (
-				6EB7021C7E3133C78E3F109FC52E9540 /* Alamofire.framework */,
-				4A3566F144615798EBF934D547563ECD /* Pods_Commons.framework */,
-				87774B12877987E00D4E982B867CDE29 /* Pods_CommonsTests.framework */,
-				F71AE65DA00F396B335B046B2319449A /* Pods_RedCarpetAppleMVC.framework */,
-				DE8B35CA8CBB31AEC47661F7D0765652 /* Pods_RedCarpetAppleMVCTests.framework */,
-				49321B677AA287C84E837D4E4CDFBCEB /* Pods_RedCarpetMVC.framework */,
-				4BF3CEDEC47D1F7FB03C0C77E59DD3CB /* Pods_RedCarpetMVCTests.framework */,
-				7B7F9FAD350A6CF0B288E6874ECB4FAC /* Pods_RedCarpetMVP.framework */,
-				756C5BBC5F4BD206AFAA3F366C5DD4A4 /* Pods_RedCarpetMVPTests.framework */,
-				CADA097C976D997E28E166B244189176 /* Pods_RedCarpetMVVM.framework */,
-				40FB73322872E6C67710DBC7A1E8BDF5 /* Pods_RedCarpetMVVMTests.framework */,
-				77025A7610FA3897ACCA1F0561998601 /* Pods_RedCarpetVIPER.framework */,
-				A78E9F6A595484AD976E2D1B53CA7D9B /* Pods_RedCarpetVIPERTests.framework */,
-				5FA62A259F88ED13A53AB07BD24C1839 /* Unbox.framework */,
+				A83E10FF65A36947EE21C845762BCE56 /* Info.plist */,
+				62CC01314BBC0FD4AC366570DC7D6441 /* Pods-RedCarpetMVC.modulemap */,
+				EFE38CB947A5C0706B7B12A79ABCD10D /* Pods-RedCarpetMVC-acknowledgements.markdown */,
+				9A7C9407B76734958CC3CFBAEA141565 /* Pods-RedCarpetMVC-acknowledgements.plist */,
+				D46ECEBB3FFD1F5C67D989E0513ADB66 /* Pods-RedCarpetMVC-dummy.m */,
+				4AF5CB1110B820AA3C25257E781DF667 /* Pods-RedCarpetMVC-frameworks.sh */,
+				DFC89B63B347011595E8F6CF10DF3B2C /* Pods-RedCarpetMVC-resources.sh */,
+				31F5C9511B31C91E3CFBB2ACF581443C /* Pods-RedCarpetMVC-umbrella.h */,
+				2B7507E53270EAA39D00B5699182A978 /* Pods-RedCarpetMVC.debug.xcconfig */,
+				E17A3FA00F2EB0454EA5545911093276 /* Pods-RedCarpetMVC.mock.xcconfig */,
+				B986DE18A61989384C559B12A9C49086 /* Pods-RedCarpetMVC.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-RedCarpetMVC";
+			path = "Target Support Files/Pods-RedCarpetMVC";
 			sourceTree = "<group>";
 		};
-		0B48F47AFD2ED2ED60392325A5E8BF61 /* Targets Support Files */ = {
+		13D126F6AF3EAF5219E5EB574D4DA4AC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				32ACE7F3461AB4FD78ACB96A33522967 /* Pods-Commons */,
-				27E0A981A1CC23410D7658031A278CE3 /* Pods-CommonsTests */,
-				39C5C911E9F3B270AB95C7325760B9F7 /* Pods-RedCarpetAppleMVC */,
-				FB91E13191F82ABEB203541C1D55832D /* Pods-RedCarpetAppleMVCTests */,
-				A54A63EB7F7020EC60A2834A6D60C705 /* Pods-RedCarpetMVC */,
-				A1F88EE55A9094BC82FD5742531EB056 /* Pods-RedCarpetMVCTests */,
-				9A2DC072A6A89F3A290D77CAE74BE594 /* Pods-RedCarpetMVP */,
-				20A8365EE6E59819042B192EB15871BB /* Pods-RedCarpetMVPTests */,
-				BDBF09F0E995D102D463680D64FE1662 /* Pods-RedCarpetMVVM */,
-				81741AC77DD0B304C612F61AC8AD9DA6 /* Pods-RedCarpetMVVMTests */,
-				552205F6901D2494DC82C485F7FB4D5C /* Pods-RedCarpetVIPER */,
-				BEA888BBD590CF88EF7DBAE736F464D1 /* Pods-RedCarpetVIPERTests */,
+				E78BE7E6349D9E80C5B00C1FAA64A58B /* Pods-Commons */,
+				CB52F7B32F3A7A43344B9817544AB84F /* Pods-CommonsTests */,
+				2B1F7366DDA3076447295AB245568327 /* Pods-RedCarpetAppleMVC */,
+				346D2A01DF866A6C2070BBFE1A60635F /* Pods-RedCarpetAppleMVCTests */,
+				01AA875941B9BB481AF3242DD0C5A9F3 /* Pods-RedCarpetMVC */,
+				A9345A3445ECDCB1938A4086EC0385B7 /* Pods-RedCarpetMVCTests */,
+				DC05854179C52FA8CA00F64E4AD25C3E /* Pods-RedCarpetMVVM */,
+				7C4D1B9A8FCB9335ED3DD2834BADF59E /* Pods-RedCarpetMVVMTests */,
+				1D3B2487ED5CF26D219CC0D24886ADE7 /* Pods-RedCarpetVIPER */,
+				EB29504B2B9F2E8025D71D8DEB983AA2 /* Pods-RedCarpetVIPERTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		20A8365EE6E59819042B192EB15871BB /* Pods-RedCarpetMVPTests */ = {
+		1D3B2487ED5CF26D219CC0D24886ADE7 /* Pods-RedCarpetVIPER */ = {
 			isa = PBXGroup;
 			children = (
-				360D93E70D519BCB7B210D590B88011C /* Info.plist */,
-				16E72532DED34C8F71B0D4F07F8DC48C /* Pods-RedCarpetMVPTests.modulemap */,
-				F1A40A5371086E415A647027F2B4A612 /* Pods-RedCarpetMVPTests-acknowledgements.markdown */,
-				5D9EB6C8A5F9C4A34421CF01436D97C5 /* Pods-RedCarpetMVPTests-acknowledgements.plist */,
-				41CCEFC4B92B35B7D49058D8EF8BFFB7 /* Pods-RedCarpetMVPTests-dummy.m */,
-				8892EA8C58FFFF848DF62D5CF06A1B51 /* Pods-RedCarpetMVPTests-frameworks.sh */,
-				881ABF8036E98F3BE4BFA6A902D1B20C /* Pods-RedCarpetMVPTests-resources.sh */,
-				8CA707E7BB2CC41C8E8EB0D8CE2D023A /* Pods-RedCarpetMVPTests-umbrella.h */,
-				5B177BA669B864D875DA691B75E76CDF /* Pods-RedCarpetMVPTests.debug.xcconfig */,
-				8385AC16F8DCA30F49B6A6758B213D77 /* Pods-RedCarpetMVPTests.mock.xcconfig */,
-				30169FB3D36D31B0E348D27F20DFE185 /* Pods-RedCarpetMVPTests.release.xcconfig */,
+				B5CDA3590A2BC029625168DCBF99356E /* Info.plist */,
+				1A8FDF5770002B39E73835D3936D4A3A /* Pods-RedCarpetVIPER.modulemap */,
+				2C59CF07697B010DAE54496267435CC8 /* Pods-RedCarpetVIPER-acknowledgements.markdown */,
+				AFE2894230DCCC8B3F99DEC99519DB45 /* Pods-RedCarpetVIPER-acknowledgements.plist */,
+				EDD47102C77A3CA9D983C12B733E2D5F /* Pods-RedCarpetVIPER-dummy.m */,
+				44FF3553D1D0D8AE18D78955AAEBD44B /* Pods-RedCarpetVIPER-frameworks.sh */,
+				2224C394DFD74C0BA50942E2625DD759 /* Pods-RedCarpetVIPER-resources.sh */,
+				7370387F7ACC59F2F66E918B4E543353 /* Pods-RedCarpetVIPER-umbrella.h */,
+				27C8C8E7C994DD91EDB7D11819840528 /* Pods-RedCarpetVIPER.debug.xcconfig */,
+				DBF9A368A92201E0EA2AD6A6CF31B652 /* Pods-RedCarpetVIPER.mock.xcconfig */,
+				5B98E617AC56730B958764AA3F00E19D /* Pods-RedCarpetVIPER.release.xcconfig */,
 			);
-			name = "Pods-RedCarpetMVPTests";
-			path = "Target Support Files/Pods-RedCarpetMVPTests";
+			name = "Pods-RedCarpetVIPER";
+			path = "Target Support Files/Pods-RedCarpetVIPER";
 			sourceTree = "<group>";
 		};
-		27E0A981A1CC23410D7658031A278CE3 /* Pods-CommonsTests */ = {
+		2B1F7366DDA3076447295AB245568327 /* Pods-RedCarpetAppleMVC */ = {
 			isa = PBXGroup;
 			children = (
-				4D1F2C3A2BD4F6F22009C429CFCE907D /* Info.plist */,
-				74F997A5DF9ACB5B6C3F3C9C035E283C /* Pods-CommonsTests.modulemap */,
-				0B204EE2822F2B16E147055B3475FC3B /* Pods-CommonsTests-acknowledgements.markdown */,
-				BE1E640DC9FE4A64E2AC623876E2CBC7 /* Pods-CommonsTests-acknowledgements.plist */,
-				27D7EED7E334E792E83068A52450E4D5 /* Pods-CommonsTests-dummy.m */,
-				633D32C5707B26F1D2E2F400BD5052D2 /* Pods-CommonsTests-frameworks.sh */,
-				2126AFF6FAC21D6DE57F8AB72B300B8F /* Pods-CommonsTests-resources.sh */,
-				0FB9981C26E99A34A877580DF93ECA18 /* Pods-CommonsTests-umbrella.h */,
-				1F30C3EF98CC8CFE86CE424E80EE4C0B /* Pods-CommonsTests.debug.xcconfig */,
-				14FB151E34B50E19BE8B26D124F7ECC8 /* Pods-CommonsTests.mock.xcconfig */,
-				B0F81BC2E85C6FF27C26080CB2D0D2A6 /* Pods-CommonsTests.release.xcconfig */,
-			);
-			name = "Pods-CommonsTests";
-			path = "Target Support Files/Pods-CommonsTests";
-			sourceTree = "<group>";
-		};
-		32ACE7F3461AB4FD78ACB96A33522967 /* Pods-Commons */ = {
-			isa = PBXGroup;
-			children = (
-				F59716D3DAF4778EEA0582CD30922A71 /* Info.plist */,
-				7C13AA8EDE276AB9FC7C8EAD8E3413D8 /* Pods-Commons.modulemap */,
-				803B39FE81ED9EC106033699F772AEF5 /* Pods-Commons-acknowledgements.markdown */,
-				038D1FE6DD13189A48B432B9F56B69F1 /* Pods-Commons-acknowledgements.plist */,
-				DFBCEDBA8DB1ACF25E95276736EBBA6E /* Pods-Commons-dummy.m */,
-				DA331DD6243ADF8CB2E00DC4E25CB56A /* Pods-Commons-resources.sh */,
-				46124B23B69A67DDA0530D485D0668D3 /* Pods-Commons-umbrella.h */,
-				4C000509C0CD9CAC94980057A1A46625 /* Pods-Commons.debug.xcconfig */,
-				33134CE6E041B6B1750105EC290D404A /* Pods-Commons.mock.xcconfig */,
-				77813633F7ED4BFDFE859D7FEB968440 /* Pods-Commons.release.xcconfig */,
-			);
-			name = "Pods-Commons";
-			path = "Target Support Files/Pods-Commons";
-			sourceTree = "<group>";
-		};
-		39C5C911E9F3B270AB95C7325760B9F7 /* Pods-RedCarpetAppleMVC */ = {
-			isa = PBXGroup;
-			children = (
-				ADE8C1C1F1613D41AE7122C47D3CA92D /* Info.plist */,
-				C356C7A68D12CB718BA4A09D7D616BC1 /* Pods-RedCarpetAppleMVC.modulemap */,
-				24B7BB38198ABC9AEBF77B149126086B /* Pods-RedCarpetAppleMVC-acknowledgements.markdown */,
-				8B34A945CC95B9E338A462922EC0CF04 /* Pods-RedCarpetAppleMVC-acknowledgements.plist */,
-				B0C6446D060BDCBD495924A59811DA19 /* Pods-RedCarpetAppleMVC-dummy.m */,
-				3A3298D5A4196A2F58DDC8A73E605302 /* Pods-RedCarpetAppleMVC-frameworks.sh */,
-				9A176954335A9C1AFFA4148CE8924504 /* Pods-RedCarpetAppleMVC-resources.sh */,
-				B8272E4D6C89F27126FE42AFA7B4CD38 /* Pods-RedCarpetAppleMVC-umbrella.h */,
-				95E8DD05C20F04AE189C7E8429F68225 /* Pods-RedCarpetAppleMVC.debug.xcconfig */,
-				DA9DCCE117EB6A760A54D934780BC881 /* Pods-RedCarpetAppleMVC.mock.xcconfig */,
-				91E4BE750050B8DDDD76C762F4A7CA67 /* Pods-RedCarpetAppleMVC.release.xcconfig */,
+				9BF2CBA53A542C6B615357BA2DF9883C /* Info.plist */,
+				7F90BAB6D11CF9B650DBED4E4AA2DD76 /* Pods-RedCarpetAppleMVC.modulemap */,
+				FA172D2AF89652E3BFD34B3B757BC0FE /* Pods-RedCarpetAppleMVC-acknowledgements.markdown */,
+				55FB8905E8EDBDE2128EA1E6560CAB61 /* Pods-RedCarpetAppleMVC-acknowledgements.plist */,
+				1C746702C90258282319470925EA5CCC /* Pods-RedCarpetAppleMVC-dummy.m */,
+				27FA9D1177C47EA66C5D3B87ED2C310C /* Pods-RedCarpetAppleMVC-frameworks.sh */,
+				805E09222EE03521C1473EEC45F41224 /* Pods-RedCarpetAppleMVC-resources.sh */,
+				5E1C916EE43C6AF4D01E3C73B74B9FD3 /* Pods-RedCarpetAppleMVC-umbrella.h */,
+				41452585BC4725C4B66D52B538533231 /* Pods-RedCarpetAppleMVC.debug.xcconfig */,
+				9441EFDE9171DE6CC4B0144D41CB5460 /* Pods-RedCarpetAppleMVC.mock.xcconfig */,
+				6FA0FE25CB5FA827638EB5679E36A93C /* Pods-RedCarpetAppleMVC.release.xcconfig */,
 			);
 			name = "Pods-RedCarpetAppleMVC";
 			path = "Target Support Files/Pods-RedCarpetAppleMVC";
+			sourceTree = "<group>";
+		};
+		346D2A01DF866A6C2070BBFE1A60635F /* Pods-RedCarpetAppleMVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				95924F16BA6EC0466DF16354D35A0A04 /* Info.plist */,
+				0E4E784CFFE81FE5F70FBBA9C197A35C /* Pods-RedCarpetAppleMVCTests.modulemap */,
+				E9C947722495AEC86BA1DE207CF890EA /* Pods-RedCarpetAppleMVCTests-acknowledgements.markdown */,
+				9CB7E9106786A2050BF03A562A669A59 /* Pods-RedCarpetAppleMVCTests-acknowledgements.plist */,
+				54A40FA3671B535421E4BE00F7BF11F8 /* Pods-RedCarpetAppleMVCTests-dummy.m */,
+				5CC321C1E9DDF71508593CC626DDE4DD /* Pods-RedCarpetAppleMVCTests-frameworks.sh */,
+				82D2B244FB4FFF49B15757B58FE487CF /* Pods-RedCarpetAppleMVCTests-resources.sh */,
+				72DFF8ACD4E8194BF17083276351B663 /* Pods-RedCarpetAppleMVCTests-umbrella.h */,
+				116B406F7D402A463ED00761FC91B9D4 /* Pods-RedCarpetAppleMVCTests.debug.xcconfig */,
+				B9ED9DE858C156FD235101089E5323B2 /* Pods-RedCarpetAppleMVCTests.mock.xcconfig */,
+				7BFB8067E020FCB1976574A4C7036F98 /* Pods-RedCarpetAppleMVCTests.release.xcconfig */,
+			);
+			name = "Pods-RedCarpetAppleMVCTests";
+			path = "Target Support Files/Pods-RedCarpetAppleMVCTests";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -674,23 +592,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		552205F6901D2494DC82C485F7FB4D5C /* Pods-RedCarpetVIPER */ = {
+		52AF1A0BE276EA14146DBCE91A34C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FEB96ADA0A453B393909BBE4D222A91 /* Info.plist */,
-				51A45AA14A608F859318326EB5578AC3 /* Pods-RedCarpetVIPER.modulemap */,
-				6CACF416F9AA24F075FDF56EF9CD2A91 /* Pods-RedCarpetVIPER-acknowledgements.markdown */,
-				802F92BD546693DF50A0F07E37EBCF22 /* Pods-RedCarpetVIPER-acknowledgements.plist */,
-				EF74D9FC50004169D0D63918C7BACD0C /* Pods-RedCarpetVIPER-dummy.m */,
-				F5D1CFC53BE3A69913DCCF499EF28909 /* Pods-RedCarpetVIPER-frameworks.sh */,
-				2BB07B864DF442B38B5AA13A9DE5DDFB /* Pods-RedCarpetVIPER-resources.sh */,
-				2E3115D881915F77695F798E321A7B1B /* Pods-RedCarpetVIPER-umbrella.h */,
-				E9F9453B50679B05BF5A528498F3D6B5 /* Pods-RedCarpetVIPER.debug.xcconfig */,
-				789D4354B4DDAE869C7B890384BCAF69 /* Pods-RedCarpetVIPER.mock.xcconfig */,
-				ECF4C3F95BD85006E870A9B22B828007 /* Pods-RedCarpetVIPER.release.xcconfig */,
+				CE695EF62FA0FBA2A812A66BE2F85048 /* Alamofire.framework */,
+				D351CE7DA58468CCBED8AE7871886FC8 /* Pods_Commons.framework */,
+				71F71443434DDF482B4C9B1BEE189653 /* Pods_CommonsTests.framework */,
+				E94A44CC33697D38CC4C2FDE6E6D4F50 /* Pods_RedCarpetAppleMVC.framework */,
+				54A47D64A4DF699FB7F60AC5FFB34D72 /* Pods_RedCarpetAppleMVCTests.framework */,
+				7660A4639E098184A3A1DFBCACA55865 /* Pods_RedCarpetMVC.framework */,
+				57EE1A756EC1438500A815F41DD4F7A9 /* Pods_RedCarpetMVCTests.framework */,
+				08CB5AA9AF42994E21B6AD082C4002A0 /* Pods_RedCarpetMVVM.framework */,
+				95724E7E4E9FD1F28B36916493EE1F9E /* Pods_RedCarpetMVVMTests.framework */,
+				8AD8C931BCADE8DE5D6119023B430E47 /* Pods_RedCarpetVIPER.framework */,
+				B15AB9F552D230B7D3EE78CBB707B1FF /* Pods_RedCarpetVIPERTests.framework */,
+				F3C524AE8DC6873E9C4F87C5FFBE90C5 /* Unbox.framework */,
 			);
-			name = "Pods-RedCarpetVIPER";
-			path = "Target Support Files/Pods-RedCarpetVIPER";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		66680A1141B0795EBD78C267990A12C6 /* Support Files */ = {
@@ -707,34 +625,34 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
+		7C4D1B9A8FCB9335ED3DD2834BADF59E /* Pods-RedCarpetMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				B46578396084F4906B258297809A0B28 /* Info.plist */,
+				22E48E30BE5FABA9450D529DCA49021A /* Pods-RedCarpetMVVMTests.modulemap */,
+				2F9ADF8FEB079CDE5BA760A887B3622D /* Pods-RedCarpetMVVMTests-acknowledgements.markdown */,
+				8F59BBA846DC301634A78BD0C9FADF9E /* Pods-RedCarpetMVVMTests-acknowledgements.plist */,
+				9C0CC3B5DA62823A98B99B812ED81D46 /* Pods-RedCarpetMVVMTests-dummy.m */,
+				1DA6A52E9187A6BA4AA90CA5093AE256 /* Pods-RedCarpetMVVMTests-frameworks.sh */,
+				B9059F1CDC1B055E5635EA8115340E68 /* Pods-RedCarpetMVVMTests-resources.sh */,
+				012619E7F9E154E80741146514216E71 /* Pods-RedCarpetMVVMTests-umbrella.h */,
+				47910285130D71ACBADD6E2D73618794 /* Pods-RedCarpetMVVMTests.debug.xcconfig */,
+				00D1BD816A55C93052397032B4F3CB27 /* Pods-RedCarpetMVVMTests.mock.xcconfig */,
+				BD16F5FD6C99212197A65094D6413F23 /* Pods-RedCarpetMVVMTests.release.xcconfig */,
+			);
+			name = "Pods-RedCarpetMVVMTests";
+			path = "Target Support Files/Pods-RedCarpetMVVMTests";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				A3E542301DB623F99CB27B8CB25C3955 /* Pods */,
-				03BA72C8A776E87B7B7251E90089B571 /* Products */,
-				0B48F47AFD2ED2ED60392325A5E8BF61 /* Targets Support Files */,
+				52AF1A0BE276EA14146DBCE91A34C39A /* Products */,
+				13D126F6AF3EAF5219E5EB574D4DA4AC /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		81741AC77DD0B304C612F61AC8AD9DA6 /* Pods-RedCarpetMVVMTests */ = {
-			isa = PBXGroup;
-			children = (
-				795042003000341F7D1BABDC08FAC715 /* Info.plist */,
-				BCA31D467A6686F977F363FB3F52E55C /* Pods-RedCarpetMVVMTests.modulemap */,
-				648585905F90193287108BA747646D86 /* Pods-RedCarpetMVVMTests-acknowledgements.markdown */,
-				6C6BF956A24C9FACF5EC6C03192EE9A2 /* Pods-RedCarpetMVVMTests-acknowledgements.plist */,
-				37585E0C766898D8CDD5EFA321EBF890 /* Pods-RedCarpetMVVMTests-dummy.m */,
-				5ECBA1B2BBB0A5F78422A16CFAE6D64D /* Pods-RedCarpetMVVMTests-frameworks.sh */,
-				056BBEF124E83EEAEAD031E3D05A730C /* Pods-RedCarpetMVVMTests-resources.sh */,
-				FE1B38FB965291E09C96C2573DD43526 /* Pods-RedCarpetMVVMTests-umbrella.h */,
-				CFB730702BB2C65C6D462650B103BF18 /* Pods-RedCarpetMVVMTests.debug.xcconfig */,
-				DF8290D318ECAFE494D8B3663D489A66 /* Pods-RedCarpetMVVMTests.mock.xcconfig */,
-				B8378F6B9BB0686FA04D2F67DE2F68DE /* Pods-RedCarpetMVVMTests.release.xcconfig */,
-			);
-			name = "Pods-RedCarpetMVVMTests";
-			path = "Target Support Files/Pods-RedCarpetMVVMTests";
 			sourceTree = "<group>";
 		};
 		82EF0AB5AA848D6FE35F64853A34C47F /* Support Files */ = {
@@ -751,44 +669,6 @@
 			path = "../Target Support Files/Unbox";
 			sourceTree = "<group>";
 		};
-		9A2DC072A6A89F3A290D77CAE74BE594 /* Pods-RedCarpetMVP */ = {
-			isa = PBXGroup;
-			children = (
-				808F8A490D1E27FFDC0B74705A6953BA /* Info.plist */,
-				53AB1AA44B63AEFCA9BFE241FE0ABB6A /* Pods-RedCarpetMVP.modulemap */,
-				315BAEF3C78E50B3EEB57F400E95EDBF /* Pods-RedCarpetMVP-acknowledgements.markdown */,
-				ED4C4C3C97CED2D252388A1DC03DE7FE /* Pods-RedCarpetMVP-acknowledgements.plist */,
-				0603FF069FBAF70CCC114ED5E1D194F3 /* Pods-RedCarpetMVP-dummy.m */,
-				8DDD530DA392C78CF997F0D05E5C61D7 /* Pods-RedCarpetMVP-frameworks.sh */,
-				5ED5E754936DDF36828B4FF8B4501A91 /* Pods-RedCarpetMVP-resources.sh */,
-				D585637FE4E3067BF96C5C5AFF1A3253 /* Pods-RedCarpetMVP-umbrella.h */,
-				A44A3E5450E30A2C03038DCE76D8F2F8 /* Pods-RedCarpetMVP.debug.xcconfig */,
-				D4A14979EEA2F8B7E131B668EC5FAF73 /* Pods-RedCarpetMVP.mock.xcconfig */,
-				0215313155825B61E7E0AB363E7538C3 /* Pods-RedCarpetMVP.release.xcconfig */,
-			);
-			name = "Pods-RedCarpetMVP";
-			path = "Target Support Files/Pods-RedCarpetMVP";
-			sourceTree = "<group>";
-		};
-		A1F88EE55A9094BC82FD5742531EB056 /* Pods-RedCarpetMVCTests */ = {
-			isa = PBXGroup;
-			children = (
-				E759A9CAF2691963257DA042C036C74C /* Info.plist */,
-				158E75BF4E298471E667B8A8F7BA9401 /* Pods-RedCarpetMVCTests.modulemap */,
-				0AE8C7594B450ECC9E72C12DC515746C /* Pods-RedCarpetMVCTests-acknowledgements.markdown */,
-				6267FFA12A65BCA3BAE5CACBBD4EDF85 /* Pods-RedCarpetMVCTests-acknowledgements.plist */,
-				75FE580649CA0774ECC1EAD98A27866C /* Pods-RedCarpetMVCTests-dummy.m */,
-				7D969B78CBA2633C2478D3C422CC5DD1 /* Pods-RedCarpetMVCTests-frameworks.sh */,
-				F653399126DBD95BA81BC21BFB64D5D6 /* Pods-RedCarpetMVCTests-resources.sh */,
-				00340A6F114D132CA5037C2C93C3555E /* Pods-RedCarpetMVCTests-umbrella.h */,
-				511D8E625AB6EBF84C4A24F0BEE13F49 /* Pods-RedCarpetMVCTests.debug.xcconfig */,
-				E226B740AA9E40345F95FD4F2840F17B /* Pods-RedCarpetMVCTests.mock.xcconfig */,
-				5E8AA3FE3AC7AA48671662D3C9A986D7 /* Pods-RedCarpetMVCTests.release.xcconfig */,
-			);
-			name = "Pods-RedCarpetMVCTests";
-			path = "Target Support Files/Pods-RedCarpetMVCTests";
-			sourceTree = "<group>";
-		};
 		A3E542301DB623F99CB27B8CB25C3955 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -798,61 +678,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A54A63EB7F7020EC60A2834A6D60C705 /* Pods-RedCarpetMVC */ = {
+		A9345A3445ECDCB1938A4086EC0385B7 /* Pods-RedCarpetMVCTests */ = {
 			isa = PBXGroup;
 			children = (
-				A87FBD83117A4B7F205D4F699E01BC4F /* Info.plist */,
-				D85A31F2EDAC0526921CED706E19F514 /* Pods-RedCarpetMVC.modulemap */,
-				6254342C62A7600F45974FFDA99E9493 /* Pods-RedCarpetMVC-acknowledgements.markdown */,
-				88B8CE27A2B49F779F0CF26163E45F8F /* Pods-RedCarpetMVC-acknowledgements.plist */,
-				1E5E5CC2813428ABDA71241B2C194566 /* Pods-RedCarpetMVC-dummy.m */,
-				03708FC1D786301C395402A3D27E7B1E /* Pods-RedCarpetMVC-frameworks.sh */,
-				9DA56352B0B48B59E53E37AC9BAF2E7F /* Pods-RedCarpetMVC-resources.sh */,
-				9A88A610AA7C922C9FBB36736CE1DBE7 /* Pods-RedCarpetMVC-umbrella.h */,
-				918E654FBA0F5C2F0C6FF6867CBC8BCB /* Pods-RedCarpetMVC.debug.xcconfig */,
-				D98A0E60220BA7ECC03556A63D92FFF5 /* Pods-RedCarpetMVC.mock.xcconfig */,
-				D44DC486CA1BE31DB75B85CBD8C48342 /* Pods-RedCarpetMVC.release.xcconfig */,
+				E7D5ED0CBAA019640186807130D6A9F8 /* Info.plist */,
+				5427B870E3D9B6F343F598996FD7DA1B /* Pods-RedCarpetMVCTests.modulemap */,
+				1F14416E2C35EE32F3CEA5653ABDB6C8 /* Pods-RedCarpetMVCTests-acknowledgements.markdown */,
+				4C1875AB5745178A2593781EE4063BD5 /* Pods-RedCarpetMVCTests-acknowledgements.plist */,
+				A19C586052A113B4A8E864EA98C3ACE0 /* Pods-RedCarpetMVCTests-dummy.m */,
+				9A6C9E340E5879EB516E8DCAB715F71F /* Pods-RedCarpetMVCTests-frameworks.sh */,
+				6A8BC92CDC61A37A25697E86A4F79831 /* Pods-RedCarpetMVCTests-resources.sh */,
+				D69FA4FDBF4FAEB59939D59B7E9CE4D7 /* Pods-RedCarpetMVCTests-umbrella.h */,
+				FE3AAED8630AADEC8C6E0901EED9BFF7 /* Pods-RedCarpetMVCTests.debug.xcconfig */,
+				8304EF9173F9CFFC71FBF9F42671EAFE /* Pods-RedCarpetMVCTests.mock.xcconfig */,
+				E3CB6B7065CB45EAC77947BA68F16B19 /* Pods-RedCarpetMVCTests.release.xcconfig */,
 			);
-			name = "Pods-RedCarpetMVC";
-			path = "Target Support Files/Pods-RedCarpetMVC";
-			sourceTree = "<group>";
-		};
-		BDBF09F0E995D102D463680D64FE1662 /* Pods-RedCarpetMVVM */ = {
-			isa = PBXGroup;
-			children = (
-				3F32EB12E863DB46E0E18E933EC96CEA /* Info.plist */,
-				5CCE39AD2F25FF3E382F6CCB17264A52 /* Pods-RedCarpetMVVM.modulemap */,
-				A6E2ADF342BAB7AF042CA44011BD6491 /* Pods-RedCarpetMVVM-acknowledgements.markdown */,
-				92A71811B2ED40B68112D4B5F86CCA89 /* Pods-RedCarpetMVVM-acknowledgements.plist */,
-				9FA02D499FDF759DDC9E7FF252973FA7 /* Pods-RedCarpetMVVM-dummy.m */,
-				4FFE9A178DD96AEC2389984C0862EDD7 /* Pods-RedCarpetMVVM-frameworks.sh */,
-				2C85B5D0E9BB7FF673D1E9CABE99F3CD /* Pods-RedCarpetMVVM-resources.sh */,
-				2193A9E9039931F8B0B9F089368D9E8F /* Pods-RedCarpetMVVM-umbrella.h */,
-				E3FA94E528F711CB76A64BACD2D06D69 /* Pods-RedCarpetMVVM.debug.xcconfig */,
-				51C061E7A527B01E9E657AFC672D91ED /* Pods-RedCarpetMVVM.mock.xcconfig */,
-				4F0DE573DCB95C392A88E5D36541957E /* Pods-RedCarpetMVVM.release.xcconfig */,
-			);
-			name = "Pods-RedCarpetMVVM";
-			path = "Target Support Files/Pods-RedCarpetMVVM";
-			sourceTree = "<group>";
-		};
-		BEA888BBD590CF88EF7DBAE736F464D1 /* Pods-RedCarpetVIPERTests */ = {
-			isa = PBXGroup;
-			children = (
-				1DA0558ECAB4C65AC5AED06F17302334 /* Info.plist */,
-				F31E70817EBD3523D46B1BD225463294 /* Pods-RedCarpetVIPERTests.modulemap */,
-				4B4CF5F5770C66EB96905529BAA9A1D8 /* Pods-RedCarpetVIPERTests-acknowledgements.markdown */,
-				DAF685B4D153B8C3B5CB807C02CA22C8 /* Pods-RedCarpetVIPERTests-acknowledgements.plist */,
-				260365DEF37C8EBEBD88AAE20425D1A5 /* Pods-RedCarpetVIPERTests-dummy.m */,
-				A10383B085CEFCAF981A4F0C75488480 /* Pods-RedCarpetVIPERTests-frameworks.sh */,
-				A0C375983E546CB00776CCE13FECD3C6 /* Pods-RedCarpetVIPERTests-resources.sh */,
-				0697F180C9857C12D74902441C676B79 /* Pods-RedCarpetVIPERTests-umbrella.h */,
-				AC7F947C2E029B273CB682214CD31FDC /* Pods-RedCarpetVIPERTests.debug.xcconfig */,
-				2EC2323E1A2EDA644C2E1736CB7FF8E2 /* Pods-RedCarpetVIPERTests.mock.xcconfig */,
-				56F85058B0A4F6E1D517EEC0BB6E340A /* Pods-RedCarpetVIPERTests.release.xcconfig */,
-			);
-			name = "Pods-RedCarpetVIPERTests";
-			path = "Target Support Files/Pods-RedCarpetVIPERTests";
+			name = "Pods-RedCarpetMVCTests";
+			path = "Target Support Files/Pods-RedCarpetMVCTests";
 			sourceTree = "<group>";
 		};
 		C93AA53D048424A67CC426E3C9422A44 /* iOS */ = {
@@ -862,6 +704,81 @@
 				AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB52F7B32F3A7A43344B9817544AB84F /* Pods-CommonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				77CFB95E1E2CD33B343E5213A3A7E44D /* Info.plist */,
+				C7589CE00F7C8496CE6549686C1250D6 /* Pods-CommonsTests.modulemap */,
+				55157AC9A0A0E85F15A0B18F03ACA00C /* Pods-CommonsTests-acknowledgements.markdown */,
+				F5CBF7CA071B91646A97D45F555EDF0D /* Pods-CommonsTests-acknowledgements.plist */,
+				7C02C079AA17F8F9883DAD0F59A0D91C /* Pods-CommonsTests-dummy.m */,
+				D837FA3D0A5A13C73A20382449B87F75 /* Pods-CommonsTests-frameworks.sh */,
+				2AA12154542D48EEEBEC94084BC1596A /* Pods-CommonsTests-resources.sh */,
+				5C4C777725DF26475F4FD11E9522E6A9 /* Pods-CommonsTests-umbrella.h */,
+				B62FABF15386A80B5917C43FA54397D7 /* Pods-CommonsTests.debug.xcconfig */,
+				257986F6FDB1CA6DF17DC918DC1041E1 /* Pods-CommonsTests.mock.xcconfig */,
+				3CF3F12FF516BBDB923F4303C8F51DD1 /* Pods-CommonsTests.release.xcconfig */,
+			);
+			name = "Pods-CommonsTests";
+			path = "Target Support Files/Pods-CommonsTests";
+			sourceTree = "<group>";
+		};
+		DC05854179C52FA8CA00F64E4AD25C3E /* Pods-RedCarpetMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E12FA390E8F34655C3CE8E8260C41 /* Info.plist */,
+				81A08371CEE127A2DE89E51220498956 /* Pods-RedCarpetMVVM.modulemap */,
+				24F76295BD3DDD1BD72A9AB07D65D1C5 /* Pods-RedCarpetMVVM-acknowledgements.markdown */,
+				7F62DEB46D3C43B9D0687F2231CBCF0C /* Pods-RedCarpetMVVM-acknowledgements.plist */,
+				F418037D394762B55E1BB0634DC1CE09 /* Pods-RedCarpetMVVM-dummy.m */,
+				42B6AA4D9B1FD6A0199E445FC912872B /* Pods-RedCarpetMVVM-frameworks.sh */,
+				0B01F74C6FAEF64AC7FFE9CB7ABBC80F /* Pods-RedCarpetMVVM-resources.sh */,
+				7332E7C675F70207D5384381AE7358B6 /* Pods-RedCarpetMVVM-umbrella.h */,
+				91ACFEB29F88275C87C83C6DC22EDBFA /* Pods-RedCarpetMVVM.debug.xcconfig */,
+				199B942DB4940AF4A8C046D68486A64A /* Pods-RedCarpetMVVM.mock.xcconfig */,
+				DEDC75D79E7A57B00CB5C8775379D787 /* Pods-RedCarpetMVVM.release.xcconfig */,
+			);
+			name = "Pods-RedCarpetMVVM";
+			path = "Target Support Files/Pods-RedCarpetMVVM";
+			sourceTree = "<group>";
+		};
+		E78BE7E6349D9E80C5B00C1FAA64A58B /* Pods-Commons */ = {
+			isa = PBXGroup;
+			children = (
+				9464F2CA9E3B3C8F49FD4C7EBC860DBD /* Info.plist */,
+				3F5465BAE1CA05231471841B61323D0A /* Pods-Commons.modulemap */,
+				B3644054358E27B27A819E0BADB4AEDE /* Pods-Commons-acknowledgements.markdown */,
+				BA581A7CD5DD828C7633E15839D0C8CC /* Pods-Commons-acknowledgements.plist */,
+				DF524C046D7A48E5A440F12D0F453A96 /* Pods-Commons-dummy.m */,
+				A6EB9F5AA6BA5E571809AFCAAD1FBFAA /* Pods-Commons-resources.sh */,
+				B9BB06C4F27EA9AB1F15B25414B15BCF /* Pods-Commons-umbrella.h */,
+				E44B27E84D8A3B9CAF273C429B5C441E /* Pods-Commons.debug.xcconfig */,
+				5410644FE6D27C3ECEA9FCA9E5883DD6 /* Pods-Commons.mock.xcconfig */,
+				CAB5765AD6FD1C1622AAD761CE332255 /* Pods-Commons.release.xcconfig */,
+			);
+			name = "Pods-Commons";
+			path = "Target Support Files/Pods-Commons";
+			sourceTree = "<group>";
+		};
+		EB29504B2B9F2E8025D71D8DEB983AA2 /* Pods-RedCarpetVIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				21784B216D3AEB9A45EA9482B94EBCD0 /* Info.plist */,
+				7930E33EA58217B2B7BB8414D6831CF1 /* Pods-RedCarpetVIPERTests.modulemap */,
+				734C9684B0B2AFEED89D4FD592DAE2AC /* Pods-RedCarpetVIPERTests-acknowledgements.markdown */,
+				086324316595DFDE9EBCF2EFE1185BD3 /* Pods-RedCarpetVIPERTests-acknowledgements.plist */,
+				1E8BC2AD4F389C410937EAC7C049D39C /* Pods-RedCarpetVIPERTests-dummy.m */,
+				8879E312039B9CA40D8912241EBABC12 /* Pods-RedCarpetVIPERTests-frameworks.sh */,
+				7C89F32DBE2E34774F4A6223B15F294F /* Pods-RedCarpetVIPERTests-resources.sh */,
+				CE0F4500300FBE9E7AD6E9C1AE926F59 /* Pods-RedCarpetVIPERTests-umbrella.h */,
+				2ACDD4E6906B0FE4608E080CEA2351B8 /* Pods-RedCarpetVIPERTests.debug.xcconfig */,
+				D3CA2F2AFB7B94DFA50AB5CEC88F4E5F /* Pods-RedCarpetVIPERTests.mock.xcconfig */,
+				18CE1E15B5F76F028C9CE6375F993DD3 /* Pods-RedCarpetVIPERTests.release.xcconfig */,
+			);
+			name = "Pods-RedCarpetVIPERTests";
+			path = "Target Support Files/Pods-RedCarpetVIPERTests";
 			sourceTree = "<group>";
 		};
 		F81C67B37D917F60B08CCF04D2F1E710 /* Alamofire */ = {
@@ -888,25 +805,6 @@
 			);
 			name = Alamofire;
 			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		FB91E13191F82ABEB203541C1D55832D /* Pods-RedCarpetAppleMVCTests */ = {
-			isa = PBXGroup;
-			children = (
-				004CAB0D62890804398D06B5D61CB3BA /* Info.plist */,
-				1FD09A48B65A1DDBDB35188533DD5A11 /* Pods-RedCarpetAppleMVCTests.modulemap */,
-				7012295D58B53BA70CF4C69C1AE05CE7 /* Pods-RedCarpetAppleMVCTests-acknowledgements.markdown */,
-				491973CC2F813166F52E3FB9AE181855 /* Pods-RedCarpetAppleMVCTests-acknowledgements.plist */,
-				E229651D014B15719299C6E4CFCBA274 /* Pods-RedCarpetAppleMVCTests-dummy.m */,
-				11D40DA0C5730243B4E367698D7AD635 /* Pods-RedCarpetAppleMVCTests-frameworks.sh */,
-				E53A9A5F96AC2087E19E7B0CAAA9FEE7 /* Pods-RedCarpetAppleMVCTests-resources.sh */,
-				3B2FB822CE9D37FB0DB11B642F9A46C7 /* Pods-RedCarpetAppleMVCTests-umbrella.h */,
-				75A337CC04AEF02AED8A3034D039A6F2 /* Pods-RedCarpetAppleMVCTests.debug.xcconfig */,
-				C5797571FFC1C8D55842B72366DB8BD1 /* Pods-RedCarpetAppleMVCTests.mock.xcconfig */,
-				FE5DCF1664037EDB6D8424380819357C /* Pods-RedCarpetAppleMVCTests.release.xcconfig */,
-			);
-			name = "Pods-RedCarpetAppleMVCTests";
-			path = "Target Support Files/Pods-RedCarpetAppleMVCTests";
 			sourceTree = "<group>";
 		};
 		FFE45CCF5BD59B3A0C3D11DCFD5F432D /* Unbox */ = {
@@ -971,14 +869,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41686F9CBAE74AE7D4C2375260943437 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40C435504732755962FACE3AC2D27D44 /* Pods-RedCarpetMVP-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		46EA37758EEAE80BA06DBAA79D004A72 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1016,14 +906,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				225AB8515F02329BF6BD93C894B9FEF6 /* Pods-Commons-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E86FFE6FDB11BF003FD19C7C89ADABE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				142D70C522E16C339B06D1D8A2A9CB9C /* Pods-RedCarpetMVPTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1094,7 +976,7 @@
 			);
 			name = "Pods-CommonsTests";
 			productName = "Pods-CommonsTests";
-			productReference = 87774B12877987E00D4E982B867CDE29 /* Pods_CommonsTests.framework */;
+			productReference = 71F71443434DDF482B4C9B1BEE189653 /* Pods_CommonsTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5D36462B0437B3681602D6C3FE86FCDD /* Pods-RedCarpetMVVM */ = {
@@ -1113,7 +995,7 @@
 			);
 			name = "Pods-RedCarpetMVVM";
 			productName = "Pods-RedCarpetMVVM";
-			productReference = CADA097C976D997E28E166B244189176 /* Pods_RedCarpetMVVM.framework */;
+			productReference = 08CB5AA9AF42994E21B6AD082C4002A0 /* Pods_RedCarpetMVVM.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		63080A738308C6E2B312F14128953572 /* Pods-RedCarpetMVCTests */ = {
@@ -1130,7 +1012,7 @@
 			);
 			name = "Pods-RedCarpetMVCTests";
 			productName = "Pods-RedCarpetMVCTests";
-			productReference = 4BF3CEDEC47D1F7FB03C0C77E59DD3CB /* Pods_RedCarpetMVCTests.framework */;
+			productReference = 57EE1A756EC1438500A815F41DD4F7A9 /* Pods_RedCarpetMVCTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		66536C66F22A00A9E8CAEFC91B47377E /* Pods-RedCarpetAppleMVCTests */ = {
@@ -1147,7 +1029,7 @@
 			);
 			name = "Pods-RedCarpetAppleMVCTests";
 			productName = "Pods-RedCarpetAppleMVCTests";
-			productReference = DE8B35CA8CBB31AEC47661F7D0765652 /* Pods_RedCarpetAppleMVCTests.framework */;
+			productReference = 54A47D64A4DF699FB7F60AC5FFB34D72 /* Pods_RedCarpetAppleMVCTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		66B239826EF1D39D2D6C594AC2DBFF77 /* Alamofire */ = {
@@ -1164,7 +1046,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 6EB7021C7E3133C78E3F109FC52E9540 /* Alamofire.framework */;
+			productReference = CE695EF62FA0FBA2A812A66BE2F85048 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9EE8EB4130F89CCDA29A7EF75EC6BEBA /* Pods-RedCarpetVIPERTests */ = {
@@ -1181,7 +1063,7 @@
 			);
 			name = "Pods-RedCarpetVIPERTests";
 			productName = "Pods-RedCarpetVIPERTests";
-			productReference = A78E9F6A595484AD976E2D1B53CA7D9B /* Pods_RedCarpetVIPERTests.framework */;
+			productReference = B15AB9F552D230B7D3EE78CBB707B1FF /* Pods_RedCarpetVIPERTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B39E4F88EF1118689F6B8075B0B7CBD1 /* Pods-RedCarpetMVVMTests */ = {
@@ -1198,7 +1080,7 @@
 			);
 			name = "Pods-RedCarpetMVVMTests";
 			productName = "Pods-RedCarpetMVVMTests";
-			productReference = 40FB73322872E6C67710DBC7A1E8BDF5 /* Pods_RedCarpetMVVMTests.framework */;
+			productReference = 95724E7E4E9FD1F28B36916493EE1F9E /* Pods_RedCarpetMVVMTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C0CADC4EA5CE8A1F378EEB7357669E53 /* Pods-RedCarpetAppleMVC */ = {
@@ -1217,7 +1099,7 @@
 			);
 			name = "Pods-RedCarpetAppleMVC";
 			productName = "Pods-RedCarpetAppleMVC";
-			productReference = F71AE65DA00F396B335B046B2319449A /* Pods_RedCarpetAppleMVC.framework */;
+			productReference = E94A44CC33697D38CC4C2FDE6E6D4F50 /* Pods_RedCarpetAppleMVC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C3D45DA70CD2E23DF957E8F700546423 /* Unbox */ = {
@@ -1234,26 +1116,7 @@
 			);
 			name = Unbox;
 			productName = Unbox;
-			productReference = 5FA62A259F88ED13A53AB07BD24C1839 /* Unbox.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C73784542375F7568C443CA3AEB37B0A /* Pods-RedCarpetMVP */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE00A9B80C40069350D357C4855001C8 /* Build configuration list for PBXNativeTarget "Pods-RedCarpetMVP" */;
-			buildPhases = (
-				0169E29C95EDDFB079AB955DA74597EA /* Sources */,
-				C8F501CDBA307C90E1153993762298AD /* Frameworks */,
-				41686F9CBAE74AE7D4C2375260943437 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				976247EE835678157B5F2750092775EB /* PBXTargetDependency */,
-				49EB40D701BDDA70B636CE1EEB09C51E /* PBXTargetDependency */,
-			);
-			name = "Pods-RedCarpetMVP";
-			productName = "Pods-RedCarpetMVP";
-			productReference = 7B7F9FAD350A6CF0B288E6874ECB4FAC /* Pods_RedCarpetMVP.framework */;
+			productReference = F3C524AE8DC6873E9C4F87C5FFBE90C5 /* Unbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C7FC12E4AADBC42A4E18A12C6C076E7A /* Pods-Commons */ = {
@@ -1272,7 +1135,7 @@
 			);
 			name = "Pods-Commons";
 			productName = "Pods-Commons";
-			productReference = 4A3566F144615798EBF934D547563ECD /* Pods_Commons.framework */;
+			productReference = D351CE7DA58468CCBED8AE7871886FC8 /* Pods_Commons.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E4FA966D2586590B7C80554DC8BAF371 /* Pods-RedCarpetVIPER */ = {
@@ -1291,24 +1154,7 @@
 			);
 			name = "Pods-RedCarpetVIPER";
 			productName = "Pods-RedCarpetVIPER";
-			productReference = 77025A7610FA3897ACCA1F0561998601 /* Pods_RedCarpetVIPER.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E5268A1395B8B3AB2DAA3A611497F1F6 /* Pods-RedCarpetMVPTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4AAD054B3A2A95F30C91C8A907BB2D1D /* Build configuration list for PBXNativeTarget "Pods-RedCarpetMVPTests" */;
-			buildPhases = (
-				387B65B9D75723B55D25005CE32D294F /* Sources */,
-				7B78322799E9BEF884D5F1444A576FD0 /* Frameworks */,
-				7E86FFE6FDB11BF003FD19C7C89ADABE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-RedCarpetMVPTests";
-			productName = "Pods-RedCarpetMVPTests";
-			productReference = 756C5BBC5F4BD206AFAA3F366C5DD4A4 /* Pods_RedCarpetMVPTests.framework */;
+			productReference = 8AD8C931BCADE8DE5D6119023B430E47 /* Pods_RedCarpetVIPER.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EA5D0B42BC57C22AC394F9A20524695A /* Pods-RedCarpetMVC */ = {
@@ -1327,7 +1173,7 @@
 			);
 			name = "Pods-RedCarpetMVC";
 			productName = "Pods-RedCarpetMVC";
-			productReference = 49321B677AA287C84E837D4E4CDFBCEB /* Pods_RedCarpetMVC.framework */;
+			productReference = 7660A4639E098184A3A1DFBCACA55865 /* Pods_RedCarpetMVC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1347,7 +1193,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 03BA72C8A776E87B7B7251E90089B571 /* Products */;
+			productRefGroup = 52AF1A0BE276EA14146DBCE91A34C39A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1358,8 +1204,6 @@
 				66536C66F22A00A9E8CAEFC91B47377E /* Pods-RedCarpetAppleMVCTests */,
 				EA5D0B42BC57C22AC394F9A20524695A /* Pods-RedCarpetMVC */,
 				63080A738308C6E2B312F14128953572 /* Pods-RedCarpetMVCTests */,
-				C73784542375F7568C443CA3AEB37B0A /* Pods-RedCarpetMVP */,
-				E5268A1395B8B3AB2DAA3A611497F1F6 /* Pods-RedCarpetMVPTests */,
 				5D36462B0437B3681602D6C3FE86FCDD /* Pods-RedCarpetMVVM */,
 				B39E4F88EF1118689F6B8075B0B7CBD1 /* Pods-RedCarpetMVVMTests */,
 				E4FA966D2586590B7C80554DC8BAF371 /* Pods-RedCarpetVIPER */,
@@ -1370,14 +1214,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0169E29C95EDDFB079AB955DA74597EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A03103D8BA3FB1EE92ED1D808758AB3C /* Pods-RedCarpetMVP-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		11FC70900BC6267971ACD57903A15C61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1433,14 +1269,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB18AC7DDA93CEC29799FC97E952AEB8 /* Pods-Commons-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		387B65B9D75723B55D25005CE32D294F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69CE933A487B9F17413A0DBB67365350 /* Pods-RedCarpetMVPTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1556,12 +1384,6 @@
 			target = C3D45DA70CD2E23DF957E8F700546423 /* Unbox */;
 			targetProxy = C33C7F95214425A9DF951721DCEE3FF4 /* PBXContainerItemProxy */;
 		};
-		49EB40D701BDDA70B636CE1EEB09C51E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Unbox;
-			target = C3D45DA70CD2E23DF957E8F700546423 /* Unbox */;
-			targetProxy = AEFCC0D0E2A43360C4261284C75B503E /* PBXContainerItemProxy */;
-		};
 		4C14E35D6B088E698133187883B55E60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
@@ -1579,12 +1401,6 @@
 			name = Alamofire;
 			target = 66B239826EF1D39D2D6C594AC2DBFF77 /* Alamofire */;
 			targetProxy = D8E44AAB03590A9A51FA2ED5C3977080 /* PBXContainerItemProxy */;
-		};
-		976247EE835678157B5F2750092775EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 66B239826EF1D39D2D6C594AC2DBFF77 /* Alamofire */;
-			targetProxy = 223B153F7A196EA0DADBA31EDCA11B88 /* PBXContainerItemProxy */;
 		};
 		98CC1FBB261882A03505D89341F5B24C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1633,7 +1449,7 @@
 /* Begin XCBuildConfiguration section */
 		0A5DE2E005269C560F436B1A26A32268 /* Mock */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33134CE6E041B6B1750105EC290D404A /* Pods-Commons.mock.xcconfig */;
+			baseConfigurationReference = 5410644FE6D27C3ECEA9FCA9E5883DD6 /* Pods-Commons.mock.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1667,7 +1483,7 @@
 		};
 		0F778730EB0C05F3A1E923BA6131E1F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE5DCF1664037EDB6D8424380819357C /* Pods-RedCarpetAppleMVCTests.release.xcconfig */;
+			baseConfigurationReference = 7BFB8067E020FCB1976574A4C7036F98 /* Pods-RedCarpetAppleMVCTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1753,109 +1569,9 @@
 			};
 			name = Release;
 		};
-		1EA6B0BA249B22DD62BD3329C9B7C308 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0215313155825B61E7E0AB363E7538C3 /* Pods-RedCarpetMVP.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RedCarpetMVP/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RedCarpetMVP/Pods-RedCarpetMVP.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RedCarpetMVP;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		22CE8565252343723ABA8D8592D01981 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B177BA669B864D875DA691B75E76CDF /* Pods-RedCarpetMVPTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RedCarpetMVPTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RedCarpetMVPTests/Pods-RedCarpetMVPTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RedCarpetMVPTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		35F242F73A880093B39603353B5EA27C /* Mock */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4A14979EEA2F8B7E131B668EC5FAF73 /* Pods-RedCarpetMVP.mock.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RedCarpetMVP/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RedCarpetMVP/Pods-RedCarpetMVP.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RedCarpetMVP;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Mock;
-		};
 		3B43439F137DB77734C1ADAED163C6E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75A337CC04AEF02AED8A3034D039A6F2 /* Pods-RedCarpetAppleMVCTests.debug.xcconfig */;
+			baseConfigurationReference = 116B406F7D402A463ED00761FC91B9D4 /* Pods-RedCarpetAppleMVCTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1887,7 +1603,7 @@
 		};
 		3E53D92D20C92982E514A802682445F7 /* Mock */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D98A0E60220BA7ECC03556A63D92FFF5 /* Pods-RedCarpetMVC.mock.xcconfig */;
+			baseConfigurationReference = E17A3FA00F2EB0454EA5545911093276 /* Pods-RedCarpetMVC.mock.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1921,7 +1637,7 @@
 		};
 		420C8A42B5D25E8D94598FDFF72F79E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFB730702BB2C65C6D462650B103BF18 /* Pods-RedCarpetMVVMTests.debug.xcconfig */;
+			baseConfigurationReference = 47910285130D71ACBADD6E2D73618794 /* Pods-RedCarpetMVVMTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1950,39 +1666,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		50D61AAE20E5F6E3EC316A8A00E36288 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30169FB3D36D31B0E348D27F20DFE185 /* Pods-RedCarpetMVPTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RedCarpetMVPTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RedCarpetMVPTests/Pods-RedCarpetMVPTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RedCarpetMVPTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		52AF33B66042C8EA3D7D8E257C33D153 /* Mock */ = {
 			isa = XCBuildConfiguration;
@@ -2040,7 +1723,7 @@
 		};
 		55F912BA6AC90B23C82016F6436E54B2 /* Mock */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF8290D318ECAFE494D8B3663D489A66 /* Pods-RedCarpetMVVMTests.mock.xcconfig */;
+			baseConfigurationReference = 00D1BD816A55C93052397032B4F3CB27 /* Pods-RedCarpetMVVMTests.mock.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2165,7 +1848,7 @@
 		};
 		614E1927F7936EE875937C1FC1F20310 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8378F6B9BB0686FA04D2F67DE2F68DE /* Pods-RedCarpetMVVMTests.release.xcconfig */;
+			baseConfigurationReference = BD16F5FD6C99212197A65094D6413F23 /* Pods-RedCarpetMVVMTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2227,39 +1910,6 @@
 			};
 			name = Debug;
 		};
-		68242ACDFE03C03B9BCF2593F33EDEBD /* Mock */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8385AC16F8DCA30F49B6A6758B213D77 /* Pods-RedCarpetMVPTests.mock.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RedCarpetMVPTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RedCarpetMVPTests/Pods-RedCarpetMVPTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RedCarpetMVPTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Mock;
-		};
 		69D04F1E06FD8F712CE1C6CC1B1B78E2 /* Mock */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D3BA1793B1FF6D0F374E44AE43034296 /* Alamofire.xcconfig */;
@@ -2294,7 +1944,7 @@
 		};
 		700E3976320208A6135871E816E71425 /* Mock */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EC2323E1A2EDA644C2E1736CB7FF8E2 /* Pods-RedCarpetVIPERTests.mock.xcconfig */;
+			baseConfigurationReference = D3CA2F2AFB7B94DFA50AB5CEC88F4E5F /* Pods-RedCarpetVIPERTests.mock.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2325,43 +1975,9 @@
 			};
 			name = Mock;
 		};
-		7040E9CAF1B7668F2E5E8EE6B7BEEB5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A44A3E5450E30A2C03038DCE76D8F2F8 /* Pods-RedCarpetMVP.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RedCarpetMVP/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RedCarpetMVP/Pods-RedCarpetMVP.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RedCarpetMVP;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7063951AF7D473A5569B5F6B6EAE86A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56F85058B0A4F6E1D517EEC0BB6E340A /* Pods-RedCarpetVIPERTests.release.xcconfig */;
+			baseConfigurationReference = 18CE1E15B5F76F028C9CE6375F993DD3 /* Pods-RedCarpetVIPERTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2394,7 +2010,7 @@
 		};
 		7327549DAF4A89B17C5D42209BFC85CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F0DE573DCB95C392A88E5D36541957E /* Pods-RedCarpetMVVM.release.xcconfig */;
+			baseConfigurationReference = DEDC75D79E7A57B00CB5C8775379D787 /* Pods-RedCarpetMVVM.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2460,7 +2076,7 @@
 		};
 		77E10DDAA1998F73DF55356EBB55747F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D44DC486CA1BE31DB75B85CBD8C48342 /* Pods-RedCarpetMVC.release.xcconfig */;
+			baseConfigurationReference = B986DE18A61989384C559B12A9C49086 /* Pods-RedCarpetMVC.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2494,7 +2110,7 @@
 		};
 		7CBF415A62D338496D844AB2B350E778 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECF4C3F95BD85006E870A9B22B828007 /* Pods-RedCarpetVIPER.release.xcconfig */;
+			baseConfigurationReference = 5B98E617AC56730B958764AA3F00E19D /* Pods-RedCarpetVIPER.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2528,7 +2144,7 @@
 		};
 		7DD3F98D69614679E058A999905FF618 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0F81BC2E85C6FF27C26080CB2D0D2A6 /* Pods-CommonsTests.release.xcconfig */;
+			baseConfigurationReference = 3CF3F12FF516BBDB923F4303C8F51DD1 /* Pods-CommonsTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2562,7 +2178,7 @@
 		};
 		7F548FE0F257B1FB44A45E9D6C733F25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3FA94E528F711CB76A64BACD2D06D69 /* Pods-RedCarpetMVVM.debug.xcconfig */;
+			baseConfigurationReference = 91ACFEB29F88275C87C83C6DC22EDBFA /* Pods-RedCarpetMVVM.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2596,7 +2212,7 @@
 		};
 		9029380A1EA142498BE8C03E6D39C33B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F30C3EF98CC8CFE86CE424E80EE4C0B /* Pods-CommonsTests.debug.xcconfig */;
+			baseConfigurationReference = B62FABF15386A80B5917C43FA54397D7 /* Pods-CommonsTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2630,7 +2246,7 @@
 		};
 		9A8B373979C5060577AC236C87C8E810 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E8AA3FE3AC7AA48671662D3C9A986D7 /* Pods-RedCarpetMVCTests.release.xcconfig */;
+			baseConfigurationReference = E3CB6B7065CB45EAC77947BA68F16B19 /* Pods-RedCarpetMVCTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2663,7 +2279,7 @@
 		};
 		A130E41689116AD29C134C88D5D13499 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9F9453B50679B05BF5A528498F3D6B5 /* Pods-RedCarpetVIPER.debug.xcconfig */;
+			baseConfigurationReference = 27C8C8E7C994DD91EDB7D11819840528 /* Pods-RedCarpetVIPER.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2729,7 +2345,7 @@
 		};
 		B8104219D30E4201DD4C463B957487F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC7F947C2E029B273CB682214CD31FDC /* Pods-RedCarpetVIPERTests.debug.xcconfig */;
+			baseConfigurationReference = 2ACDD4E6906B0FE4608E080CEA2351B8 /* Pods-RedCarpetVIPERTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2761,7 +2377,7 @@
 		};
 		B948CE814157639D98CB5945C45CF288 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 918E654FBA0F5C2F0C6FF6867CBC8BCB /* Pods-RedCarpetMVC.debug.xcconfig */;
+			baseConfigurationReference = 2B7507E53270EAA39D00B5699182A978 /* Pods-RedCarpetMVC.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2795,7 +2411,7 @@
 		};
 		C42FDB4647394588C52B6F6053823332 /* Mock */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E226B740AA9E40345F95FD4F2840F17B /* Pods-RedCarpetMVCTests.mock.xcconfig */;
+			baseConfigurationReference = 8304EF9173F9CFFC71FBF9F42671EAFE /* Pods-RedCarpetMVCTests.mock.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2828,7 +2444,7 @@
 		};
 		C4B9E7092C3A99E5521AB356D7942396 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77813633F7ED4BFDFE859D7FEB968440 /* Pods-Commons.release.xcconfig */;
+			baseConfigurationReference = CAB5765AD6FD1C1622AAD761CE332255 /* Pods-Commons.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2862,7 +2478,7 @@
 		};
 		C4F2087E300362E8EF81A3FFF08CE7E8 /* Mock */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51C061E7A527B01E9E657AFC672D91ED /* Pods-RedCarpetMVVM.mock.xcconfig */;
+			baseConfigurationReference = 199B942DB4940AF4A8C046D68486A64A /* Pods-RedCarpetMVVM.mock.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2896,7 +2512,7 @@
 		};
 		C6A01451966107E785DD560846C14F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C000509C0CD9CAC94980057A1A46625 /* Pods-Commons.debug.xcconfig */;
+			baseConfigurationReference = E44B27E84D8A3B9CAF273C429B5C441E /* Pods-Commons.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2930,7 +2546,7 @@
 		};
 		D2C3479C60D9A18C615DBF5D9CEAA46D /* Mock */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 789D4354B4DDAE869C7B890384BCAF69 /* Pods-RedCarpetVIPER.mock.xcconfig */;
+			baseConfigurationReference = DBF9A368A92201E0EA2AD6A6CF31B652 /* Pods-RedCarpetVIPER.mock.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2995,7 +2611,7 @@
 		};
 		D92FA21E511D35B841A0CDCE1E6EE16B /* Mock */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14FB151E34B50E19BE8B26D124F7ECC8 /* Pods-CommonsTests.mock.xcconfig */;
+			baseConfigurationReference = 257986F6FDB1CA6DF17DC918DC1041E1 /* Pods-CommonsTests.mock.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3029,7 +2645,7 @@
 		};
 		DF5B458C62F3E6C231D6961526A4169C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95E8DD05C20F04AE189C7E8429F68225 /* Pods-RedCarpetAppleMVC.debug.xcconfig */;
+			baseConfigurationReference = 41452585BC4725C4B66D52B538533231 /* Pods-RedCarpetAppleMVC.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3063,7 +2679,7 @@
 		};
 		E1414306818E456B2718FDA1E1496E67 /* Mock */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5797571FFC1C8D55842B72366DB8BD1 /* Pods-RedCarpetAppleMVCTests.mock.xcconfig */;
+			baseConfigurationReference = B9ED9DE858C156FD235101089E5323B2 /* Pods-RedCarpetAppleMVCTests.mock.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3096,7 +2712,7 @@
 		};
 		E522FF7EEFF929D2ACE0E4367B2DBC98 /* Mock */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA9DCCE117EB6A760A54D934780BC881 /* Pods-RedCarpetAppleMVC.mock.xcconfig */;
+			baseConfigurationReference = 9441EFDE9171DE6CC4B0144D41CB5460 /* Pods-RedCarpetAppleMVC.mock.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3130,7 +2746,7 @@
 		};
 		E9B7C18F9410885D13308C7D35B7FE54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91E4BE750050B8DDDD76C762F4A7CA67 /* Pods-RedCarpetAppleMVC.release.xcconfig */;
+			baseConfigurationReference = 6FA0FE25CB5FA827638EB5679E36A93C /* Pods-RedCarpetAppleMVC.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3164,7 +2780,7 @@
 		};
 		F32CFBDB19DFA7D9FAE7173FA4271FE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 511D8E625AB6EBF84C4A24F0BEE13F49 /* Pods-RedCarpetMVCTests.debug.xcconfig */;
+			baseConfigurationReference = FE3AAED8630AADEC8C6E0901EED9BFF7 /* Pods-RedCarpetMVCTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3247,16 +2863,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AAD054B3A2A95F30C91C8A907BB2D1D /* Build configuration list for PBXNativeTarget "Pods-RedCarpetMVPTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22CE8565252343723ABA8D8592D01981 /* Debug */,
-				68242ACDFE03C03B9BCF2593F33EDEBD /* Mock */,
-				50D61AAE20E5F6E3EC316A8A00E36288 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		55D34C579184528C4926802EBB306980 /* Build configuration list for PBXNativeTarget "Pods-RedCarpetAppleMVCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3333,16 +2939,6 @@
 				420C8A42B5D25E8D94598FDFF72F79E4 /* Debug */,
 				55F912BA6AC90B23C82016F6436E54B2 /* Mock */,
 				614E1927F7936EE875937C1FC1F20310 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE00A9B80C40069350D357C4855001C8 /* Build configuration list for PBXNativeTarget "Pods-RedCarpetMVP" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7040E9CAF1B7668F2E5E8EE6B7BEEB5B /* Debug */,
-				35F242F73A880093B39603353B5EA27C /* Mock */,
-				1EA6B0BA249B22DD62BD3329C9B7C308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

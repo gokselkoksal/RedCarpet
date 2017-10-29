@@ -48,17 +48,6 @@ target 'RedCarpetMVVM' do
     
 end
 
-target 'RedCarpetMVP' do
-    
-    use_frameworks!
-    platform :ios, '11.0'
-    
-    target 'RedCarpetMVPTests' do
-        inherit! :search_paths
-    end
-    
-end
-
 target 'RedCarpetVIPER' do
     
     use_frameworks!
