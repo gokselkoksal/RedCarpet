@@ -11,10 +11,12 @@ import Commons
 
 protocol MovieDetailPresenterProtocol {
     var moviePresentation: MovieDetailPresentation { get }
+    func willAppear()
+    func didDisappear()
     func didClose()
 }
 
-class MovieDetailPresenter: MovieDetailPresenterProtocol {
+class MovieDetailPresenter: MovieDetailPresenterProtocol, Subscriber {
     
     let moviePresentation: MovieDetailPresentation
     
@@ -22,7 +24,19 @@ class MovieDetailPresenter: MovieDetailPresenterProtocol {
         self.moviePresentation = MovieDetailPresentation(movie: movie)
     }
     
+    func willAppear() {
+        core.add(subscriber: self, notifyOnQueue: .main, selector: { $0.movieDetailState as Any })
+    }
+    
+    func didDisappear() {
+        core.remove(subscriber: self)
+    }
+    
     func didClose() {
         core.fire(event: NavigationEvent.didCloseDetailScreen)
+    }
+    
+    func update(with state: MovieDetailState) {
+        // No movie detail state changes to handle for now.
     }
 }

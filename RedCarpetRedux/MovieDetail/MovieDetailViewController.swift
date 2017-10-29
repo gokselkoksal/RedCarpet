@@ -26,11 +26,17 @@ final class MovieDetailViewController: UITableViewController {
         tableView.reloadData()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        presenter.willAppear()
+    }
+    
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         // Beware that this method can also be called when something is pushed
         // onto it. Assuming nothing will be pushed onto it for now to keep
         // things simple.
+        presenter.didDisappear()
         presenter.didClose()
     }
 }
