@@ -11,10 +11,6 @@ import Commons
 
 final class MovieListViewController: UITableViewController {
     
-    private enum SegueId {
-        static let detail = "showDetail"
-    }
-    
     var presenter: MovieListPresenterProtocol!
     
     private var moviePresentations: [MovieListPresentation] = []
