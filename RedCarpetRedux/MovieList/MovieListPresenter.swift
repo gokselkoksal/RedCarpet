@@ -52,9 +52,7 @@ class MovieListPresenter: MovieListPresenterProtocol, Subscriber {
     }
     
     func update(with state: MovieListState) {
-        if state.activityState.isToggled {
-            view.setLoading(state.activityState.isActive)
-        }
+        view.setLoading(state.isLoading)
         
         switch state.movieFetchResult {
         case .success(let movies):

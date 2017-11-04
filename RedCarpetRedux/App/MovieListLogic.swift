@@ -12,8 +12,7 @@ import Commons
 // MARK: Actions
 
 enum MovieListEvent: Event {
-    case incrementActivityCount
-    case decrementActivityCount
+    case setLoading(Bool)
     case setMovieFetchResult(Result<[Movie]>)
 }
 
@@ -28,9 +27,9 @@ class MovieFetchCommand: Command {
     }
     
     func execute(state: AppState, core: Core<AppState>) {
-        core.fire(event: MovieListEvent.incrementActivityCount)
+        core.fire(event: MovieListEvent.setLoading(true))
         service.fetchMovies { (result) in
-            core.fire(event: MovieListEvent.decrementActivityCount)
+            core.fire(event: MovieListEvent.setLoading(false))
             core.fire(event: MovieListEvent.setMovieFetchResult(result))
         }
     }
@@ -40,7 +39,7 @@ class MovieFetchCommand: Command {
 
 struct MovieListState: State {
     var movieFetchResult: Result<[Movie]> = Result.success([])
-    var activityState = ActivityState()
+    var isLoading: Bool = false
 }
 
 // MARK: Reducer
@@ -51,10 +50,8 @@ extension MovieListState {
         guard let event = event as? MovieListEvent else { return }
         
         switch event {
-        case .incrementActivityCount:
-            self.activityState.add()
-        case .decrementActivityCount:
-            try? self.activityState.remove()
+        case .setLoading(let isLoading):
+            self.isLoading = isLoading
         case .setMovieFetchResult(let result):
             self.movieFetchResult = result
         }
