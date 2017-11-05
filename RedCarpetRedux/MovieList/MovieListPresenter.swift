@@ -22,7 +22,7 @@ protocol MovieListPresenterProtocol: class {
     func didTapOnMovie(at index: Int)
 }
 
-class MovieListPresenter: MovieListPresenterProtocol, Subscriber {
+class MovieListPresenter: MovieListPresenterProtocol {
     
     private unowned var view: MovieListViewProtocol
     private(set) var movies: [Movie] = []
@@ -50,6 +50,9 @@ class MovieListPresenter: MovieListPresenterProtocol, Subscriber {
         let movie = movies[index]
         core.fire(event: NavigationEvent.showDetailScreen(movie: movie))
     }
+}
+    
+extension MovieListPresenter: Subscriber {
     
     func update(with state: MovieListState) {
         view.setLoading(state.isLoading)

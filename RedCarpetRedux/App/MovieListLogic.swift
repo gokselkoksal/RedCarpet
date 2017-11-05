@@ -1,5 +1,5 @@
 //
-//  MovieListComponents.swift
+//  MovieListLogic.swift
 //  RedCarpetRedux
 //
 //  Created by Göksel Köksal on 29.10.2017.

@@ -1,5 +1,5 @@
 //
-//  AppComponents.swift
+//  AppLogic.swift
 //  RedCarpetRedux
 //
 //  Created by Göksel Köksal on 29.10.2017.
@@ -38,9 +38,9 @@ extension AppState {
                 movieDetailState = nil
             }
             navigationState.react(to: event)
-        } else {
-            movieListState.react(to: event)
-            movieDetailState?.react(to: event)
         }
+        
+        movieListState.react(to: event)
+        movieDetailState?.react(to: event)
     }
 }

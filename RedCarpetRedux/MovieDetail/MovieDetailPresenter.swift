@@ -16,7 +16,7 @@ protocol MovieDetailPresenterProtocol {
     func didClose()
 }
 
-class MovieDetailPresenter: MovieDetailPresenterProtocol, Subscriber {
+class MovieDetailPresenter: MovieDetailPresenterProtocol {
     
     let moviePresentation: MovieDetailPresentation
     
@@ -35,6 +35,9 @@ class MovieDetailPresenter: MovieDetailPresenterProtocol, Subscriber {
     func didClose() {
         core.fire(event: NavigationEvent.didCloseDetailScreen)
     }
+}
+    
+extension MovieDetailPresenter: Subscriber {
     
     func update(with state: MovieDetailState) {
         // No movie detail state changes to handle for now.
