@@ -21,3 +21,7 @@ This project demonstrates Original MVC, Apple MVC, MVVM, VIPER and Redux archite
 All targets above implements the same app using a different approach. However, they share resources like data models, service APIs, mocked data, etc. These shared resources can be found in `Commons` target.
 
 Data is provided by [iTunes](https://rss.itunes.apple.com/en-us).
+
+## License
+
+Red Carpet is available under the [MIT license](https://github.com/gokselkoksal/RedCarpet/blob/master/LICENSE.txt).
