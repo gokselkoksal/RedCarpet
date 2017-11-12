@@ -1,0 +1,443 @@
+{
+   "feed":{
+      "title":"Top Films",
+      "id":"https://rss.itunes.apple.com/api/v1/us/movies/top-movies/all/25/explicit.json",
+      "author":{
+         "name":"iTunes Store",
+         "uri":"http://wwww.apple.com/us/itunes/"
+      },
+      "links":[
+         {
+            "self":"https://rss.itunes.apple.com/api/v1/us/movies/top-movies/all/25/explicit.json"
+         },
+         {
+            "alternate":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=33\u0026popId=15"
+         }
+      ],
+      "copyright":"Copyright © 2017 Apple Inc. All Rights Reserved.",
+      "country":"us",
+      "icon":"http://itunes.apple.com/favicon.ico",
+      "updated":"2017-11-10T03:57:52.000-08:00",
+      "results":[
+         {
+            "artistName":"Patrick Hughes",
+            "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Video118/v4/2d/6e/d4/2d6ed425-c31d-433d-6d99-83702b2b4dd5/1160807231046.jpg/200x200bb.png",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1266502939",
+            "kind":"movie",
+            "name":"The Hitman's Bodyguard",
+            "releaseDate":"2017-08-18",
+            "url":"https://itunes.apple.com/us/movie/the-hitmans-bodyguard/id1266502939"
+         },
+         {
+            "artistName":"Luc Besson",
+            "artworkUrl100":"http://is5.mzstatic.com/image/thumb/Video118/v4/8b/37/43/8b37436d-1135-5ff1-af65-abc6681dc52c/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Valerian SAS – TF1 Films Production",
+            "genres":[
+               {
+                  "genreId":"4413",
+                  "name":"Sci-Fi \u0026 Fantasy",
+                  "url":"https://itunes.apple.com/us/genre/id4413"
+               }
+            ],
+            "id":"1254728550",
+            "kind":"movie",
+            "name":"Valerian and the City of a Thousand Planets",
+            "releaseDate":"2017-07-21",
+            "url":"https://itunes.apple.com/us/movie/valerian-and-the-city-of-a-thousand-planets/id1254728550"
+         },
+         {
+            "artistName":"Brian Fee",
+            "artworkUrl100":"http://is5.mzstatic.com/image/thumb/Video118/v4/26/ee/41/26ee41e9-daab-775b-a772-ff86c606b3be/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Disney/Pixar",
+            "genres":[
+               {
+                  "genreId":"4410",
+                  "name":"Kids \u0026 Family",
+                  "url":"https://itunes.apple.com/us/genre/id4410"
+               }
+            ],
+            "id":"1242569993",
+            "kind":"movie",
+            "name":"Cars 3",
+            "releaseDate":"2017-06-16",
+            "url":"https://itunes.apple.com/us/movie/cars-3/id1242569993"
+         },
+         {
+            "artistName":"Jon Watts",
+            "artworkUrl100":"http://is3.mzstatic.com/image/thumb/Video127/v4/cc/38/68/cc386876-9503-24bc-fa39-cb5b567e5c5b/pr_source.lsr/200x200bb.png",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1243195844",
+            "kind":"movie",
+            "name":"Spider-Man: Homecoming",
+            "releaseDate":"2017-07-05",
+            "url":"https://itunes.apple.com/us/movie/spider-man-homecoming/id1243195844"
+         },
+         {
+            "artistName":"Nikolaj Arcel",
+            "artworkUrl100":"http://is4.mzstatic.com/image/thumb/Video118/v4/80/89/b1/8089b1fc-a59c-db11-6544-9b29c9d20d4f/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Columbia Pictures Industries , Inc. and MRC II Distribution Company L.P. All Rights Reserved.",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1254703623",
+            "kind":"movie",
+            "name":"The Dark Tower",
+            "releaseDate":"2017-02-16",
+            "url":"https://itunes.apple.com/us/movie/the-dark-tower/id1254703623"
+         },
+         {
+            "artistName":"Matt Reeves",
+            "artworkUrl100":"http://is4.mzstatic.com/image/thumb/Video128/v4/86/b4/d4/86b4d45a-ae14-de31-1fa0-4b53f8c235dd/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Twentieth Century Fox Film Corporation. All rights reserved.",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1250267769",
+            "kind":"movie",
+            "name":"War for the Planet of the Apes",
+            "releaseDate":"2017-07-14",
+            "url":"https://itunes.apple.com/us/movie/war-for-the-planet-of-the-apes/id1250267769"
+         },
+         {
+            "artistName":"Brendan Muldowney",
+            "artworkUrl100":"http://is3.mzstatic.com/image/thumb/Video118/v4/19/4a/a0/194aa077-1c99-3d06-4411-806f6e804fd7/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2016 Savage Production Ltd \u0026 Wrong Men North, All Rights Reserved.",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1254764965",
+            "kind":"movie",
+            "name":"Pilgrimage",
+            "releaseDate":"2017-08-11",
+            "url":"https://itunes.apple.com/us/movie/pilgrimage/id1254764965"
+         },
+         {
+            "artistName":"Edgar Wright",
+            "artworkUrl100":"http://is5.mzstatic.com/image/thumb/Video118/v4/a0/aa/35/a0aa35f6-e4ed-a9bf-00a3-9ef3d341147b/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Big Talk Productions",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1239575681",
+            "kind":"movie",
+            "name":"Baby Driver",
+            "releaseDate":"2017-06-28",
+            "url":"https://itunes.apple.com/us/movie/baby-driver/id1239575681"
+         },
+         {
+            "artistName":"Eric Summer \u0026 Eric Warin",
+            "artworkUrl100":"http://is4.mzstatic.com/image/thumb/Video118/v4/84/60/9e/84609e29-34c3-3ac9-d24d-6fd32e0242b1/pr_source.lsr/200x200bb.png",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1271027079",
+            "kind":"movie",
+            "name":"Leap!",
+            "releaseDate":"2017-08-25",
+            "url":"https://itunes.apple.com/us/movie/leap/id1271027079"
+         },
+         {
+            "artistName":"Patty Jenkins",
+            "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Video128/v4/b2/83/e5/b283e562-b7c6-ae86-1871-014952535459/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Warner Bros. Entertainment Inc. and RatPac-Dune Entertainment LLC. WONDER WOMAN and all related characters and elements are trademarks of and copyright DC Comics.",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1235765633",
+            "kind":"movie",
+            "name":"Wonder Woman (2017)",
+            "releaseDate":"2017-06-02",
+            "url":"https://itunes.apple.com/us/movie/wonder-woman-2017/id1235765633"
+         },
+         {
+            "artistName":"Taylor Sheridan",
+            "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Video128/v4/06/20/81/06208192-87ea-6697-1011-6870ad0e5db8/pr_source.lsr/200x200bb.png",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1262612981",
+            "kind":"movie",
+            "name":"Wind River (2017)",
+            "releaseDate":"2017-08-04",
+            "url":"https://itunes.apple.com/us/movie/wind-river-2017/id1262612981"
+         },
+         {
+            "artistName":"Anthony Leondis",
+            "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Video118/v4/e1/40/3a/e1403a51-c5cf-ce34-2dcc-50a5365140a7/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Sony Pictures Animation Inc. All Rights Reserved",
+            "genres":[
+               {
+                  "genreId":"4410",
+                  "name":"Kids \u0026 Family",
+                  "url":"https://itunes.apple.com/us/genre/id4410"
+               }
+            ],
+            "id":"1254310254",
+            "kind":"movie",
+            "name":"The Emoji Movie",
+            "releaseDate":"2017-07-27",
+            "url":"https://itunes.apple.com/us/movie/the-emoji-movie/id1254310254"
+         },
+         {
+            "artistName":"Destin Daniel Cretton",
+            "artworkUrl100":"http://is5.mzstatic.com/image/thumb/Video118/v4/54/3c/9a/543c9a64-6ed9-9d28-5691-1fae73c37359/pr_source.lsr/200x200bb.png",
+            "genres":[
+               {
+                  "genreId":"4406",
+                  "name":"Drama",
+                  "url":"https://itunes.apple.com/us/genre/id4406"
+               }
+            ],
+            "id":"1266086288",
+            "kind":"movie",
+            "name":"The Glass Castle",
+            "releaseDate":"2017-08-11",
+            "url":"https://itunes.apple.com/us/movie/the-glass-castle/id1266086288"
+         },
+         {
+            "artistName":"David Leitch",
+            "artworkUrl100":"http://is2.mzstatic.com/image/thumb/Video128/v4/8d/4f/0c/8d4f0cca-f55e-8f9f-1f5c-a883513e5775/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Focus Features. All Rights Reserved.",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1257764675",
+            "kind":"movie",
+            "name":"Atomic Blonde",
+            "releaseDate":"2017-07-28",
+            "url":"https://itunes.apple.com/us/movie/atomic-blonde/id1257764675"
+         },
+         {
+            "artistName":"Sidney Lumet",
+            "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Video128/v4/3d/f9/49/3df94993-9a8e-9d9f-6bbd-3cbef02f6937/pr_source.lsr/200x200bb.png",
+            "copyright":"© 1974 BY EMI FILM DISTRIBUTORS LTD. ALL RIGHTS RESERVED",
+            "genres":[
+               {
+                  "genreId":"4406",
+                  "name":"Drama",
+                  "url":"https://itunes.apple.com/us/genre/id4406"
+               }
+            ],
+            "id":"1298073618",
+            "kind":"movie",
+            "name":"Murder on the Orient Express",
+            "releaseDate":"1974-11-24",
+            "url":"https://itunes.apple.com/us/movie/murder-on-the-orient-express/id1298073618"
+         },
+         {
+            "artistName":"Malcolm D. Lee",
+            "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Video128/v4/64/2c/02/642c02c5-3ea8-7426-78ca-efba6750b5e3/02481_MLNA_GirlsTrip_LSR_2000x3000.lsr/200x200bb.png",
+            "copyright":"© 2017 Universal Studios. All Rights Reserved.",
+            "genres":[
+               {
+                  "genreId":"4404",
+                  "name":"Comedy",
+                  "url":"https://itunes.apple.com/us/genre/id4404"
+               }
+            ],
+            "id":"1257271045",
+            "kind":"movie",
+            "name":"Girls Trip",
+            "releaseDate":"2017-07-21",
+            "url":"https://itunes.apple.com/us/movie/girls-trip/id1257271045"
+         },
+         {
+            "artistName":"Andrew Jay Cohen",
+            "artworkUrl100":"http://is3.mzstatic.com/image/thumb/Video118/v4/16/4e/3e/164e3ea2-b8a3-6427-e993-b1e8721da414/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Warner Bros. Entertainment Inc. All Rights Reserved.",
+            "genres":[
+               {
+                  "genreId":"4404",
+                  "name":"Comedy",
+                  "url":"https://itunes.apple.com/us/genre/id4404"
+               }
+            ],
+            "id":"1249200924",
+            "kind":"movie",
+            "name":"The House (2017)",
+            "releaseDate":"2017-06-30",
+            "url":"https://itunes.apple.com/us/movie/the-house-2017/id1249200924"
+         },
+         {
+            "artistName":"Matt Spicer",
+            "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Video118/v4/28/f9/01/28f90120-b642-8694-96f5-4d0041c72675/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Universal Studios. All Rights Reserved.",
+            "genres":[
+               {
+                  "genreId":"4404",
+                  "name":"Comedy",
+                  "url":"https://itunes.apple.com/us/genre/id4404"
+               }
+            ],
+            "id":"1263242015",
+            "kind":"movie",
+            "name":"Ingrid Goes West",
+            "releaseDate":"2017-08-11",
+            "url":"https://itunes.apple.com/us/movie/ingrid-goes-west/id1263242015"
+         },
+         {
+            "artistName":"Geremy Jasper",
+            "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Video128/v4/b4/56/a4/b456a4ac-230f-591c-65ef-c36be6a32b93/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Twentieth Century Fox Film Corporation.  All rights reserved.",
+            "genres":[
+               {
+                  "genreId":"4406",
+                  "name":"Drama",
+                  "url":"https://itunes.apple.com/us/genre/id4406"
+               }
+            ],
+            "id":"1273050137",
+            "kind":"movie",
+            "name":"Patti Cake$",
+            "releaseDate":"2017-08-18",
+            "url":"https://itunes.apple.com/us/movie/patti-cake%24/id1273050137"
+         },
+         {
+            "artistName":"Michael Showalter",
+            "artworkUrl100":"http://is5.mzstatic.com/image/thumb/Video118/v4/d4/5a/da/d45adac8-ad71-aa9a-4ec6-50e4a9161a27/pr_source.lsr/200x200bb.png",
+            "genres":[
+               {
+                  "genreId":"4404",
+                  "name":"Comedy",
+                  "url":"https://itunes.apple.com/us/genre/id4404"
+               }
+            ],
+            "id":"1246483301",
+            "kind":"movie",
+            "name":"The Big Sick",
+            "releaseDate":"2017-06-23",
+            "url":"https://itunes.apple.com/us/movie/the-big-sick/id1246483301"
+         },
+         {
+            "artistName":"Luis Prieto",
+            "artworkUrl100":"http://is4.mzstatic.com/image/thumb/Video128/v4/64/df/af/64dfaf29-8e36-6f71-ac36-9e5e98c1eb7e/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Aviron Pictures, LLC. All Rights Reserved.",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1259540282",
+            "kind":"movie",
+            "name":"Kidnap",
+            "releaseDate":"2017-08-04",
+            "url":"https://itunes.apple.com/us/movie/kidnap/id1259540282"
+         },
+         {
+            "artistName":"Sean Anders",
+            "artworkUrl100":"http://is2.mzstatic.com/image/thumb/Video4/v4/ef/ff/57/efff5794-af78-c36a-ee49-b6500b425bb5/pr_source.lsr/200x200bb.png",
+            "copyright":"© MMXV Paramount Pictures Corporation and Red Granite Capital US, LLC All Rights Reserved.",
+            "genres":[
+               {
+                  "genreId":"4404",
+                  "name":"Comedy",
+                  "url":"https://itunes.apple.com/us/genre/id4404"
+               }
+            ],
+            "id":"1063386075",
+            "kind":"movie",
+            "name":"Daddy's Home",
+            "releaseDate":"2015-12-25",
+            "url":"https://itunes.apple.com/us/movie/daddys-home/id1063386075"
+         },
+         {
+            "artistName":"Alan Taylor",
+            "artworkUrl100":"http://is5.mzstatic.com/image/thumb/Video128/v4/d5/8f/ec/d58fec08-46dd-5617-19a2-aaaf2734d626/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2013 Marvel",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"731796731",
+            "kind":"movie",
+            "name":"Thor: The Dark World",
+            "releaseDate":"2013-11-08",
+            "url":"https://itunes.apple.com/us/movie/thor-the-dark-world/id731796731"
+         },
+         {
+            "artistName":"James Gunn",
+            "artworkUrl100":"http://is2.mzstatic.com/image/thumb/Video118/v4/de/99/d3/de99d3de-459e-3878-2c3f-04310aa01aab/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Marvel",
+            "genres":[
+               {
+                  "genreId":"4401",
+                  "name":"Action \u0026 Adventure",
+                  "url":"https://itunes.apple.com/us/genre/id4401"
+               }
+            ],
+            "id":"1225848804",
+            "kind":"movie",
+            "name":"Guardians of the Galaxy Vol. 2",
+            "releaseDate":"2017-05-05",
+            "url":"https://itunes.apple.com/us/movie/guardians-of-the-galaxy-vol-2/id1225848804"
+         },
+         {
+            "artistName":"Sofia Coppola",
+            "artworkUrl100":"http://is2.mzstatic.com/image/thumb/Video118/v4/c7/fd/ad/c7fdad0e-cc67-dbf6-eae5-7f9bb1dc2161/pr_source.lsr/200x200bb.png",
+            "copyright":"© 2017 Focus Features. All Rights Reserved.",
+            "genres":[
+               {
+                  "genreId":"4406",
+                  "name":"Drama",
+                  "url":"https://itunes.apple.com/us/genre/id4406"
+               }
+            ],
+            "id":"1254153264",
+            "kind":"movie",
+            "name":"The Beguiled (2017)",
+            "releaseDate":"2017-06-23",
+            "url":"https://itunes.apple.com/us/movie/the-beguiled-2017/id1254153264"
+         }
+      ]
+   }
+}
