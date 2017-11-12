@@ -22,6 +22,13 @@ All targets above implements the same app using a different approach. However, t
 
 Data is provided by [iTunes](https://rss.itunes.apple.com/en-us).
 
+## Requirements
+
+* Xcode 9
+* Swift 4
+
+**Note**: Pods are included in repo but you may also need [CocoaPods](https://github.com/CocoaPods/CocoaPods) to manage dependencies.
+
 ## License
 
 Red Carpet is available under the [MIT license](https://github.com/gokselkoksal/RedCarpet/blob/master/LICENSE.txt).
