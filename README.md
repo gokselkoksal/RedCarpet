@@ -10,7 +10,7 @@ Content for 3-day training:
 
 # Red Carpet
 
-This project demonstrates Original MVC, Apple MVC, MVVM, VIPER and Redux architectures all in a simple movie list app. Upon launch, you will see top 25 movies from iTunes listed in a table view. You can also tap on a movie to show details.
+This project demonstrates Original MVC, Apple MVC, MVVM, VIPER and Redux architectures all in a simple movie app. Upon launch, you will see top 25 movies from iTunes listed in a table view. You can also tap on a movie to show details.
 
 * **Original MVC**: Demostrated in `RedCarpetMVC` target.
 * **Apple's MVC**: Demostrated in `RedCarpetAppleMVC` target.
@@ -22,3 +22,12 @@ All targets above implements the same app using a different approach. However, t
 
 Data is provided by [iTunes](https://rss.itunes.apple.com/en-us).
 
+## Screenshots
+
+### Movie List
+
+![Movie List](https://github.com/gokselkoksal/RedCarpet/blob/master/Screenshots/rc-movie-list.png)
+
+### Movie Detail
+
+![Movie Detail](https://github.com/gokselkoksal/RedCarpet/blob/master/Screenshots/rc-movie-detail.png)
