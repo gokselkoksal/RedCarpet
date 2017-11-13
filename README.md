@@ -12,11 +12,11 @@ Content for 3-day training:
 
 This project demonstrates Original MVC, Apple MVC, MVVM, VIPER and Redux architectures all in a simple movie app. Upon launch, you will see top 25 movies from iTunes listed in a table view. You can also tap on a movie to show details.
 
-* **Original MVC**: Demostrated in `RedCarpetMVC` target.
-* **Apple's MVC**: Demostrated in `RedCarpetAppleMVC` target.
-* **MVVM**: Demostrated in `RedCarpetMVVM` target.
-* **VIPER**: Demostrated in `RedCarpetVIPER` target.
-* **Redux**: Demostrated in `RedCarpetRedux` target.
+* **Original MVC**: Demonstrated in `RedCarpetMVC` target.
+* **Apple's MVC**: Demonstrated in `RedCarpetAppleMVC` target.
+* **MVVM**: Demonstrated in `RedCarpetMVVM` target.
+* **VIPER**: Demonstrated in `RedCarpetVIPER` target.
+* **Redux**: Demonstrated in `RedCarpetRedux` target.
 
 All targets above implements the same app using a different approach. However, they share resources like data models, service APIs, mocked data, etc. These shared resources can be found in `Commons` target.
 
