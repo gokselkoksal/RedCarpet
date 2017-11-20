@@ -4,7 +4,7 @@ This project is a part of [Professional Swift Courseware](https://www.packtpub.c
 
 Content for 3-day training:
 
-* [Day 1](https://github.com/gokselkoksal/RedCarpet/)
+* [Day 1](https://github.com/kareman/Packt-Courseware---Frameworks)
 * [Day 2](https://github.com/gokselkoksal/RedCarpet/)
 * **Day 3**
 
