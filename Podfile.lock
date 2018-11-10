@@ -1,15 +1,20 @@
 PODS:
-  - Alamofire (4.5.1)
-  - Unbox (2.5.0)
+  - Alamofire (4.7.3)
+  - Unbox (3.0.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.5)
-  - Unbox (~> 2.5)
+  - Alamofire (~> 4.7)
+  - Unbox (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Unbox
 
 SPEC CHECKSUMS:
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  Unbox: 30e437e6151a6de16139375fd4e8dd9a664cfbf7
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Unbox: 9ed33b2a31f7a8a049f54b94d40c4a52a28c4d9d
 
-PODFILE CHECKSUM: 93973f8e865cbe849f16db3bd136ef9952806e32
+PODFILE CHECKSUM: 35fb6c0907daae7bbd5a7f925d72b0feb31e0393
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

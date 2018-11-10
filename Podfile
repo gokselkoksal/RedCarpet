@@ -6,8 +6,8 @@ target 'Commons' do
   use_frameworks!
   platform :ios, '11.0'
   
-  pod 'Alamofire', '~> 4.5'
-  pod 'Unbox', '~> 2.5'
+  pod 'Alamofire', '~> 4.7'
+  pod 'Unbox', '~> 3.0'
 
   target 'CommonsTests' do
     inherit! :search_paths
