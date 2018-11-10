@@ -13,7 +13,7 @@ class MovieDetailPresenter: MovieDetailPresenterProtocol {
     
     let moviePresentation: MovieDetailPresentation
     
-    init(movie: Movie) {
-        self.moviePresentation = MovieDetailPresentation(movie: movie)
+    init(moviePresentation: MovieDetailPresentation) {
+        self.moviePresentation = moviePresentation
     }
 }

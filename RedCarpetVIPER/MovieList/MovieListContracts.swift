@@ -10,7 +10,7 @@ import Foundation
 import Commons
 
 protocol MovieListInteractorProtocol: class {
-    weak var output: MovieListInteractorOutput? { get set }
+    var output: MovieListInteractorOutput? { get set }
     func fetchMovies()
 }
 
