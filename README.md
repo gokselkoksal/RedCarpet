@@ -24,8 +24,8 @@ Data is provided by [iTunes](https://rss.itunes.apple.com/en-us).
 
 ## Requirements
 
-* Xcode 9
-* Swift 4
+* Xcode 10
+* Swift 4.2
 
 **Note**: Pods are included in repo but you may also need [CocoaPods](https://github.com/CocoaPods/CocoaPods) to manage dependencies.
 
