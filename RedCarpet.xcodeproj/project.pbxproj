@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C48171D247EB3611B78F086 /* Pods_RedCarpetReduxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384BDDFC12A375CCFABD22E7 /* Pods_RedCarpetReduxTests.framework */; };
 		0C8C916491F4AF9BF0BEC331 /* Pods_RedCarpetMVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6A0B59EDC23338480EA963 /* Pods_RedCarpetMVC.framework */; };
-		2125E6CFFEFD6D27D8F94E82 /* Pods_RedCarpetMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C1A988749FF410116929A8 /* Pods_RedCarpetMVVMTests.framework */; };
-		40FD429BD5D1BA81FBF2A3FC /* Pods_RedCarpetMVCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C31DA4316F4AF4221A8666 /* Pods_RedCarpetMVCTests.framework */; };
-		542B5C46FB6BEA262C48E2F1 /* Pods_CommonsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C866775C005186FD1CD629 /* Pods_CommonsTests.framework */; };
-		57F2D55DF233DC033562E25A /* Pods_RedCarpetVIPERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A93B24F5A7A9F103BD77414 /* Pods_RedCarpetVIPERTests.framework */; };
 		5E74BA1AA29A1B53443486FE /* Pods_RedCarpetMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989DD4F11CD934E9EE4DE483 /* Pods_RedCarpetMVVM.framework */; };
 		6205733B1F9A75A700A4A45D /* MovieDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6205733A1F9A75A700A4A45D /* MovieDetailPresenter.swift */; };
 		6205733D1F9A7C8000A4A45D /* MovieDetailContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6205733C1F9A7C8000A4A45D /* MovieDetailContracts.swift */; };
@@ -37,9 +32,6 @@
 		62846B841F8932EA000BBAC6 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62846B831F8932EA000BBAC6 /* MovieListViewController.swift */; };
 		62846B891F8932EA000BBAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62846B881F8932EA000BBAC6 /* Assets.xcassets */; };
 		62846B8C1F8932EA000BBAC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62846B8A1F8932EA000BBAC6 /* LaunchScreen.storyboard */; };
-		62846B971F8932EA000BBAC6 /* RedCarpetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62846B961F8932EA000BBAC6 /* RedCarpetTests.swift */; };
-		62846BAF1F893370000BBAC6 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; };
-		62846BB61F893370000BBAC6 /* CommonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62846BB51F893370000BBAC6 /* CommonsTests.swift */; };
 		62846BB81F893370000BBAC6 /* Commons.h in Headers */ = {isa = PBXBuildFile; fileRef = 62846BA81F893370000BBAC6 /* Commons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62846BBB1F893370000BBAC6 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; };
 		62846BBC1F893370000BBAC6 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62846BA61F893370000BBAC6 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -66,19 +58,16 @@
 		62A092871FA61B060095DCF8 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A092861FA61B060095DCF8 /* MovieListViewController.swift */; };
 		62A0928C1FA61B060095DCF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A0928B1FA61B060095DCF8 /* Assets.xcassets */; };
 		62A0928F1FA61B060095DCF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A0928D1FA61B060095DCF8 /* LaunchScreen.storyboard */; };
-		62A0929A1FA61B060095DCF8 /* RedCarpetReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A092991FA61B060095DCF8 /* RedCarpetReduxTests.swift */; };
 		62A9D9B41F8984C300E92C6F /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A9D9B31F8984C300E92C6F /* MovieService.swift */; };
 		62BA753D1F8A887C00C2CC63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA753C1F8A887C00C2CC63 /* AppDelegate.swift */; };
 		62BA75421F8A887C00C2CC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BA75401F8A887C00C2CC63 /* Main.storyboard */; };
 		62BA75441F8A887C00C2CC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BA75431F8A887C00C2CC63 /* Assets.xcassets */; };
 		62BA75471F8A887C00C2CC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BA75451F8A887C00C2CC63 /* LaunchScreen.storyboard */; };
-		62BA75521F8A887C00C2CC63 /* RedCarpetMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA75511F8A887C00C2CC63 /* RedCarpetMVVMTests.swift */; };
 		62BA75651F8A894500C2CC63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA75641F8A894500C2CC63 /* AppDelegate.swift */; };
 		62BA75671F8A894500C2CC63 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA75661F8A894500C2CC63 /* MovieListViewController.swift */; };
 		62BA756A1F8A894500C2CC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BA75681F8A894500C2CC63 /* Main.storyboard */; };
 		62BA756C1F8A894500C2CC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BA756B1F8A894500C2CC63 /* Assets.xcassets */; };
 		62BA756F1F8A894500C2CC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BA756D1F8A894500C2CC63 /* LaunchScreen.storyboard */; };
-		62BA757A1F8A894500C2CC63 /* RedCarpetVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA75791F8A894500C2CC63 /* RedCarpetVIPERTests.swift */; };
 		62D632531F97F3D6007950A3 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D632521F97F3D6007950A3 /* AppRouter.swift */; };
 		62E189D11F8AEC4700B84780 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E189D01F8AEC4700B84780 /* MovieDetailViewController.swift */; };
 		62E663151F893D7300DEA274 /* MovieServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E663141F893D7300DEA274 /* MovieServiceProtocol.swift */; };
@@ -89,7 +78,6 @@
 		62F3A39E1F897A8100843721 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3A39D1F897A8100843721 /* MovieListViewController.swift */; };
 		62F3A3A31F897A8100843721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F3A3A21F897A8100843721 /* Assets.xcassets */; };
 		62F3A3A61F897A8100843721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F3A3A41F897A8100843721 /* LaunchScreen.storyboard */; };
-		62F3A3B11F897A8200843721 /* RedCarpetAppleMVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3A3B01F897A8200843721 /* RedCarpetAppleMVCTests.swift */; };
 		62F3A3C11F897F9F00843721 /* MockMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3A3C01F897F9F00843721 /* MockMovieService.swift */; };
 		62F3A3C31F897FDD00843721 /* MovieSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3A3C21F897FDD00843721 /* MovieSerializer.swift */; };
 		62F4C8ED1F894CA700977402 /* Array+Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4C8EC1F894CA700977402 /* Array+Movie.swift */; };
@@ -100,44 +88,15 @@
 		973EF2086FCAB43D2D3A2DFD /* Pods_RedCarpetVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF941AA7690C12594655337D /* Pods_RedCarpetVIPER.framework */; };
 		BE37033F8C7D20C4AC900D0E /* Pods_RedCarpetAppleMVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52E43324381FC3D523BCC31 /* Pods_RedCarpetAppleMVC.framework */; };
 		E8E031D037F1DFCB7966F16E /* Pods_RedCarpetRedux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F685D225727655710F7441E /* Pods_RedCarpetRedux.framework */; };
-		F5405F599B6275B88B2AB5D4 /* Pods_RedCarpetAppleMVCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5F91AE2A32BC8CDAD726C9 /* Pods_RedCarpetAppleMVCTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		62846B931F8932EA000BBAC6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62846B7D1F8932EA000BBAC6;
-			remoteInfo = RedCarpet;
-		};
-		62846BB01F893370000BBAC6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62846BA51F893370000BBAC6;
-			remoteInfo = Commons;
-		};
-		62846BB21F893370000BBAC6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62846B7D1F8932EA000BBAC6;
-			remoteInfo = RedCarpet;
-		};
 		62846BB91F893370000BBAC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 62846BA51F893370000BBAC6;
 			remoteInfo = Commons;
-		};
-		62A092961FA61B060095DCF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62A092811FA61B060095DCF8;
-			remoteInfo = RedCarpetRedux;
 		};
 		62A092A41FA61B280095DCF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -146,13 +105,6 @@
 			remoteGlobalIDString = 62846BA51F893370000BBAC6;
 			remoteInfo = Commons;
 		};
-		62BA754E1F8A887C00C2CC63 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62BA75391F8A887C00C2CC63;
-			remoteInfo = RedCarpetMVVM;
-		};
 		62BA755C1F8A888F00C2CC63 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
@@ -160,26 +112,12 @@
 			remoteGlobalIDString = 62846BA51F893370000BBAC6;
 			remoteInfo = Commons;
 		};
-		62BA75761F8A894500C2CC63 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62BA75611F8A894500C2CC63;
-			remoteInfo = RedCarpetVIPER;
-		};
 		62BA75841F8A895900C2CC63 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 62846BA51F893370000BBAC6;
 			remoteInfo = Commons;
-		};
-		62F3A3AD1F897A8100843721 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62846B761F8932EA000BBAC6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62F3A3981F897A8100843721;
-			remoteInfo = RedCarpetAppleMVC;
 		};
 		62F3A3B91F897A9500843721 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -240,23 +178,13 @@
 /* Begin PBXFileReference section */
 		009D04D728326F3ECD27107B /* Pods-RedCarpetRedux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetRedux.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetRedux/Pods-RedCarpetRedux.debug.xcconfig"; sourceTree = "<group>"; };
 		032AF3CFD061E1223E172474 /* Pods-Commons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Commons.release.xcconfig"; path = "Pods/Target Support Files/Pods-Commons/Pods-Commons.release.xcconfig"; sourceTree = "<group>"; };
-		08024370ABCCD1C3747E22AA /* Pods-RedCarpetMVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVCTests/Pods-RedCarpetMVCTests.release.xcconfig"; sourceTree = "<group>"; };
-		1A93B24F5A7A9F103BD77414 /* Pods_RedCarpetVIPERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpetVIPERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C783D4CBC3312ED4659531F /* Pods-RedCarpetMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVVM/Pods-RedCarpetMVVM.debug.xcconfig"; sourceTree = "<group>"; };
-		2DCB90BE6314C26DABC3A709 /* Pods-RedCarpetVIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetVIPERTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetVIPERTests/Pods-RedCarpetVIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
 		33F6E83A05BD6ED95FD77729 /* Pods_RedCarpet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3618A45E4325E198608B6CA8 /* Pods-RedCarpetReduxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetReduxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetReduxTests/Pods-RedCarpetReduxTests.release.xcconfig"; sourceTree = "<group>"; };
 		365478E271012E61AB0B772F /* Pods-RedCarpetRedux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetRedux.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetRedux/Pods-RedCarpetRedux.release.xcconfig"; sourceTree = "<group>"; };
-		384BDDFC12A375CCFABD22E7 /* Pods_RedCarpetReduxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpetReduxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A6A4EBE1A6F20573D1A0F4 /* Pods-RedCarpetMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVC/Pods-RedCarpetMVC.release.xcconfig"; sourceTree = "<group>"; };
 		4BC49B21677B774D79182F3E /* Pods-RedCarpetVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetVIPER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetVIPER/Pods-RedCarpetVIPER.debug.xcconfig"; sourceTree = "<group>"; };
 		4D54E08C9B992C1A394DAB16 /* Pods-RedCarpetAppleMVC.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetAppleMVC.mock.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetAppleMVC/Pods-RedCarpetAppleMVC.mock.xcconfig"; sourceTree = "<group>"; };
-		4DC38A254C1A32F1B923F3B7 /* Pods-RedCarpetMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVVMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVVMTests/Pods-RedCarpetMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4E778C55DF02027F7FD0FF7E /* Pods-RedCarpetReduxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetReduxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetReduxTests/Pods-RedCarpetReduxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		520406770DFD718402E4AC1F /* Pods_Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Commons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		534481AF2657FE346A950954 /* Pods-RedCarpetAppleMVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetAppleMVCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetAppleMVCTests/Pods-RedCarpetAppleMVCTests.debug.xcconfig"; sourceTree = "<group>"; };
-		53DE38BCB88A92CA718F4C44 /* Pods-RedCarpetVIPERTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetVIPERTests.mock.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetVIPERTests/Pods-RedCarpetVIPERTests.mock.xcconfig"; sourceTree = "<group>"; };
-		572C057DF085EC0377F6E518 /* Pods-CommonsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonsTests/Pods-CommonsTests.release.xcconfig"; sourceTree = "<group>"; };
 		60B42B0BA2E21CBEFCCC5F9A /* Pods-RedCarpetAppleMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetAppleMVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetAppleMVC/Pods-RedCarpetAppleMVC.release.xcconfig"; sourceTree = "<group>"; };
 		6205733A1F9A75A700A4A45D /* MovieDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailPresenter.swift; sourceTree = "<group>"; };
 		6205733C1F9A7C8000A4A45D /* MovieDetailContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailContracts.swift; sourceTree = "<group>"; };
@@ -283,15 +211,9 @@
 		62846B881F8932EA000BBAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62846B8B1F8932EA000BBAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62846B8D1F8932EA000BBAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62846B921F8932EA000BBAC6 /* RedCarpetMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62846B961F8932EA000BBAC6 /* RedCarpetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetTests.swift; sourceTree = "<group>"; };
-		62846B981F8932EA000BBAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62846BA61F893370000BBAC6 /* Commons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Commons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62846BA81F893370000BBAC6 /* Commons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
 		62846BA91F893370000BBAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62846BAE1F893370000BBAC6 /* CommonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62846BB51F893370000BBAC6 /* CommonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonsTests.swift; sourceTree = "<group>"; };
-		62846BB71F893370000BBAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62846BC41F893384000BBAC6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		6290F71A1F9512BD00CB6B51 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		6290F71C1F9512C900CB6B51 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
@@ -311,9 +233,6 @@
 		62A0928B1FA61B060095DCF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62A0928E1FA61B060095DCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62A092901FA61B060095DCF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62A092951FA61B060095DCF8 /* RedCarpetReduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetReduxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62A092991FA61B060095DCF8 /* RedCarpetReduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetReduxTests.swift; sourceTree = "<group>"; };
-		62A0929B1FA61B070095DCF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62A9D9B31F8984C300E92C6F /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		62BA753A1F8A887C00C2CC63 /* RedCarpetMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedCarpetMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BA753C1F8A887C00C2CC63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -321,9 +240,6 @@
 		62BA75431F8A887C00C2CC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62BA75461F8A887C00C2CC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62BA75481F8A887C00C2CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62BA754D1F8A887C00C2CC63 /* RedCarpetMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62BA75511F8A887C00C2CC63 /* RedCarpetMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetMVVMTests.swift; sourceTree = "<group>"; };
-		62BA75531F8A887C00C2CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62BA75621F8A894500C2CC63 /* RedCarpetVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedCarpetVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BA75641F8A894500C2CC63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62BA75661F8A894500C2CC63 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
@@ -331,9 +247,6 @@
 		62BA756B1F8A894500C2CC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62BA756E1F8A894500C2CC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62BA75701F8A894500C2CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62BA75751F8A894500C2CC63 /* RedCarpetVIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetVIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62BA75791F8A894500C2CC63 /* RedCarpetVIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetVIPERTests.swift; sourceTree = "<group>"; };
-		62BA757B1F8A894500C2CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D632521F97F3D6007950A3 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		62E189D01F8AEC4700B84780 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		62E663141F893D7300DEA274 /* MovieServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceProtocol.swift; sourceTree = "<group>"; };
@@ -346,9 +259,6 @@
 		62F3A3A21F897A8100843721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62F3A3A51F897A8100843721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62F3A3A71F897A8100843721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62F3A3AC1F897A8100843721 /* RedCarpetAppleMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedCarpetAppleMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62F3A3B01F897A8200843721 /* RedCarpetAppleMVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetAppleMVCTests.swift; sourceTree = "<group>"; };
-		62F3A3B21F897A8200843721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62F3A3C01F897F9F00843721 /* MockMovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMovieService.swift; sourceTree = "<group>"; };
 		62F3A3C21F897FDD00843721 /* MovieSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSerializer.swift; sourceTree = "<group>"; };
 		62F4C8EC1F894CA700977402 /* Array+Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Movie.swift"; sourceTree = "<group>"; };
@@ -357,33 +267,18 @@
 		62F4C8F41F89547700977402 /* Date+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
 		68D8DAA029E4FEF81F3FBE71 /* Pods-RedCarpetMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVC/Pods-RedCarpetMVC.debug.xcconfig"; sourceTree = "<group>"; };
 		74AFF45A2F9B31533C4D6D0B /* Pods-RedCarpetMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVVM/Pods-RedCarpetMVVM.release.xcconfig"; sourceTree = "<group>"; };
-		7A5F91AE2A32BC8CDAD726C9 /* Pods_RedCarpetAppleMVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpetAppleMVCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F685D225727655710F7441E /* Pods_RedCarpetRedux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpetRedux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8433C81A103797B8204C472C /* Pods_RedCarpetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C4B92A845FB157912FDC22C /* Pods-RedCarpetMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVVMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVVMTests/Pods-RedCarpetMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
 		8CCD5DC1422666054F793E91 /* Pods-Commons.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Commons.mock.xcconfig"; path = "Pods/Target Support Files/Pods-Commons/Pods-Commons.mock.xcconfig"; sourceTree = "<group>"; };
-		8CE0F0F880E552210F94F3E1 /* Pods-RedCarpetMVVMTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVVMTests.mock.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVVMTests/Pods-RedCarpetMVVMTests.mock.xcconfig"; sourceTree = "<group>"; };
 		989DD4F11CD934E9EE4DE483 /* Pods_RedCarpetMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpetMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D4AE262994C2DDECDAD00B2 /* Pods-CommonsTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonsTests.mock.xcconfig"; path = "Pods/Target Support Files/Pods-CommonsTests/Pods-CommonsTests.mock.xcconfig"; sourceTree = "<group>"; };
 		A52E43324381FC3D523BCC31 /* Pods_RedCarpetAppleMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpetAppleMVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85D1B8B3D097F105681305D /* Pods-RedCarpetRedux.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetRedux.mock.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetRedux/Pods-RedCarpetRedux.mock.xcconfig"; sourceTree = "<group>"; };
 		A8A07100486B8D5268C8C3D9 /* Pods-RedCarpetMVC.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVC.mock.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVC/Pods-RedCarpetMVC.mock.xcconfig"; sourceTree = "<group>"; };
-		ABE809092BD19141E9281802 /* Pods-CommonsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonsTests/Pods-CommonsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B50C2187D8A4647FF53AAEB5 /* Pods-RedCarpetVIPERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetVIPERTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetVIPERTests/Pods-RedCarpetVIPERTests.release.xcconfig"; sourceTree = "<group>"; };
-		B55F57D5AA4016365DD5402F /* Pods-RedCarpetMVCTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVCTests.mock.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVCTests/Pods-RedCarpetMVCTests.mock.xcconfig"; sourceTree = "<group>"; };
-		B5C1A988749FF410116929A8 /* Pods_RedCarpetMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpetMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB379F1655B3CFCC30BF7D3A /* Pods-RedCarpetAppleMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetAppleMVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetAppleMVC/Pods-RedCarpetAppleMVC.debug.xcconfig"; sourceTree = "<group>"; };
 		CB6A0B59EDC23338480EA963 /* Pods_RedCarpetMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpetMVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF941AA7690C12594655337D /* Pods_RedCarpetVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpetVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D354DABE7E42EDF05F0F8B62 /* Pods-RedCarpetMVVM.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVVM.mock.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVVM/Pods-RedCarpetMVVM.mock.xcconfig"; sourceTree = "<group>"; };
-		D378475DBC095D1A0D139132 /* Pods-RedCarpetAppleMVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetAppleMVCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetAppleMVCTests/Pods-RedCarpetAppleMVCTests.release.xcconfig"; sourceTree = "<group>"; };
-		D6C31DA4316F4AF4221A8666 /* Pods_RedCarpetMVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedCarpetMVCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8CE68870860B598578D174 /* Pods-RedCarpetVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetVIPER.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetVIPER/Pods-RedCarpetVIPER.release.xcconfig"; sourceTree = "<group>"; };
 		E30574BB5A5E41313F251360 /* Pods-RedCarpetVIPER.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetVIPER.mock.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetVIPER/Pods-RedCarpetVIPER.mock.xcconfig"; sourceTree = "<group>"; };
-		E5F006FDFB2CC0EB041BD966 /* Pods-RedCarpetMVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetMVCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetMVCTests/Pods-RedCarpetMVCTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E88F7DC6B669166AD6125BBD /* Pods-RedCarpetReduxTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetReduxTests.mock.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetReduxTests/Pods-RedCarpetReduxTests.mock.xcconfig"; sourceTree = "<group>"; };
-		EDF6ED92AE5D059E5AF8AE36 /* Pods-RedCarpetAppleMVCTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedCarpetAppleMVCTests.mock.xcconfig"; path = "Pods/Target Support Files/Pods-RedCarpetAppleMVCTests/Pods-RedCarpetAppleMVCTests.mock.xcconfig"; sourceTree = "<group>"; };
-		F6C866775C005186FD1CD629 /* Pods_CommonsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA89CDB273D465FA0C0B8696 /* Pods-Commons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Commons.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Commons/Pods-Commons.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -397,14 +292,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62846B8F1F8932EA000BBAC6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40FD429BD5D1BA81FBF2A3FC /* Pods_RedCarpetMVCTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62846BA21F893370000BBAC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,28 +300,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62846BAB1F893370000BBAC6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62846BAF1F893370000BBAC6 /* Commons.framework in Frameworks */,
-				542B5C46FB6BEA262C48E2F1 /* Pods_CommonsTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62A0927F1FA61B060095DCF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E8E031D037F1DFCB7966F16E /* Pods_RedCarpetRedux.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62A092921FA61B060095DCF8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C48171D247EB3611B78F086 /* Pods_RedCarpetReduxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,28 +317,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62BA754A1F8A887C00C2CC63 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2125E6CFFEFD6D27D8F94E82 /* Pods_RedCarpetMVVMTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62BA755F1F8A894500C2CC63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				62847EDB1F8AF5AD00B1DF61 /* Commons.framework in Frameworks */,
 				973EF2086FCAB43D2D3A2DFD /* Pods_RedCarpetVIPER.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62BA75721F8A894500C2CC63 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57F2D55DF233DC033562E25A /* Pods_RedCarpetVIPERTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,14 +335,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62F3A3A91F897A8100843721 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5405F599B6275B88B2AB5D4 /* Pods_RedCarpetAppleMVCTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -497,40 +343,22 @@
 			children = (
 				FA89CDB273D465FA0C0B8696 /* Pods-Commons.debug.xcconfig */,
 				032AF3CFD061E1223E172474 /* Pods-Commons.release.xcconfig */,
-				ABE809092BD19141E9281802 /* Pods-CommonsTests.debug.xcconfig */,
-				572C057DF085EC0377F6E518 /* Pods-CommonsTests.release.xcconfig */,
 				8CCD5DC1422666054F793E91 /* Pods-Commons.mock.xcconfig */,
-				9D4AE262994C2DDECDAD00B2 /* Pods-CommonsTests.mock.xcconfig */,
 				BB379F1655B3CFCC30BF7D3A /* Pods-RedCarpetAppleMVC.debug.xcconfig */,
 				4D54E08C9B992C1A394DAB16 /* Pods-RedCarpetAppleMVC.mock.xcconfig */,
 				60B42B0BA2E21CBEFCCC5F9A /* Pods-RedCarpetAppleMVC.release.xcconfig */,
-				534481AF2657FE346A950954 /* Pods-RedCarpetAppleMVCTests.debug.xcconfig */,
-				EDF6ED92AE5D059E5AF8AE36 /* Pods-RedCarpetAppleMVCTests.mock.xcconfig */,
-				D378475DBC095D1A0D139132 /* Pods-RedCarpetAppleMVCTests.release.xcconfig */,
 				68D8DAA029E4FEF81F3FBE71 /* Pods-RedCarpetMVC.debug.xcconfig */,
 				A8A07100486B8D5268C8C3D9 /* Pods-RedCarpetMVC.mock.xcconfig */,
 				38A6A4EBE1A6F20573D1A0F4 /* Pods-RedCarpetMVC.release.xcconfig */,
-				E5F006FDFB2CC0EB041BD966 /* Pods-RedCarpetMVCTests.debug.xcconfig */,
-				B55F57D5AA4016365DD5402F /* Pods-RedCarpetMVCTests.mock.xcconfig */,
-				08024370ABCCD1C3747E22AA /* Pods-RedCarpetMVCTests.release.xcconfig */,
 				2C783D4CBC3312ED4659531F /* Pods-RedCarpetMVVM.debug.xcconfig */,
 				D354DABE7E42EDF05F0F8B62 /* Pods-RedCarpetMVVM.mock.xcconfig */,
 				74AFF45A2F9B31533C4D6D0B /* Pods-RedCarpetMVVM.release.xcconfig */,
-				4DC38A254C1A32F1B923F3B7 /* Pods-RedCarpetMVVMTests.debug.xcconfig */,
-				8CE0F0F880E552210F94F3E1 /* Pods-RedCarpetMVVMTests.mock.xcconfig */,
-				8C4B92A845FB157912FDC22C /* Pods-RedCarpetMVVMTests.release.xcconfig */,
 				4BC49B21677B774D79182F3E /* Pods-RedCarpetVIPER.debug.xcconfig */,
 				E30574BB5A5E41313F251360 /* Pods-RedCarpetVIPER.mock.xcconfig */,
 				DD8CE68870860B598578D174 /* Pods-RedCarpetVIPER.release.xcconfig */,
-				2DCB90BE6314C26DABC3A709 /* Pods-RedCarpetVIPERTests.debug.xcconfig */,
-				53DE38BCB88A92CA718F4C44 /* Pods-RedCarpetVIPERTests.mock.xcconfig */,
-				B50C2187D8A4647FF53AAEB5 /* Pods-RedCarpetVIPERTests.release.xcconfig */,
 				009D04D728326F3ECD27107B /* Pods-RedCarpetRedux.debug.xcconfig */,
 				A85D1B8B3D097F105681305D /* Pods-RedCarpetRedux.mock.xcconfig */,
 				365478E271012E61AB0B772F /* Pods-RedCarpetRedux.release.xcconfig */,
-				4E778C55DF02027F7FD0FF7E /* Pods-RedCarpetReduxTests.debug.xcconfig */,
-				E88F7DC6B669166AD6125BBD /* Pods-RedCarpetReduxTests.mock.xcconfig */,
-				3618A45E4325E198608B6CA8 /* Pods-RedCarpetReduxTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -595,17 +423,11 @@
 			isa = PBXGroup;
 			children = (
 				62846B801F8932EA000BBAC6 /* RedCarpetMVC */,
-				62846B951F8932EA000BBAC6 /* RedCarpetMVCTests */,
 				62F3A39A1F897A8100843721 /* RedCarpetAppleMVC */,
-				62F3A3AF1F897A8200843721 /* RedCarpetAppleMVCTests */,
 				62BA753B1F8A887C00C2CC63 /* RedCarpetMVVM */,
-				62BA75501F8A887C00C2CC63 /* RedCarpetMVVMTests */,
 				62BA75631F8A894500C2CC63 /* RedCarpetVIPER */,
-				62BA75781F8A894500C2CC63 /* RedCarpetVIPERTests */,
 				62A092831FA61B060095DCF8 /* RedCarpetRedux */,
-				62A092981FA61B060095DCF8 /* RedCarpetReduxTests */,
 				62846BA71F893370000BBAC6 /* Commons */,
-				62846BB41F893370000BBAC6 /* CommonsTests */,
 				62846B7F1F8932EA000BBAC6 /* Products */,
 				1D686040D6617D60A8B6BD59 /* Pods */,
 				88787B44E1B47EE4E280D659 /* Frameworks */,
@@ -616,17 +438,11 @@
 			isa = PBXGroup;
 			children = (
 				62846B7E1F8932EA000BBAC6 /* RedCarpetMVC.app */,
-				62846B921F8932EA000BBAC6 /* RedCarpetMVCTests.xctest */,
 				62846BA61F893370000BBAC6 /* Commons.framework */,
-				62846BAE1F893370000BBAC6 /* CommonsTests.xctest */,
 				62F3A3991F897A8100843721 /* RedCarpetAppleMVC.app */,
-				62F3A3AC1F897A8100843721 /* RedCarpetAppleMVCTests.xctest */,
 				62BA753A1F8A887C00C2CC63 /* RedCarpetMVVM.app */,
-				62BA754D1F8A887C00C2CC63 /* RedCarpetMVVMTests.xctest */,
 				62BA75621F8A894500C2CC63 /* RedCarpetVIPER.app */,
-				62BA75751F8A894500C2CC63 /* RedCarpetVIPERTests.xctest */,
 				62A092821FA61B060095DCF8 /* RedCarpetRedux.app */,
-				62A092951FA61B060095DCF8 /* RedCarpetReduxTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -645,15 +461,6 @@
 			path = RedCarpetMVC;
 			sourceTree = "<group>";
 		};
-		62846B951F8932EA000BBAC6 /* RedCarpetMVCTests */ = {
-			isa = PBXGroup;
-			children = (
-				62846B961F8932EA000BBAC6 /* RedCarpetTests.swift */,
-				62846B981F8932EA000BBAC6 /* Info.plist */,
-			);
-			path = RedCarpetMVCTests;
-			sourceTree = "<group>";
-		};
 		62846BA71F893370000BBAC6 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
@@ -665,15 +472,6 @@
 				62F3A3BE1F897F7600843721 /* Mocking */,
 			);
 			path = Commons;
-			sourceTree = "<group>";
-		};
-		62846BB41F893370000BBAC6 /* CommonsTests */ = {
-			isa = PBXGroup;
-			children = (
-				62846BB51F893370000BBAC6 /* CommonsTests.swift */,
-				62846BB71F893370000BBAC6 /* Info.plist */,
-			);
-			path = CommonsTests;
 			sourceTree = "<group>";
 		};
 		62846BC61F89371B000BBAC6 /* DataModels */ = {
@@ -744,15 +542,6 @@
 			path = RedCarpetRedux;
 			sourceTree = "<group>";
 		};
-		62A092981FA61B060095DCF8 /* RedCarpetReduxTests */ = {
-			isa = PBXGroup;
-			children = (
-				62A092991FA61B060095DCF8 /* RedCarpetReduxTests.swift */,
-				62A0929B1FA61B070095DCF8 /* Info.plist */,
-			);
-			path = RedCarpetReduxTests;
-			sourceTree = "<group>";
-		};
 		62BA753B1F8A887C00C2CC63 /* RedCarpetMVVM */ = {
 			isa = PBXGroup;
 			children = (
@@ -768,15 +557,6 @@
 			path = RedCarpetMVVM;
 			sourceTree = "<group>";
 		};
-		62BA75501F8A887C00C2CC63 /* RedCarpetMVVMTests */ = {
-			isa = PBXGroup;
-			children = (
-				62BA75511F8A887C00C2CC63 /* RedCarpetMVVMTests.swift */,
-				62BA75531F8A887C00C2CC63 /* Info.plist */,
-			);
-			path = RedCarpetMVVMTests;
-			sourceTree = "<group>";
-		};
 		62BA75631F8A894500C2CC63 /* RedCarpetVIPER */ = {
 			isa = PBXGroup;
 			children = (
@@ -790,15 +570,6 @@
 				6290F72B1F95261800CB6B51 /* MovieDetail */,
 			);
 			path = RedCarpetVIPER;
-			sourceTree = "<group>";
-		};
-		62BA75781F8A894500C2CC63 /* RedCarpetVIPERTests */ = {
-			isa = PBXGroup;
-			children = (
-				62BA75791F8A894500C2CC63 /* RedCarpetVIPERTests.swift */,
-				62BA757B1F8A894500C2CC63 /* Info.plist */,
-			);
-			path = RedCarpetVIPERTests;
 			sourceTree = "<group>";
 		};
 		62E663131F893D5E00DEA274 /* Services */ = {
@@ -836,15 +607,6 @@
 			path = RedCarpetAppleMVC;
 			sourceTree = "<group>";
 		};
-		62F3A3AF1F897A8200843721 /* RedCarpetAppleMVCTests */ = {
-			isa = PBXGroup;
-			children = (
-				62F3A3B01F897A8200843721 /* RedCarpetAppleMVCTests.swift */,
-				62F3A3B21F897A8200843721 /* Info.plist */,
-			);
-			path = RedCarpetAppleMVCTests;
-			sourceTree = "<group>";
-		};
 		62F3A3BE1F897F7600843721 /* Mocking */ = {
 			isa = PBXGroup;
 			children = (
@@ -868,19 +630,12 @@
 			isa = PBXGroup;
 			children = (
 				520406770DFD718402E4AC1F /* Pods_Commons.framework */,
-				F6C866775C005186FD1CD629 /* Pods_CommonsTests.framework */,
 				33F6E83A05BD6ED95FD77729 /* Pods_RedCarpet.framework */,
-				8433C81A103797B8204C472C /* Pods_RedCarpetTests.framework */,
 				A52E43324381FC3D523BCC31 /* Pods_RedCarpetAppleMVC.framework */,
-				7A5F91AE2A32BC8CDAD726C9 /* Pods_RedCarpetAppleMVCTests.framework */,
 				CB6A0B59EDC23338480EA963 /* Pods_RedCarpetMVC.framework */,
-				D6C31DA4316F4AF4221A8666 /* Pods_RedCarpetMVCTests.framework */,
 				989DD4F11CD934E9EE4DE483 /* Pods_RedCarpetMVVM.framework */,
-				B5C1A988749FF410116929A8 /* Pods_RedCarpetMVVMTests.framework */,
 				CF941AA7690C12594655337D /* Pods_RedCarpetVIPER.framework */,
-				1A93B24F5A7A9F103BD77414 /* Pods_RedCarpetVIPERTests.framework */,
 				7F685D225727655710F7441E /* Pods_RedCarpetRedux.framework */,
-				384BDDFC12A375CCFABD22E7 /* Pods_RedCarpetReduxTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -920,25 +675,6 @@
 			productReference = 62846B7E1F8932EA000BBAC6 /* RedCarpetMVC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62846B911F8932EA000BBAC6 /* RedCarpetMVCTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62846B9E1F8932EA000BBAC6 /* Build configuration list for PBXNativeTarget "RedCarpetMVCTests" */;
-			buildPhases = (
-				6B9B7AC5677D7BD42B57CEC5 /* [CP] Check Pods Manifest.lock */,
-				62846B8E1F8932EA000BBAC6 /* Sources */,
-				62846B8F1F8932EA000BBAC6 /* Frameworks */,
-				62846B901F8932EA000BBAC6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62846B941F8932EA000BBAC6 /* PBXTargetDependency */,
-			);
-			name = RedCarpetMVCTests;
-			productName = RedCarpetTests;
-			productReference = 62846B921F8932EA000BBAC6 /* RedCarpetMVCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		62846BA51F893370000BBAC6 /* Commons */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62846BBD1F893370000BBAC6 /* Build configuration list for PBXNativeTarget "Commons" */;
@@ -957,27 +693,6 @@
 			productName = Commons;
 			productReference = 62846BA61F893370000BBAC6 /* Commons.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		62846BAD1F893370000BBAC6 /* CommonsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62846BC11F893370000BBAC6 /* Build configuration list for PBXNativeTarget "CommonsTests" */;
-			buildPhases = (
-				C338B3C9B2BEACE7BA2AE3D9 /* [CP] Check Pods Manifest.lock */,
-				62846BAA1F893370000BBAC6 /* Sources */,
-				62846BAB1F893370000BBAC6 /* Frameworks */,
-				62846BAC1F893370000BBAC6 /* Resources */,
-				54BD483B7A9B706F8733B537 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62846BB11F893370000BBAC6 /* PBXTargetDependency */,
-				62846BB31F893370000BBAC6 /* PBXTargetDependency */,
-			);
-			name = CommonsTests;
-			productName = CommonsTests;
-			productReference = 62846BAE1F893370000BBAC6 /* CommonsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		62A092811FA61B060095DCF8 /* RedCarpetRedux */ = {
 			isa = PBXNativeTarget;
@@ -998,25 +713,6 @@
 			productName = RedCarpetRedux;
 			productReference = 62A092821FA61B060095DCF8 /* RedCarpetRedux.app */;
 			productType = "com.apple.product-type.application";
-		};
-		62A092941FA61B060095DCF8 /* RedCarpetReduxTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62A092A31FA61B070095DCF8 /* Build configuration list for PBXNativeTarget "RedCarpetReduxTests" */;
-			buildPhases = (
-				F8411D967F534F4530F0EE6C /* [CP] Check Pods Manifest.lock */,
-				62A092911FA61B060095DCF8 /* Sources */,
-				62A092921FA61B060095DCF8 /* Frameworks */,
-				62A092931FA61B060095DCF8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62A092971FA61B060095DCF8 /* PBXTargetDependency */,
-			);
-			name = RedCarpetReduxTests;
-			productName = RedCarpetReduxTests;
-			productReference = 62A092951FA61B060095DCF8 /* RedCarpetReduxTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		62BA75391F8A887C00C2CC63 /* RedCarpetMVVM */ = {
 			isa = PBXNativeTarget;
@@ -1039,25 +735,6 @@
 			productReference = 62BA753A1F8A887C00C2CC63 /* RedCarpetMVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62BA754C1F8A887C00C2CC63 /* RedCarpetMVVMTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62BA755B1F8A887C00C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetMVVMTests" */;
-			buildPhases = (
-				01E66E773504075BE1DCF0BD /* [CP] Check Pods Manifest.lock */,
-				62BA75491F8A887C00C2CC63 /* Sources */,
-				62BA754A1F8A887C00C2CC63 /* Frameworks */,
-				62BA754B1F8A887C00C2CC63 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62BA754F1F8A887C00C2CC63 /* PBXTargetDependency */,
-			);
-			name = RedCarpetMVVMTests;
-			productName = RedCarpetMVVMTests;
-			productReference = 62BA754D1F8A887C00C2CC63 /* RedCarpetMVVMTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		62BA75611F8A894500C2CC63 /* RedCarpetVIPER */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62BA757C1F8A894500C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetVIPER" */;
@@ -1078,25 +755,6 @@
 			productName = RedCarpetVIPER;
 			productReference = 62BA75621F8A894500C2CC63 /* RedCarpetVIPER.app */;
 			productType = "com.apple.product-type.application";
-		};
-		62BA75741F8A894500C2CC63 /* RedCarpetVIPERTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62BA75801F8A894500C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetVIPERTests" */;
-			buildPhases = (
-				6E8B33158C38FAD284493DEA /* [CP] Check Pods Manifest.lock */,
-				62BA75711F8A894500C2CC63 /* Sources */,
-				62BA75721F8A894500C2CC63 /* Frameworks */,
-				62BA75731F8A894500C2CC63 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62BA75771F8A894500C2CC63 /* PBXTargetDependency */,
-			);
-			name = RedCarpetVIPERTests;
-			productName = RedCarpetVIPERTests;
-			productReference = 62BA75751F8A894500C2CC63 /* RedCarpetVIPERTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		62F3A3981F897A8100843721 /* RedCarpetAppleMVC */ = {
 			isa = PBXNativeTarget;
@@ -1119,25 +777,6 @@
 			productReference = 62F3A3991F897A8100843721 /* RedCarpetAppleMVC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62F3A3AB1F897A8100843721 /* RedCarpetAppleMVCTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62F3A3B61F897A8200843721 /* Build configuration list for PBXNativeTarget "RedCarpetAppleMVCTests" */;
-			buildPhases = (
-				FC61C2B2FD70A54EC9D58D87 /* [CP] Check Pods Manifest.lock */,
-				62F3A3A81F897A8100843721 /* Sources */,
-				62F3A3A91F897A8100843721 /* Frameworks */,
-				62F3A3AA1F897A8100843721 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62F3A3AE1F897A8100843721 /* PBXTargetDependency */,
-			);
-			name = RedCarpetAppleMVCTests;
-			productName = RedCarpetAppleMVCTests;
-			productReference = 62F3A3AC1F897A8100843721 /* RedCarpetAppleMVCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1152,56 +791,26 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					62846B911F8932EA000BBAC6 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 62846B7D1F8932EA000BBAC6;
-					};
 					62846BA51F893370000BBAC6 = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
-					62846BAD1F893370000BBAC6 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 62846B7D1F8932EA000BBAC6;
-					};
 					62A092811FA61B060095DCF8 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-					};
-					62A092941FA61B060095DCF8 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 62A092811FA61B060095DCF8;
 					};
 					62BA75391F8A887C00C2CC63 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					62BA754C1F8A887C00C2CC63 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 62BA75391F8A887C00C2CC63;
-					};
 					62BA75611F8A894500C2CC63 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					62BA75741F8A894500C2CC63 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 62BA75611F8A894500C2CC63;
-					};
 					62F3A3981F897A8100843721 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-					};
-					62F3A3AB1F897A8100843721 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 62F3A3981F897A8100843721;
 					};
 				};
 			};
@@ -1219,17 +828,11 @@
 			projectRoot = "";
 			targets = (
 				62846B7D1F8932EA000BBAC6 /* RedCarpetMVC */,
-				62846B911F8932EA000BBAC6 /* RedCarpetMVCTests */,
 				62F3A3981F897A8100843721 /* RedCarpetAppleMVC */,
-				62F3A3AB1F897A8100843721 /* RedCarpetAppleMVCTests */,
 				62BA75391F8A887C00C2CC63 /* RedCarpetMVVM */,
-				62BA754C1F8A887C00C2CC63 /* RedCarpetMVVMTests */,
 				62BA75611F8A894500C2CC63 /* RedCarpetVIPER */,
-				62BA75741F8A894500C2CC63 /* RedCarpetVIPERTests */,
 				62A092811FA61B060095DCF8 /* RedCarpetRedux */,
-				62A092941FA61B060095DCF8 /* RedCarpetReduxTests */,
 				62846BA51F893370000BBAC6 /* Commons */,
-				62846BAD1F893370000BBAC6 /* CommonsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1246,25 +849,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62846B901F8932EA000BBAC6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62846BA41F893370000BBAC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				62323CCF1FB8A71C00522889 /* movies-response.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62846BAC1F893370000BBAC6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1274,13 +863,6 @@
 			files = (
 				62A0928F1FA61B060095DCF8 /* LaunchScreen.storyboard in Resources */,
 				62A0928C1FA61B060095DCF8 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62A092931FA61B060095DCF8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1294,13 +876,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62BA754B1F8A887C00C2CC63 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62BA75601F8A894500C2CC63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1308,13 +883,6 @@
 				62BA756F1F8A894500C2CC63 /* LaunchScreen.storyboard in Resources */,
 				62BA756C1F8A894500C2CC63 /* Assets.xcassets in Resources */,
 				62BA756A1F8A894500C2CC63 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62BA75731F8A894500C2CC63 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1328,54 +896,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62F3A3AA1F897A8100843721 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01E66E773504075BE1DCF0BD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RedCarpetMVVMTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		54BD483B7A9B706F8733B537 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CommonsTests/Pods-CommonsTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Unbox/Unbox.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Unbox.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonsTests/Pods-CommonsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		54EEEBD39FEAE4FEC42A1579 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1426,42 +949,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RedCarpetMVC-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6B9B7AC5677D7BD42B57CEC5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RedCarpetMVCTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E8B33158C38FAD284493DEA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RedCarpetVIPERTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1564,24 +1051,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedCarpetMVVM/Pods-RedCarpetMVVM-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C338B3C9B2BEACE7BA2AE3D9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CommonsTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C61848E4AFCA72D35CD42B9D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1638,42 +1107,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedCarpetMVC/Pods-RedCarpetMVC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F8411D967F534F4530F0EE6C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RedCarpetReduxTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC61C2B2FD70A54EC9D58D87 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RedCarpetAppleMVCTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1687,14 +1120,6 @@
 				62F4C8EF1F89520C00977402 /* MovieListView.swift in Sources */,
 				62651C451F89600D00094DC3 /* MovieDetailViewController.swift in Sources */,
 				62651C3E1F895DFA00094DC3 /* AppLauncher.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62846B8E1F8932EA000BBAC6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62846B971F8932EA000BBAC6 /* RedCarpetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1712,14 +1137,6 @@
 				62E663151F893D7300DEA274 /* MovieServiceProtocol.swift in Sources */,
 				62F4C8ED1F894CA700977402 /* Array+Movie.swift in Sources */,
 				62846BC51F893384000BBAC6 /* Movie.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62846BAA1F893370000BBAC6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62846BB61F893370000BBAC6 /* CommonsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1743,14 +1160,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62A092911FA61B060095DCF8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62A0929A1FA61B060095DCF8 /* RedCarpetReduxTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62BA75361F8A887C00C2CC63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1763,14 +1172,6 @@
 				6290F7271F951A0D00CB6B51 /* MovieDetailViewModelContract.swift in Sources */,
 				62BA753D1F8A887C00C2CC63 /* AppDelegate.swift in Sources */,
 				6290F7211F95135D00CB6B51 /* MovieListViewModel.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62BA75491F8A887C00C2CC63 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62BA75521F8A887C00C2CC63 /* RedCarpetMVVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1791,14 +1192,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62BA75711F8A894500C2CC63 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62BA757A1F8A894500C2CC63 /* RedCarpetVIPERTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62F3A3951F897A8100843721 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1809,71 +1202,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62F3A3A81F897A8100843721 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62F3A3B11F897A8200843721 /* RedCarpetAppleMVCTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		62846B941F8932EA000BBAC6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62846B7D1F8932EA000BBAC6 /* RedCarpetMVC */;
-			targetProxy = 62846B931F8932EA000BBAC6 /* PBXContainerItemProxy */;
-		};
-		62846BB11F893370000BBAC6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62846BA51F893370000BBAC6 /* Commons */;
-			targetProxy = 62846BB01F893370000BBAC6 /* PBXContainerItemProxy */;
-		};
-		62846BB31F893370000BBAC6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62846B7D1F8932EA000BBAC6 /* RedCarpetMVC */;
-			targetProxy = 62846BB21F893370000BBAC6 /* PBXContainerItemProxy */;
-		};
 		62846BBA1F893370000BBAC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 62846BA51F893370000BBAC6 /* Commons */;
 			targetProxy = 62846BB91F893370000BBAC6 /* PBXContainerItemProxy */;
-		};
-		62A092971FA61B060095DCF8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62A092811FA61B060095DCF8 /* RedCarpetRedux */;
-			targetProxy = 62A092961FA61B060095DCF8 /* PBXContainerItemProxy */;
 		};
 		62A092A51FA61B280095DCF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 62846BA51F893370000BBAC6 /* Commons */;
 			targetProxy = 62A092A41FA61B280095DCF8 /* PBXContainerItemProxy */;
 		};
-		62BA754F1F8A887C00C2CC63 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62BA75391F8A887C00C2CC63 /* RedCarpetMVVM */;
-			targetProxy = 62BA754E1F8A887C00C2CC63 /* PBXContainerItemProxy */;
-		};
 		62BA755D1F8A888F00C2CC63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 62846BA51F893370000BBAC6 /* Commons */;
 			targetProxy = 62BA755C1F8A888F00C2CC63 /* PBXContainerItemProxy */;
 		};
-		62BA75771F8A894500C2CC63 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62BA75611F8A894500C2CC63 /* RedCarpetVIPER */;
-			targetProxy = 62BA75761F8A894500C2CC63 /* PBXContainerItemProxy */;
-		};
 		62BA75851F8A895900C2CC63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 62846BA51F893370000BBAC6 /* Commons */;
 			targetProxy = 62BA75841F8A895900C2CC63 /* PBXContainerItemProxy */;
-		};
-		62F3A3AE1F897A8100843721 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62F3A3981F897A8100843721 /* RedCarpetAppleMVC */;
-			targetProxy = 62F3A3AD1F897A8100843721 /* PBXContainerItemProxy */;
 		};
 		62F3A3BA1F897A9500843721 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2083,36 +1433,6 @@
 			};
 			name = Release;
 		};
-		62846B9F1F8932EA000BBAC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F006FDFB2CC0EB041BD966 /* Pods-RedCarpetMVCTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpet.app/RedCarpet";
-			};
-			name = Debug;
-		};
-		62846BA01F8932EA000BBAC6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08024370ABCCD1C3747E22AA /* Pods-RedCarpetMVCTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpet.app/RedCarpet";
-			};
-			name = Release;
-		};
 		62846BBE1F893370000BBAC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA89CDB273D465FA0C0B8696 /* Pods-Commons.debug.xcconfig */;
@@ -2162,34 +1482,6 @@
 			};
 			name = Release;
 		};
-		62846BC21F893370000BBAC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABE809092BD19141E9281802 /* Pods-CommonsTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CommonsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.CommonsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpet.app/RedCarpet";
-			};
-			name = Debug;
-		};
-		62846BC31F893370000BBAC6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 572C057DF085EC0377F6E518 /* Pods-CommonsTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CommonsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.CommonsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpet.app/RedCarpet";
-			};
-			name = Release;
-		};
 		62A0929C1FA61B070095DCF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 009D04D728326F3ECD27107B /* Pods-RedCarpetRedux.debug.xcconfig */;
@@ -2229,57 +1521,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetRedux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		62A0929F1FA61B070095DCF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E778C55DF02027F7FD0FF7E /* Pods-RedCarpetReduxTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetReduxTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetReduxTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetRedux.app/RedCarpetRedux";
-			};
-			name = Debug;
-		};
-		62A092A01FA61B070095DCF8 /* Mock */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E88F7DC6B669166AD6125BBD /* Pods-RedCarpetReduxTests.mock.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetReduxTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetReduxTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetRedux.app/RedCarpetRedux";
-			};
-			name = Mock;
-		};
-		62A092A11FA61B070095DCF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3618A45E4325E198608B6CA8 /* Pods-RedCarpetReduxTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetReduxTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetReduxTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetRedux.app/RedCarpetRedux";
 			};
 			name = Release;
 		};
@@ -2358,21 +1599,6 @@
 			};
 			name = Mock;
 		};
-		62BA752D1F8A84EB00C2CC63 /* Mock */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B55F57D5AA4016365DD5402F /* Pods-RedCarpetMVCTests.mock.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpet.app/RedCarpet";
-			};
-			name = Mock;
-		};
 		62BA752E1F8A84EB00C2CC63 /* Mock */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D54E08C9B992C1A394DAB16 /* Pods-RedCarpetAppleMVC.mock.xcconfig */;
@@ -2384,21 +1610,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetAppleMVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Mock;
-		};
-		62BA752F1F8A84EB00C2CC63 /* Mock */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDF6ED92AE5D059E5AF8AE36 /* Pods-RedCarpetAppleMVCTests.mock.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetAppleMVCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetAppleMVCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetAppleMVC.app/RedCarpetAppleMVC";
 			};
 			name = Mock;
 		};
@@ -2424,20 +1635,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Mock;
-		};
-		62BA75311F8A84EB00C2CC63 /* Mock */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D4AE262994C2DDECDAD00B2 /* Pods-CommonsTests.mock.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CommonsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.CommonsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpet.app/RedCarpet";
 			};
 			name = Mock;
 		};
@@ -2483,51 +1680,6 @@
 			};
 			name = Release;
 		};
-		62BA75571F8A887C00C2CC63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DC38A254C1A32F1B923F3B7 /* Pods-RedCarpetMVVMTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetMVVMTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVVMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetMVVM.app/RedCarpetMVVM";
-			};
-			name = Debug;
-		};
-		62BA75581F8A887C00C2CC63 /* Mock */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CE0F0F880E552210F94F3E1 /* Pods-RedCarpetMVVMTests.mock.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetMVVMTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVVMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetMVVM.app/RedCarpetMVVM";
-			};
-			name = Mock;
-		};
-		62BA75591F8A887C00C2CC63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C4B92A845FB157912FDC22C /* Pods-RedCarpetMVVMTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetMVVMTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetMVVMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetMVVM.app/RedCarpetMVVM";
-			};
-			name = Release;
-		};
 		62BA757D1F8A894500C2CC63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4BC49B21677B774D79182F3E /* Pods-RedCarpetVIPER.debug.xcconfig */;
@@ -2570,51 +1722,6 @@
 			};
 			name = Release;
 		};
-		62BA75811F8A894500C2CC63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DCB90BE6314C26DABC3A709 /* Pods-RedCarpetVIPERTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetVIPERTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetVIPERTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetVIPER.app/RedCarpetVIPER";
-			};
-			name = Debug;
-		};
-		62BA75821F8A894500C2CC63 /* Mock */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53DE38BCB88A92CA718F4C44 /* Pods-RedCarpetVIPERTests.mock.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetVIPERTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetVIPERTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetVIPER.app/RedCarpetVIPER";
-			};
-			name = Mock;
-		};
-		62BA75831F8A894500C2CC63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B50C2187D8A4647FF53AAEB5 /* Pods-RedCarpetVIPERTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetVIPERTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetVIPERTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetVIPER.app/RedCarpetVIPER";
-			};
-			name = Release;
-		};
 		62F3A3B41F897A8200843721 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB379F1655B3CFCC30BF7D3A /* Pods-RedCarpetAppleMVC.debug.xcconfig */;
@@ -2643,36 +1750,6 @@
 			};
 			name = Release;
 		};
-		62F3A3B71F897A8200843721 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534481AF2657FE346A950954 /* Pods-RedCarpetAppleMVCTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetAppleMVCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetAppleMVCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetAppleMVC.app/RedCarpetAppleMVC";
-			};
-			name = Debug;
-		};
-		62F3A3B81F897A8200843721 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D378475DBC095D1A0D139132 /* Pods-RedCarpetAppleMVCTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RedCarpetAppleMVCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.packt.RedCarpetAppleMVCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedCarpetAppleMVC.app/RedCarpetAppleMVC";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2696,32 +1773,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62846B9E1F8932EA000BBAC6 /* Build configuration list for PBXNativeTarget "RedCarpetMVCTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62846B9F1F8932EA000BBAC6 /* Debug */,
-				62BA752D1F8A84EB00C2CC63 /* Mock */,
-				62846BA01F8932EA000BBAC6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		62846BBD1F893370000BBAC6 /* Build configuration list for PBXNativeTarget "Commons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62846BBE1F893370000BBAC6 /* Debug */,
 				62BA75301F8A84EB00C2CC63 /* Mock */,
 				62846BBF1F893370000BBAC6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62846BC11F893370000BBAC6 /* Build configuration list for PBXNativeTarget "CommonsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62846BC21F893370000BBAC6 /* Debug */,
-				62BA75311F8A84EB00C2CC63 /* Mock */,
-				62846BC31F893370000BBAC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2736,32 +1793,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62A092A31FA61B070095DCF8 /* Build configuration list for PBXNativeTarget "RedCarpetReduxTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62A0929F1FA61B070095DCF8 /* Debug */,
-				62A092A01FA61B070095DCF8 /* Mock */,
-				62A092A11FA61B070095DCF8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		62BA755A1F8A887C00C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetMVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62BA75541F8A887C00C2CC63 /* Debug */,
 				62BA75551F8A887C00C2CC63 /* Mock */,
 				62BA75561F8A887C00C2CC63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62BA755B1F8A887C00C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetMVVMTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62BA75571F8A887C00C2CC63 /* Debug */,
-				62BA75581F8A887C00C2CC63 /* Mock */,
-				62BA75591F8A887C00C2CC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2776,32 +1813,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62BA75801F8A894500C2CC63 /* Build configuration list for PBXNativeTarget "RedCarpetVIPERTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62BA75811F8A894500C2CC63 /* Debug */,
-				62BA75821F8A894500C2CC63 /* Mock */,
-				62BA75831F8A894500C2CC63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		62F3A3B31F897A8200843721 /* Build configuration list for PBXNativeTarget "RedCarpetAppleMVC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62F3A3B41F897A8200843721 /* Debug */,
 				62BA752E1F8A84EB00C2CC63 /* Mock */,
 				62F3A3B51F897A8200843721 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62F3A3B61F897A8200843721 /* Build configuration list for PBXNativeTarget "RedCarpetAppleMVCTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62F3A3B71F897A8200843721 /* Debug */,
-				62BA752F1F8A84EB00C2CC63 /* Mock */,
-				62F3A3B81F897A8200843721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
